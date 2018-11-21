@@ -1,0 +1,702 @@
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# djkidy123, 2016
+# Jose Riha, 2017
+# lambda81, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Covenant\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-05-30 09:11+0000\n"
+"Last-Translator: Viper2k4\n"
+"Language-Team: Slovak (http://www.transifex.com/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sk\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgctxt "#32001"
+msgid "Movies"
+msgstr "Filmy"
+
+msgctxt "#32002"
+msgid "TV Shows"
+msgstr "Seriály"
+
+msgctxt "#32003"
+msgid "My Movies"
+msgstr "Moje filmy"
+
+msgctxt "#32004"
+msgid "My TV Shows"
+msgstr "Moje seriály"
+
+msgctxt "#32005"
+msgid "New Movies"
+msgstr "Nové filmy"
+
+msgctxt "#32006"
+msgid "New Episodes"
+msgstr "Nové časti seriálov"
+
+msgctxt "#32007"
+msgid "Channels"
+msgstr "Kanály"
+
+msgctxt "#32008"
+msgid "Tools"
+msgstr "Nástroje"
+
+msgctxt "#32009"
+msgid "Downloads"
+msgstr "Prenosy"
+
+msgctxt "#32010"
+msgid "Search"
+msgstr "Hľadať"
+
+msgctxt "#32011"
+msgid "Genres"
+msgstr "Žánre"
+
+msgctxt "#32012"
+msgid "Year"
+msgstr "Rok"
+
+msgctxt "#32013"
+msgid "People"
+msgstr "Herci"
+
+msgctxt "#32014"
+msgid "Languages"
+msgstr "Jazyk"
+
+msgctxt "#32015"
+msgid "Certificates"
+msgstr "Certifikáty"
+
+msgctxt "#32016"
+msgid "Networks"
+msgstr "Stanice"
+
+msgctxt "#32017"
+msgid "People Watching"
+msgstr "Sledovanosť"
+
+msgctxt "#32018"
+msgid "Most Popular"
+msgstr "Najpopulárnejšie"
+
+msgctxt "#32019"
+msgid "Most Voted"
+msgstr "Najviac hlasov"
+
+msgctxt "#32020"
+msgid "Box Office"
+msgstr "Pokladňa"
+
+msgctxt "#32021"
+msgid "Oscar Winners"
+msgstr "Víťazi Oskarov"
+
+msgctxt "#32022"
+msgid "In Theaters"
+msgstr "V kinách"
+
+msgctxt "#32023"
+msgid "Highly Rated"
+msgstr "Vysoko hodnotené"
+
+msgctxt "#32024"
+msgid "Airing today"
+msgstr "Vysielané dnes"
+
+msgctxt "#32025"
+msgid "Returning TV Shows"
+msgstr "Vracajúce sa seriály"
+
+msgctxt "#32026"
+msgid "New TV Shows"
+msgstr "Nové seriály"
+
+msgctxt "#32027"
+msgid "TV Calendar"
+msgstr "TV program"
+
+msgctxt "#32028"
+msgid "People Search"
+msgstr "Hľadať podľa obsadenia"
+
+msgctxt "#32029"
+msgid "People (Movies)"
+msgstr "Herci (Filmy)"
+
+msgctxt "#32030"
+msgid "People (TV)"
+msgstr "Herci (TV)"
+
+msgctxt "#32031"
+msgid "Discover"
+msgstr "Objavujte"
+
+msgctxt "#32032"
+msgid "Collection"
+msgstr "Zbierka"
+
+msgctxt "#32033"
+msgid "Watchlist"
+msgstr "Zoznam na sledovanie"
+
+msgctxt "#32034"
+msgid "IMDb"
+msgstr "IMDb"
+
+msgctxt "#32035"
+msgid "Featured"
+msgstr "Uvádzané"
+
+msgctxt "#32036"
+msgid "History"
+msgstr "História"
+
+msgctxt "#32037"
+msgid "Progress"
+msgstr "Priebeh"
+
+msgctxt "#32038"
+msgid "Episodes"
+msgstr "Časti"
+
+msgctxt "#32039"
+msgid "Movie Lists"
+msgstr "Zoznamy filmov"
+
+msgctxt "#32040"
+msgid "TV Show Lists"
+msgstr "Zoznamy seriálov"
+
+msgctxt "#32041"
+msgid "Episode Lists"
+msgstr "Zoznamy častí"
+
+msgctxt "#32042"
+msgid "No Trakt or IMDb account found."
+msgstr "Nenájdený účet Trakt alebo IMDb."
+
+msgctxt "#32043"
+msgid "[B]SETTINGS[/B] : General"
+msgstr "[B]NASTAVENIA[/B]: Všeobecné"
+
+msgctxt "#32044"
+msgid "[B]SETTINGS[/B] : Accounts"
+msgstr "[B]NASTAVENIA[/B]: Účty"
+
+msgctxt "#32045"
+msgid "[B]SETTINGS[/B] : Playback"
+msgstr "[B]NASTAVENIA[/B]: Prehrávanie"
+
+msgctxt "#32046"
+msgid "[B]SETTINGS[/B] : Subtitles"
+msgstr "[B]NASTAVENIA[/B]: Titulky"
+
+msgctxt "#32047"
+msgid "[B]SETTINGS[/B] : Providers"
+msgstr "[B]NASTAVENIA[/B]: Poskytovatelia"
+
+msgctxt "#32048"
+msgid "[B]COVENANT[/B] : Downloads"
+msgstr "[B]COVENANT[/B]: Prenosy"
+
+msgctxt "#32049"
+msgid "[B]COVENANT[/B] : Viewtypes"
+msgstr "[B]COVENANT[/B]: Možnosti zobrazenia"
+
+msgctxt "#32050"
+msgid "[B]COVENANT[/B] : Clear providers..."
+msgstr "[B]COVENANT[/B]: Vyčistiť poskytovateľov..."
+
+msgctxt "#32051"
+msgid "[B]COVENANT[/B] : Clear metadata..."
+msgstr "[B]COVENANT[/B]: Vyčistiť metadáta..."
+
+msgctxt "#32052"
+msgid "[B]COVENANT[/B] : Clear cache..."
+msgstr "[B]COVENANT[/B]: Vyčistiť keš..."
+
+msgctxt "#32053"
+msgid "[I]Next Page[/I]"
+msgstr "[I]Ďalšia strana[/I]"
+
+msgctxt "#32054"
+msgid "Seasons"
+msgstr "Sezóny"
+
+msgctxt "#32055"
+msgid "Season"
+msgstr "Sezóna"
+
+msgctxt "#32056"
+msgid "Are you sure?"
+msgstr "Ste si istý?"
+
+msgctxt "#32057"
+msgid "Process Complete"
+msgstr "Proces dokončený"
+
+msgctxt "#32058"
+msgid "This will slow down things until they are re-cached!"
+msgstr "Toto spôsobí spomalenie, kým sa keš znovu naplní!"
+
+msgctxt "#32059"
+msgid "CLICK HERE TO SAVE VIEW"
+msgstr "KLIKNITE SEM PRE ULOŽENIE POHĽADU"
+
+msgctxt "#32060"
+msgid ""
+"January|February|March|April|May|June|July|August|September|October|November|December"
+msgstr "január|február|marec|apríl|máj|jún|júl|august|september|október|november|december"
+
+msgctxt "#32061"
+msgid "Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday"
+msgstr "Pondelok|Utorok|Streda|Štvrtok|Piatok|Sobota|Nedeľa"
+
+msgctxt "#32062"
+msgid "[B]%s[/B] : %s"
+msgstr "[B]%s[/B] : %s"
+
+msgctxt "#32063"
+msgid "Play using..."
+msgstr "Prehrať pomocou..."
+
+msgctxt "#32064"
+msgid "Auto Play"
+msgstr "Automatické prehrávanie"
+
+msgctxt "#32065"
+msgid "Queue item"
+msgstr "Zaradiť do fronty"
+
+msgctxt "#32066"
+msgid "Watched in Covenant"
+msgstr "Pozreté v Covenant"
+
+msgctxt "#32067"
+msgid "Unwatched in Covenant"
+msgstr "Nepozreté v Covenant"
+
+msgctxt "#32068"
+msgid "Watched in Trakt"
+msgstr "Pozreté v Trakt"
+
+msgctxt "#32069"
+msgid "Unwatched in Trakt"
+msgstr "Nepozreté v Trakt"
+
+msgctxt "#32070"
+msgid "Trakt Manager"
+msgstr "Správca Traktu"
+
+msgctxt "#32071"
+msgid "Browse Series"
+msgstr "Prezerať seriály"
+
+msgctxt "#32072"
+msgid "Refresh"
+msgstr "Obnoviť"
+
+msgctxt "#32073"
+msgid "[B]TRAKT[/B] : Authorize"
+msgstr "[B]TRAKT[/B]: Autorizácia"
+
+msgctxt "#32074"
+msgid "[B]HELP[/B]"
+msgstr "[B]POMOC[/B]"
+
+msgctxt "#32301"
+msgid "Enabled"
+msgstr "Povolené"
+
+msgctxt "#32302"
+msgid "Disabled"
+msgstr "Vypnuté"
+
+msgctxt "#32303"
+msgid "User"
+msgstr "Používateľ"
+
+msgctxt "#32304"
+msgid "Email"
+msgstr "Email"
+
+msgctxt "#32305"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "#32306"
+msgid "Authorization..."
+msgstr "Autorizácia..."
+
+msgctxt "#32307"
+msgid "Password"
+msgstr "Heslo"
+
+msgctxt "#32308"
+msgid "PIN"
+msgstr "PIN"
+
+msgctxt "#32309"
+msgid "API"
+msgstr "API"
+
+msgctxt "#32310"
+msgid "General"
+msgstr "Všeobecné"
+
+msgctxt "#32311"
+msgid "Appearance"
+msgstr "Vzhľad"
+
+msgctxt "#32312"
+msgid "Providers Timeout"
+msgstr "Časový limit pre poskytovateľov"
+
+msgctxt "#32313"
+msgid "Indicators"
+msgstr "Indikátory"
+
+msgctxt "#32314"
+msgid "Local"
+msgstr "Miestne"
+
+msgctxt "#32315"
+msgid "Trakt"
+msgstr "Trakt"
+
+msgctxt "#32316"
+msgid "Info Language"
+msgstr "Info jazyk"
+
+msgctxt "#32317"
+msgid "Flatten TV seasons"
+msgstr "Ploché zobrazenie sezón"
+
+msgctxt "#32318"
+msgid "Enable Fanart"
+msgstr "Povoliť Fanart"
+
+msgctxt "#32319"
+msgid "Menu"
+msgstr "Ponuka"
+
+msgctxt "#32320"
+msgid "New Movies"
+msgstr "Nové filmy"
+
+msgctxt "#32321"
+msgid "Featured"
+msgstr "Uvádzané"
+
+msgctxt "#32322"
+msgid "People Watching"
+msgstr "Sledovanosť"
+
+msgctxt "#32323"
+msgid "Most Popular"
+msgstr "Najpopulárnejšie"
+
+msgctxt "#32324"
+msgid "In Theaters"
+msgstr "V kinách"
+
+msgctxt "#32325"
+msgid "New Episodes"
+msgstr "Nové časti seriálov"
+
+msgctxt "#32326"
+msgid "Episodes"
+msgstr "Časti"
+
+msgctxt "#32327"
+msgid "Trakt Progress"
+msgstr "Priebeh Trakt"
+
+msgctxt "#32328"
+msgid "Trakt Episodes"
+msgstr "Trakt časti"
+
+msgctxt "#32329"
+msgid "My Lists"
+msgstr "Moje zoznamy"
+
+msgctxt "#32330"
+msgid "Playback"
+msgstr "Prehrávanie"
+
+msgctxt "#32331"
+msgid "Default action"
+msgstr "Predvolená akcia"
+
+msgctxt "#32332"
+msgid "Dialog"
+msgstr "Dialógové okno"
+
+msgctxt "#32333"
+msgid "Directory"
+msgstr "Adresár"
+
+msgctxt "#32334"
+msgid "Auto Play"
+msgstr "Automatické prehratie"
+
+msgctxt "#32335"
+msgid "Progress Dialog"
+msgstr "Dialógové okno s priebehom"
+
+msgctxt "#32336"
+msgid "Foreground"
+msgstr "Popredie"
+
+msgctxt "#32337"
+msgid "Background"
+msgstr "Pozadie"
+
+msgctxt "#32338"
+msgid "File Hosting Filters"
+msgstr "Filtre poskytovateľov súborov"
+
+msgctxt "#32339"
+msgid "Max Quality"
+msgstr "Najlepšia kvalita"
+
+msgctxt "#32340"
+msgid "SD Hosters in Auto Play"
+msgstr "SD poskytovatelia v autoprehrávaní"
+
+msgctxt "#32341"
+msgid "Hosters with captchas"
+msgstr "Poskytovatelia s captchou"
+
+msgctxt "#32342"
+msgid "Sort by Provider"
+msgstr "Triediť podľa poskytovateľa"
+
+msgctxt "#32343"
+msgid "When playback starts..."
+msgstr "Keď sa spustí prehrávanie..."
+
+msgctxt "#32344"
+msgid "Resume Playback"
+msgstr "Pokračovať v prehrávaní"
+
+msgctxt "#32345"
+msgid "Providers"
+msgstr "Poskytovatelia"
+
+msgctxt "#32346"
+msgid "Accounts"
+msgstr "Účty"
+
+msgctxt "#32347"
+msgid "Downloads"
+msgstr "Prenosy"
+
+msgctxt "#32348"
+msgid "Enable downloads"
+msgstr "Povoliť prenosy"
+
+msgctxt "#32349"
+msgid "Movies"
+msgstr "Filmy"
+
+msgctxt "#32350"
+msgid "TV"
+msgstr "TV"
+
+msgctxt "#32351"
+msgid "Downloading features are disabled by default."
+msgstr "Prenosy sú štandardne vypnuté."
+
+msgctxt "#32352"
+msgid "Set up your download folders in order to enable them."
+msgstr "Pre ich zapnutie nastavte cieľový adresár pre sťahovanie."
+
+msgctxt "#32353"
+msgid "Subtitles"
+msgstr "Titulky"
+
+msgctxt "#32354"
+msgid "Enable subtitles"
+msgstr "Povoliť titulky"
+
+msgctxt "#32355"
+msgid "Convert subtitles to UTF-8"
+msgstr "Prekódovať titulky do UTF-8"
+
+msgctxt "#32356"
+msgid "Primary Language"
+msgstr "Primárny jazyk"
+
+msgctxt "#32357"
+msgid "Secondary Language"
+msgstr "Sekundárny jazyk"
+
+msgctxt "#32358"
+msgid "Subtitles could be unavailable or out of sync."
+msgstr "Titulky nemusia byť dostupné alebo nemusia sedieť."
+
+msgctxt "#32359"
+msgid "In that case use your own subtitles."
+msgstr "V takom prípade použite vlastné titulky."
+
+msgctxt "#32360"
+msgid "Providers Language"
+msgstr "Jazyk poskytovateľov"
+
+msgctxt "#32401"
+msgid "No stream available"
+msgstr "Nie je dostupný stream"
+
+msgctxt "#32402"
+msgid "Playback outside Covenant is not allowed"
+msgstr "Prehrávanie mimo Covenant nie je povolené"
+
+msgctxt "#32403"
+msgid "Download"
+msgstr "Prenos"
+
+msgctxt "#32404"
+msgid "Time elapsed: %s seconds"
+msgstr "Uplynutý čas: %s sekúnd"
+
+msgctxt "#32405"
+msgid "%s seconds"
+msgstr "%s sekúnd"
+
+msgctxt "#32406"
+msgid "Remaining providers: %s"
+msgstr "Zostáva %s poskytovateľov"
+
+msgctxt "#32407"
+msgid "Are you sure?"
+msgstr "Ste si istý?"
+
+msgctxt "#32408"
+msgid "Process Complete"
+msgstr "Proces dokončený"
+
+msgctxt "#32501"
+msgid "Start from beginning"
+msgstr "Začať od začiatku"
+
+msgctxt "#32502"
+msgid "Resume from %s"
+msgstr "Pokračovať od %s"
+
+msgctxt "#32503"
+msgid "Resume"
+msgstr "Pokračovať"
+
+msgctxt "#32511"
+msgid "An account already exists."
+msgstr "Účet už existuje."
+
+msgctxt "#32512"
+msgid "Do you want to reset?"
+msgstr "Chcete ho vynulovať?"
+
+msgctxt "#32513"
+msgid "1) Visit : [COLOR skyblue]%s[/COLOR]"
+msgstr "1) Navštívte: [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32514"
+msgid "2) When prompted enter : [COLOR skyblue]%s[/COLOR]"
+msgstr "2) Po výzve zadajte [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32515"
+msgid "Trakt Manager"
+msgstr "Správca Traktu"
+
+msgctxt "#32516"
+msgid "Add to [B]Collection[/B]"
+msgstr "Pridať do [B]Zbierky[/B]"
+
+msgctxt "#32517"
+msgid "Remove from [B]Collection[/B]"
+msgstr "Odstrániť zo [B]Zbierky[/B]"
+
+msgctxt "#32518"
+msgid "Add to [B]Watchlist[/B]"
+msgstr "Pridať do [B]Zoznamu na pozretie[/B]"
+
+msgctxt "#32519"
+msgid "Remove from [B]Watchlist[/B]"
+msgstr "Odobrať zo [B]Zoznamu na pozretie[/B]"
+
+msgctxt "#32520"
+msgid "Add to [B]new List[/B]"
+msgstr "Pridať do [B]nového zoznamu[/B]"
+
+msgctxt "#32521"
+msgid "Add to [B]%s[/B]"
+msgstr "Pridať do [B]%s[/B]"
+
+msgctxt "#32522"
+msgid "Remove from [B]%s[/B]"
+msgstr "Odobrať z [B]%s[/B]"
+
+msgctxt "#32531"
+msgid "An account already exists."
+msgstr "Účet už existuje."
+
+msgctxt "#32532"
+msgid "Do you want to reset?"
+msgstr "Chcete ho vynulovať?"
+
+msgctxt "#32533"
+msgid "1) Visit : [COLOR skyblue]%s[/COLOR]"
+msgstr "1) Navštívte: [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32534"
+msgid "2) When prompted enter : [COLOR skyblue]%s[/COLOR]"
+msgstr "2) Po výzve zadajte [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32535"
+msgid "Play Random"
+msgstr "Prehrávať náhodne"
+
+msgctxt "#32536"
+msgid "Playing"
+msgstr "Prehrávanie"
+
+msgctxt "#32537"
+msgid "Nothing found to play"
+msgstr "Nebolo nájdené nič na prehrávanie"
+
+msgctxt "#32538"
+msgid "DEBRID-SERVICE"
+msgstr "Služba Debrid"
+
+msgctxt "#32539"
+msgid "Configure Debrid Services in ResolveURL Settings."
+msgstr "Nastaviť služby Debrid v Nastaveniach ResolveURLa"
+
+msgctxt "#32540"
+msgid "ResolveURL Settings"
+msgstr "Nastavenia ResolveURLa"
+

@@ -1,0 +1,803 @@
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# teemue, 2017
+# teemue, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Covenant\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-05-30 15:46+0000\n"
+"Last-Translator: teemue\n"
+"Language-Team: Finnish (http://www.transifex.com/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#32001"
+msgid "Movies"
+msgstr "Elokuvat"
+
+msgctxt "#32002"
+msgid "TV Shows"
+msgstr "TV-sarjat"
+
+msgctxt "#32003"
+msgid "My Movies"
+msgstr "Omat elokuvat"
+
+msgctxt "#32004"
+msgid "My TV Shows"
+msgstr "Omat TV-sarjat"
+
+msgctxt "#32005"
+msgid "New Movies"
+msgstr "Uudet elokuvat"
+
+msgctxt "#32006"
+msgid "New Episodes"
+msgstr "Uudet jaksot"
+
+msgctxt "#32007"
+msgid "Channels"
+msgstr "Kanavat"
+
+msgctxt "#32008"
+msgid "Tools"
+msgstr "Työkalut"
+
+msgctxt "#32009"
+msgid "Downloads"
+msgstr "Lataukset"
+
+msgctxt "#32010"
+msgid "Search"
+msgstr "Etsi"
+
+msgctxt "#32011"
+msgid "Genres"
+msgstr "Tyylilajit"
+
+msgctxt "#32012"
+msgid "Year"
+msgstr "Vuosi"
+
+msgctxt "#32013"
+msgid "People"
+msgstr "Tekijät"
+
+msgctxt "#32014"
+msgid "Languages"
+msgstr "Kielet"
+
+msgctxt "#32015"
+msgid "Certificates"
+msgstr "Ikärajat"
+
+msgctxt "#32016"
+msgid "Networks"
+msgstr "Mediayhtiöt"
+
+msgctxt "#32017"
+msgid "People Watching"
+msgstr "Mitä tällä hetkellä katsotaan"
+
+msgctxt "#32018"
+msgid "Most Popular"
+msgstr "Suosituimmat"
+
+msgctxt "#32019"
+msgid "Most Voted"
+msgstr "Äänestetyimmät"
+
+msgctxt "#32020"
+msgid "Box Office"
+msgstr "Lipputulot"
+
+msgctxt "#32021"
+msgid "Oscar Winners"
+msgstr "Oscar-voittajat"
+
+msgctxt "#32022"
+msgid "In Theaters"
+msgstr "Elokuvateattereissa"
+
+msgctxt "#32023"
+msgid "Highly Rated"
+msgstr "Parhaiten arvioidut"
+
+msgctxt "#32024"
+msgid "Airing today"
+msgstr "Tänään TV:ssä"
+
+msgctxt "#32025"
+msgid "Returning TV Shows"
+msgstr "Paluun tekevät TV-sarjat"
+
+msgctxt "#32026"
+msgid "New TV Shows"
+msgstr "Uudet TV-sarjat"
+
+msgctxt "#32027"
+msgid "TV Calendar"
+msgstr "TV-kalenteri"
+
+msgctxt "#32028"
+msgid "People Search"
+msgstr "Tekijähaku"
+
+msgctxt "#32029"
+msgid "People (Movies)"
+msgstr "Tekijät (Elokuvat)"
+
+msgctxt "#32030"
+msgid "People (TV)"
+msgstr "Tekijät (TV)"
+
+msgctxt "#32031"
+msgid "Discover"
+msgstr "Löydä sinulle uusia"
+
+msgctxt "#32032"
+msgid "Collection"
+msgstr "Kokoelma"
+
+msgctxt "#32033"
+msgid "Watchlist"
+msgstr "Katsottavien lista"
+
+msgctxt "#32034"
+msgid "IMDb"
+msgstr "IMDb"
+
+msgctxt "#32035"
+msgid "Featured"
+msgstr "Esillä"
+
+msgctxt "#32036"
+msgid "History"
+msgstr "Historia"
+
+msgctxt "#32037"
+msgid "Progress"
+msgstr "Edistyminen"
+
+msgctxt "#32038"
+msgid "Episodes"
+msgstr "Jaksot"
+
+msgctxt "#32039"
+msgid "Movie Lists"
+msgstr "Elokuvalistat"
+
+msgctxt "#32040"
+msgid "TV Show Lists"
+msgstr "TV-sarjalistat"
+
+msgctxt "#32041"
+msgid "Episode Lists"
+msgstr "Jaksolistat"
+
+msgctxt "#32042"
+msgid "No Trakt or IMDb account found."
+msgstr "Trakt- tai IMDb-käyttäjätiliä ei löytynyt."
+
+msgctxt "#32043"
+msgid "[B]SETTINGS[/B] : General"
+msgstr "[B]ASETUKSET[/B]: Yleinen"
+
+msgctxt "#32044"
+msgid "[B]SETTINGS[/B] : Accounts"
+msgstr "[B]ASETUKSET[/B]: Käyttäjätilit"
+
+msgctxt "#32045"
+msgid "[B]SETTINGS[/B] : Playback"
+msgstr "[B]ASETUKSET[/B]: Toisto"
+
+msgctxt "#32046"
+msgid "[B]SETTINGS[/B] : Subtitles"
+msgstr "[B]ASETUKSET[/B]: Tekstitykset"
+
+msgctxt "#32047"
+msgid "[B]SETTINGS[/B] : Providers"
+msgstr "[B]ASETUKSET[/B]: Tarjoajat"
+
+msgctxt "#32048"
+msgid "[B]COVENANT[/B] : Downloads"
+msgstr "[B]COVENANT[/B]: Lataukset"
+
+msgctxt "#32049"
+msgid "[B]COVENANT[/B] : Viewtypes"
+msgstr "[B]COVENANT[/B]: Näkymät"
+
+msgctxt "#32050"
+msgid "[B]COVENANT[/B] : Clear providers..."
+msgstr "[B]COVENANT[/B]: Tyhjennä tarjoajat..."
+
+msgctxt "#32051"
+msgid "[B]COVENANT[/B] : Clear metadata..."
+msgstr "[B]COVENANT[/B]: Tyhjennä metadata..."
+
+msgctxt "#32052"
+msgid "[B]COVENANT[/B] : Clear cache..."
+msgstr "[B]COVENANT[/B]: Tyhjennä välimuisti..."
+
+msgctxt "#32053"
+msgid "[I]Next Page[/I]"
+msgstr "[I]Seuraava sivu[/I]"
+
+msgctxt "#32054"
+msgid "Seasons"
+msgstr "Kaudet"
+
+msgctxt "#32055"
+msgid "Season"
+msgstr "Kausi"
+
+msgctxt "#32056"
+msgid "Are you sure?"
+msgstr "Oletko varma?"
+
+msgctxt "#32057"
+msgid "Process Complete"
+msgstr "Prosessi valmis"
+
+msgctxt "#32058"
+msgid "This will slow down things until they are re-cached!"
+msgstr "Tämä hidastaa toimintoja siihen asti kunnes ne ovat ladattu uudelleen välimuistiin."
+
+msgctxt "#32059"
+msgid "CLICK HERE TO SAVE VIEW"
+msgstr "VALITSE NÄMÄ TALLENTAAKSESI NÄKYMÄN"
+
+msgctxt "#32060"
+msgid ""
+"January|February|March|April|May|June|July|August|September|October|November|December"
+msgstr "Tammikuu|Helmikuu|Maaliskuu|Huhtikuu|Toukokuu|Kesäkuu|Heinäkuu|Elokuu|Syyskuu|Lokakuu|Marraskuu|Joulukuu"
+
+msgctxt "#32061"
+msgid "Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday"
+msgstr "Maanantai|Tiistai|Keskiviikko|Torstai|Perjantai|Lauantai|Sunnuntai"
+
+msgctxt "#32062"
+msgid "[B]%s[/B] : %s"
+msgstr "[B]%s[/B] : %s"
+
+msgctxt "#32063"
+msgid "Play using..."
+msgstr "Toista käyttämällä..."
+
+msgctxt "#32064"
+msgid "Auto Play"
+msgstr "Automaattinen toisto"
+
+msgctxt "#32065"
+msgid "Queue item"
+msgstr "Lisää toistojonoon"
+
+msgctxt "#32066"
+msgid "Watched in Covenant"
+msgstr "Merkkaa katsotuksi Covenant"
+
+msgctxt "#32067"
+msgid "Unwatched in Covenant"
+msgstr "Merkkaa katsomattomaksi Covenant"
+
+msgctxt "#32068"
+msgid "Watched in Trakt"
+msgstr "Merkkaa katsotuksi Traktissa"
+
+msgctxt "#32069"
+msgid "Unwatched in Trakt"
+msgstr "Merkkaa katsomattomaksi Traktissa"
+
+msgctxt "#32070"
+msgid "Trakt Manager"
+msgstr "Trakt-manageri"
+
+msgctxt "#32071"
+msgid "Browse Series"
+msgstr "Selaa sarjoja"
+
+msgctxt "#32072"
+msgid "Refresh"
+msgstr "Päivitä"
+
+msgctxt "#32073"
+msgid "[B]TRAKT[/B] : Authorize"
+msgstr "[B]TRAKT[/B]: Valtuutus"
+
+msgctxt "#32074"
+msgid "[B]HELP[/B]"
+msgstr "[B]OHJE[/B]"
+
+msgctxt "#32301"
+msgid "Enabled"
+msgstr "Käytössä"
+
+msgctxt "#32302"
+msgid "Disabled"
+msgstr "Poissa käytöstä"
+
+msgctxt "#32303"
+msgid "User"
+msgstr "Käyttäjä"
+
+msgctxt "#32304"
+msgid "Email"
+msgstr "Sähköposti"
+
+msgctxt "#32305"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "#32306"
+msgid "Authorization..."
+msgstr "Valtuutus..."
+
+msgctxt "#32307"
+msgid "Password"
+msgstr "Salasana"
+
+msgctxt "#32308"
+msgid "PIN"
+msgstr "PIN"
+
+msgctxt "#32309"
+msgid "API"
+msgstr "API"
+
+msgctxt "#32310"
+msgid "General"
+msgstr "Yleinen"
+
+msgctxt "#32311"
+msgid "Appearance"
+msgstr "Ulkoasu"
+
+msgctxt "#32312"
+msgid "Providers Timeout"
+msgstr "Tarjoajan "
+
+msgctxt "#32313"
+msgid "Indicators"
+msgstr "Katsotun median merkinnät"
+
+msgctxt "#32314"
+msgid "Local"
+msgstr "Paikallinen"
+
+msgctxt "#32315"
+msgid "Trakt"
+msgstr "Trakt"
+
+msgctxt "#32316"
+msgid "Info Language"
+msgstr "Infon kieli"
+
+msgctxt "#32317"
+msgid "Flatten TV seasons"
+msgstr "Piilota tuotantokausinäkymä"
+
+msgctxt "#32318"
+msgid "Enable Fanart"
+msgstr "Fanitaide käytössä"
+
+msgctxt "#32319"
+msgid "Menu"
+msgstr "Valikko"
+
+msgctxt "#32320"
+msgid "New Movies"
+msgstr "Uudet elokuvat"
+
+msgctxt "#32321"
+msgid "Featured"
+msgstr "Esillä"
+
+msgctxt "#32322"
+msgid "People Watching"
+msgstr "Mitä tällä hetkellä katsotaan"
+
+msgctxt "#32323"
+msgid "Most Popular"
+msgstr "Suosituimmat"
+
+msgctxt "#32324"
+msgid "In Theaters"
+msgstr "Elokuvateattereissa"
+
+msgctxt "#32325"
+msgid "New Episodes"
+msgstr "Uudet jaksot"
+
+msgctxt "#32326"
+msgid "Episodes"
+msgstr "Jaksot"
+
+msgctxt "#32327"
+msgid "Trakt Progress"
+msgstr "Traktin edistyminen"
+
+msgctxt "#32328"
+msgid "Trakt Episodes"
+msgstr "Trakt-jaksot"
+
+msgctxt "#32329"
+msgid "My Lists"
+msgstr "Omat listat"
+
+msgctxt "#32330"
+msgid "Playback"
+msgstr "Toisto"
+
+msgctxt "#32331"
+msgid "Default action"
+msgstr "Oletustoiminto"
+
+msgctxt "#32332"
+msgid "Dialog"
+msgstr "Valintaikkuna"
+
+msgctxt "#32333"
+msgid "Directory"
+msgstr "Kansio"
+
+msgctxt "#32334"
+msgid "Auto Play"
+msgstr "Automaattinen toisto"
+
+msgctxt "#32335"
+msgid "Progress Dialog"
+msgstr "Edistymisen seuranta"
+
+msgctxt "#32336"
+msgid "Foreground"
+msgstr "Etualalla"
+
+msgctxt "#32337"
+msgid "Background"
+msgstr "Taka-alalla"
+
+msgctxt "#32338"
+msgid "File Hosting Filters"
+msgstr "Videolähteiden suodattimet"
+
+msgctxt "#32339"
+msgid "Max Quality"
+msgstr "Maksimilaatu"
+
+msgctxt "#32340"
+msgid "SD Hosters in Auto Play"
+msgstr "SD-tarjoajat automaattitoistossa"
+
+msgctxt "#32341"
+msgid "Hosters with captchas"
+msgstr "Palvelimet captcha-varmenteilla"
+
+msgctxt "#32342"
+msgid "Sort by Provider"
+msgstr "Järjestä tarjoajan mukaan"
+
+msgctxt "#32343"
+msgid "When playback starts..."
+msgstr "Kun toisto alkaa..."
+
+msgctxt "#32344"
+msgid "Resume Playback"
+msgstr "Jatka toistoa"
+
+msgctxt "#32345"
+msgid "Providers"
+msgstr "Tarjoajat"
+
+msgctxt "#32346"
+msgid "Accounts"
+msgstr "Käyttäjätilit"
+
+msgctxt "#32347"
+msgid "Downloads"
+msgstr "Lataukset"
+
+msgctxt "#32348"
+msgid "Enable downloads"
+msgstr "Lataukset käytössä"
+
+msgctxt "#32349"
+msgid "Movies"
+msgstr "Elokuvat"
+
+msgctxt "#32350"
+msgid "TV"
+msgstr "TV"
+
+msgctxt "#32351"
+msgid "Downloading features are disabled by default."
+msgstr "Lataustoiminnot ovat oletuksena poissa käytöstä."
+
+msgctxt "#32352"
+msgid "Set up your download folders in order to enable them."
+msgstr "Ottaaksesi toiminnot käyttöön, aseta latauskansiot."
+
+msgctxt "#32353"
+msgid "Subtitles"
+msgstr "Tekstitykset"
+
+msgctxt "#32354"
+msgid "Enable subtitles"
+msgstr "Tekstitykset käytössä"
+
+msgctxt "#32355"
+msgid "Convert subtitles to UTF-8"
+msgstr "Koodaa tekstitykset UTF-8-muotoon"
+
+msgctxt "#32356"
+msgid "Primary Language"
+msgstr "Ensisijainen kieli"
+
+msgctxt "#32357"
+msgid "Secondary Language"
+msgstr "Toissijainen kieli"
+
+msgctxt "#32358"
+msgid "Subtitles could be unavailable or out of sync."
+msgstr "Tekstityksiä ei välttämättä löyty tai ne eivät ole oikein ajastettuja."
+
+msgctxt "#32359"
+msgid "In that case use your own subtitles."
+msgstr "Tässä tapauksessa käytä omia tekstityksiä."
+
+msgctxt "#32360"
+msgid "Providers Language"
+msgstr "Tarjoajien kieli"
+
+msgctxt "#32401"
+msgid "No stream available"
+msgstr "Syötettä ei saatavilla"
+
+msgctxt "#32402"
+msgid "Playback outside Covenant is not allowed"
+msgstr "Toisto Covenant ulkopuolella ei ole sallittus"
+
+msgctxt "#32403"
+msgid "Download"
+msgstr "Lataa"
+
+msgctxt "#32404"
+msgid "Time elapsed: %s seconds"
+msgstr "Aikaa kulunut: %s sekuntia"
+
+msgctxt "#32405"
+msgid "%s seconds"
+msgstr "%s sekuntia"
+
+msgctxt "#32406"
+msgid "Remaining providers: %s"
+msgstr "Jäljellä olevat tarjoajat: %s"
+
+msgctxt "#32407"
+msgid "Are you sure?"
+msgstr "Oletko varma?"
+
+msgctxt "#32408"
+msgid "Process Complete"
+msgstr "Valmis"
+
+msgctxt "#32501"
+msgid "Start from beginning"
+msgstr "Aloita alusta"
+
+msgctxt "#32502"
+msgid "Resume from %s"
+msgstr "Jatka kohdasta %s"
+
+msgctxt "#32503"
+msgid "Resume"
+msgstr "Jatka"
+
+msgctxt "#32511"
+msgid "An account already exists."
+msgstr "Käyttäjätili on jo olemassa."
+
+msgctxt "#32512"
+msgid "Do you want to reset?"
+msgstr "Haluatko nollata?"
+
+msgctxt "#32513"
+msgid "1) Visit : [COLOR skyblue]%s[/COLOR]"
+msgstr "1) Käy osoitteessa: [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32514"
+msgid "2) When prompted enter : [COLOR skyblue]%s[/COLOR]"
+msgstr "2) Kysyttäessä syötä: [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32515"
+msgid "Trakt Manager"
+msgstr "Trakt-manageri"
+
+msgctxt "#32516"
+msgid "Add to [B]Collection[/B]"
+msgstr "Lisää [B]kokoelmaan[/B]"
+
+msgctxt "#32517"
+msgid "Remove from [B]Collection[/B]"
+msgstr "Poista [B]kokoelmasta[/B]"
+
+msgctxt "#32518"
+msgid "Add to [B]Watchlist[/B]"
+msgstr "Lisää [B]katsottavien listaan[/B]"
+
+msgctxt "#32519"
+msgid "Remove from [B]Watchlist[/B]"
+msgstr "Poista [B]katsottavien listalta[/B]"
+
+msgctxt "#32520"
+msgid "Add to [B]new List[/B]"
+msgstr "Lisää [B]uuteen listaan[/B]"
+
+msgctxt "#32521"
+msgid "Add to [B]%s[/B]"
+msgstr "Lisää listaan [B]%s[/B]"
+
+msgctxt "#32522"
+msgid "Remove from [B]%s[/B]"
+msgstr "Poista listasta [B]%s[/B]"
+
+msgctxt "#32531"
+msgid "An account already exists."
+msgstr "Käyttäjätili on jo olemassa."
+
+msgctxt "#32532"
+msgid "Do you want to reset?"
+msgstr "Haluatko nollata?"
+
+msgctxt "#32533"
+msgid "1) Visit : [COLOR skyblue]%s[/COLOR]"
+msgstr "1) Käy osoitteessa: [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32534"
+msgid "2) When prompted enter : [COLOR skyblue]%s[/COLOR]"
+msgstr "2) Kysyttäessä syötä: [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32535"
+msgid "Play Random"
+msgstr "Toista satunnaisesti"
+
+msgctxt "#32536"
+msgid "Playing"
+msgstr "Toistetaan"
+
+msgctxt "#32537"
+msgid "Nothing found to play"
+msgstr "Toistettavaa ei löytynyt"
+
+msgctxt "#32538"
+msgid "DEBRID-SERVICE"
+msgstr "DEBRID-PALVELU"
+
+msgctxt "#32539"
+msgid "Configure Debrid Services in ResolveURL Settings."
+msgstr "Määritä Debrid-palvelut ResolveURL-asetuksissa."
+
+msgctxt "#32540"
+msgid "ResolveURL Settings"
+msgstr "ResolveURL-asetukset"
+
+msgctxt "#32541"
+msgid "Library"
+msgstr "Kirjasto"
+
+msgctxt "#32542"
+msgid ""
+"Exodus folders will be imported to library if they are added to media "
+"sources."
+msgstr "Lisää ylläolevat Exoduksen kansiot medialähteisiin"
+
+msgctxt "#32543"
+msgid "Movies"
+msgstr "Elokuvat"
+
+msgctxt "#32544"
+msgid "TV"
+msgstr "TV"
+
+msgctxt "#32545"
+msgid "Auto update TV Shows"
+msgstr "Päivitä TV-sarjat automaattisesti"
+
+msgctxt "#32546"
+msgid "Show notifications during update"
+msgstr "Näytä ilmoitukset päivityksen aikana"
+
+msgctxt "#32547"
+msgid "Update library after adding content"
+msgstr "Päivitä kirjasto sisällön lisäämisen jälkeen"
+
+msgctxt "#32548"
+msgid "Avoid creating duplicate content"
+msgstr "Vältä kaksoiskappaleiden luonti"
+
+msgctxt "#32549"
+msgid "Check movie before adding it"
+msgstr "Tarkista elokuva ennen lisäämistä"
+
+msgctxt "#32550"
+msgid "Check first episode of season before adding it"
+msgstr "Tarkista kauden ensimmäinen jakso ennen lisäämistä"
+
+msgctxt "#32551"
+msgid "Add to Library"
+msgstr "Lisää kirjastoon"
+
+msgctxt "#32552"
+msgid "Adding to library..."
+msgstr "Lisätään kirjastoon..."
+
+msgctxt "#32553"
+msgid "Updating TV shows..."
+msgstr "Päivitetään TV-sarjoja..."
+
+msgctxt "#32554"
+msgid "Process Complete"
+msgstr "Valmis"
+
+msgctxt "#32555"
+msgid "Are you sure?"
+msgstr "Oletko varma?"
+
+msgctxt "#32556"
+msgid "[B]EXODUS[/B] : Library"
+msgstr "[B]EXODUS[/B]: Kirjasto"
+
+msgctxt "#32557"
+msgid "[B]LIBRARY[/B] : Settings"
+msgstr "[B]KIRJASTO[/B]: Asetukset"
+
+msgctxt "#32558"
+msgid "[B]EXODUS[/B] : Update library..."
+msgstr "[B]EXODUS[/B]: Päivitä kirjasto..."
+
+msgctxt "#32559"
+msgid "[B]EXODUS[/B] : Movie folder..."
+msgstr "[B]EXODUS[/B]: Elokuvakansio..."
+
+msgctxt "#32560"
+msgid "[B]EXODUS[/B] : TV folder..."
+msgstr "[B]EXODUS[/B]: TV-sarjojen kansio..."
+
+msgctxt "#32561"
+msgid "[B]TRAKT[/B] : Import Collection..."
+msgstr "[B]TRAKT[/B]: Tuo elokuvakokoelma..."
+
+msgctxt "#32562"
+msgid "[B]TRAKT[/B] : Import Watchlist..."
+msgstr "[B]TRAKT[/B]: Tuo katsottavien elokuvien lista..."
+
+msgctxt "#32563"
+msgid "[B]TRAKT[/B] : Import TV Collection..."
+msgstr "[B]TRAKT[/B]: Tuo TV-sarjakokoelma..."
+
+msgctxt "#32564"
+msgid "[B]TRAKT[/B] : Import TV Watchlist..."
+msgstr "[B]TRAKT[/B]: Tuo katsottavien TV-sarjojen lista..."
+
+msgctxt "#32565"
+msgid "Include episodes with unknown air dates"
+msgstr "Näytä jaksot, joiden lähetysaika on tuntematon"
+

@@ -1,0 +1,71 @@
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# junga jungario, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Incursion\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-05-30 09:11+0000\n"
+"Last-Translator: Viper2k4\n"
+"Language-Team: Arabic (http://www.transifex.com/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+msgctxt "#32001"
+msgid "Movies"
+msgstr "الأفلام"
+
+msgctxt "#32002"
+msgid "TV Shows"
+msgstr "المسلسلات"
+
+msgctxt "#32005"
+msgid "New Movies"
+msgstr "أخر الأفلام"
+
+msgctxt "#32006"
+msgid "New Episodes"
+msgstr "أحر الحلقات"
+
+msgctxt "#32007"
+msgid "Channels"
+msgstr "القنوات"
+
+msgctxt "#32008"
+msgid "Tools"
+msgstr "الأدوات"
+
+msgctxt "#32009"
+msgid "Downloads"
+msgstr "التحميلات"
+
+msgctxt "#32010"
+msgid "Search"
+msgstr "بحث"
+
+msgctxt "#32012"
+msgid "Year"
+msgstr "السنة"
+
+msgctxt "#32013"
+msgid "People"
+msgstr "المشاهدين"
+

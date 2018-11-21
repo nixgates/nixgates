@@ -1,0 +1,679 @@
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Henrik Ellegaard, 2017
+# lambda81, 2016
+# lambda81, 2016
+# Michael, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Covenant\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-05-30 09:11+0000\n"
+"Last-Translator: Viper2k4\n"
+"Language-Team: Danish (http://www.transifex.com/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#32001"
+msgid "Movies"
+msgstr "Film"
+
+msgctxt "#32002"
+msgid "TV Shows"
+msgstr "TV Serier"
+
+msgctxt "#32003"
+msgid "My Movies"
+msgstr "Mine Film"
+
+msgctxt "#32004"
+msgid "My TV Shows"
+msgstr "Mine TV Serier"
+
+msgctxt "#32005"
+msgid "New Movies"
+msgstr "Nye Film"
+
+msgctxt "#32006"
+msgid "New Episodes"
+msgstr "Nye Episoder"
+
+msgctxt "#32007"
+msgid "Channels"
+msgstr "Kanaler"
+
+msgctxt "#32008"
+msgid "Tools"
+msgstr "Værktøjer"
+
+msgctxt "#32009"
+msgid "Downloads"
+msgstr "Downloads"
+
+msgctxt "#32010"
+msgid "Search"
+msgstr "Søg"
+
+msgctxt "#32011"
+msgid "Genres"
+msgstr "Genrer"
+
+msgctxt "#32012"
+msgid "Year"
+msgstr "År"
+
+msgctxt "#32013"
+msgid "People"
+msgstr "Personer"
+
+msgctxt "#32014"
+msgid "Languages"
+msgstr "Sprog"
+
+msgctxt "#32015"
+msgid "Certificates"
+msgstr "Certificering"
+
+msgctxt "#32016"
+msgid "Networks"
+msgstr "Udbyder"
+
+msgctxt "#32017"
+msgid "People Watching"
+msgstr "Andre Personer Ser"
+
+msgctxt "#32018"
+msgid "Most Popular"
+msgstr "Mest populær"
+
+msgctxt "#32019"
+msgid "Most Voted"
+msgstr "Flest Stemmer"
+
+msgctxt "#32020"
+msgid "Box Office"
+msgstr "Storsælgende Film"
+
+msgctxt "#32021"
+msgid "Oscar Winners"
+msgstr "Oscar Vindere"
+
+msgctxt "#32022"
+msgid "In Theaters"
+msgstr "I Biografen nu"
+
+msgctxt "#32023"
+msgid "Highly Rated"
+msgstr "Høj Score"
+
+msgctxt "#32024"
+msgid "Airing today"
+msgstr "Sendes i dag"
+
+msgctxt "#32025"
+msgid "Returning TV Shows"
+msgstr "Fortløbende TV Serier"
+
+msgctxt "#32026"
+msgid "New TV Shows"
+msgstr "Nye TV Serier"
+
+msgctxt "#32027"
+msgid "TV Calendar"
+msgstr "TV Kalender"
+
+msgctxt "#32028"
+msgid "People Search"
+msgstr "Personsøgning"
+
+msgctxt "#32029"
+msgid "People (Movies)"
+msgstr "Personer (Film)"
+
+msgctxt "#32030"
+msgid "People (TV)"
+msgstr "Personer (TV)"
+
+msgctxt "#32031"
+msgid "Discover"
+msgstr "Opdag"
+
+msgctxt "#32032"
+msgid "Collection"
+msgstr "Samling"
+
+msgctxt "#32033"
+msgid "Watchlist"
+msgstr "Ønskeliste"
+
+msgctxt "#32034"
+msgid "IMDb"
+msgstr "IMDb"
+
+msgctxt "#32035"
+msgid "Featured"
+msgstr "Fremhævet"
+
+msgctxt "#32036"
+msgid "History"
+msgstr "Historik"
+
+msgctxt "#32037"
+msgid "Progress"
+msgstr "Fremdrift"
+
+msgctxt "#32038"
+msgid "Episodes"
+msgstr "Episoder"
+
+msgctxt "#32039"
+msgid "Movie Lists"
+msgstr "Filmlister"
+
+msgctxt "#32040"
+msgid "TV Show Lists"
+msgstr "TV Serie Lister"
+
+msgctxt "#32041"
+msgid "Episode Lists"
+msgstr "Afsnitslister"
+
+msgctxt "#32042"
+msgid "No Trakt or IMDb account found."
+msgstr "Ingen Trakt eller IMBd konto fundet"
+
+msgctxt "#32043"
+msgid "[B]SETTINGS[/B] : General"
+msgstr "[B]INDSTILLINGER[/B] : Generelt"
+
+msgctxt "#32044"
+msgid "[B]SETTINGS[/B] : Accounts"
+msgstr "[B]INDSTILLINGER[/B] : Kontoer"
+
+msgctxt "#32045"
+msgid "[B]SETTINGS[/B] : Playback"
+msgstr "[B]INDSTILLINGER[/B] : Afspilling"
+
+msgctxt "#32046"
+msgid "[B]SETTINGS[/B] : Subtitles"
+msgstr "[B]INDSTILLINGER[/B] : Undertekster"
+
+msgctxt "#32047"
+msgid "[B]SETTINGS[/B] : Providers"
+msgstr "[B]INDSTILLINGER[/B] : Udbydere"
+
+msgctxt "#32048"
+msgid "[B]COVENANT[/B] : Downloads"
+msgstr "[B]COVENANT[/B] : Downloads"
+
+msgctxt "#32049"
+msgid "[B]COVENANT[/B] : Viewtypes"
+msgstr "[B]COVENANT[/B] : Visningstyper"
+
+msgctxt "#32050"
+msgid "[B]COVENANT[/B] : Clear providers..."
+msgstr "[B]COVENANT[/B] : Ryd udbydere..."
+
+msgctxt "#32051"
+msgid "[B]COVENANT[/B] : Clear metadata..."
+msgstr "[B]COVENANT[/B] : Ryd metadata..."
+
+msgctxt "#32052"
+msgid "[B]COVENANT[/B] : Clear cache..."
+msgstr "[B]COVENANT[/B] : Ryd cache..."
+
+msgctxt "#32053"
+msgid "[I]Next Page[/I]"
+msgstr "[I]Næste Side[/I]"
+
+msgctxt "#32054"
+msgid "Seasons"
+msgstr "Sæsoner"
+
+msgctxt "#32055"
+msgid "Season"
+msgstr "Sæson"
+
+msgctxt "#32056"
+msgid "Are you sure?"
+msgstr "Er du sikker?"
+
+msgctxt "#32057"
+msgid "Process Complete"
+msgstr "Processen er færdig"
+
+msgctxt "#32058"
+msgid "This will slow down things until they are re-cached!"
+msgstr "Dette vil sløve systemet indtil alle urls er genindlæst"
+
+msgctxt "#32059"
+msgid "CLICK HERE TO SAVE VIEW"
+msgstr "KLIK HER FOR AT GEMME OPSÆTNING/VIEW"
+
+msgctxt "#32060"
+msgid ""
+"January|February|March|April|May|June|July|August|September|October|November|December"
+msgstr "Januar|Februar|Marts|April|Maj|Juni|Juli|August|September|Oktober|November|December"
+
+msgctxt "#32061"
+msgid "Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday"
+msgstr "Mandag|Tirsdag|Onsdag|Torsdag|Fredag|Lørdag|Søndag"
+
+msgctxt "#32062"
+msgid "[B]%s[/B] : %s"
+msgstr "[B]%s[/B] : %s"
+
+msgctxt "#32063"
+msgid "Play using..."
+msgstr "Afspil med..."
+
+msgctxt "#32064"
+msgid "Auto Play"
+msgstr "Automatisk Afspilning"
+
+msgctxt "#32065"
+msgid "Queue item"
+msgstr "Put emne i kø"
+
+msgctxt "#32066"
+msgid "Watched in Covenant"
+msgstr "Set i Covenant"
+
+msgctxt "#32067"
+msgid "Unwatched in Covenant"
+msgstr "Ikke set i Covenant"
+
+msgctxt "#32068"
+msgid "Watched in Trakt"
+msgstr "Set i Trakt"
+
+msgctxt "#32069"
+msgid "Unwatched in Trakt"
+msgstr "Ikke set i Trakt"
+
+msgctxt "#32070"
+msgid "Trakt Manager"
+msgstr "Trakt Opsætning"
+
+msgctxt "#32071"
+msgid "Browse Series"
+msgstr "Gennemse Serier"
+
+msgctxt "#32072"
+msgid "Refresh"
+msgstr "Genopfrisk"
+
+msgctxt "#32073"
+msgid "[B]TRAKT[/B] : Authorize"
+msgstr "[B]TRAKT[/B]: Autoriser"
+
+msgctxt "#32074"
+msgid "[B]HELP[/B]"
+msgstr "[B]HJÆLP[/B]"
+
+msgctxt "#32301"
+msgid "Enabled"
+msgstr "Slået til"
+
+msgctxt "#32302"
+msgid "Disabled"
+msgstr "Slået fra"
+
+msgctxt "#32303"
+msgid "User"
+msgstr "Bruger"
+
+msgctxt "#32304"
+msgid "Email"
+msgstr "Email"
+
+msgctxt "#32305"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "#32306"
+msgid "Authorization..."
+msgstr "Autoriser"
+
+msgctxt "#32307"
+msgid "Password"
+msgstr "Kodeord"
+
+msgctxt "#32308"
+msgid "PIN"
+msgstr "PIN"
+
+msgctxt "#32309"
+msgid "API"
+msgstr "API"
+
+msgctxt "#32310"
+msgid "General"
+msgstr "Generelt"
+
+msgctxt "#32311"
+msgid "Appearance"
+msgstr "Udseende"
+
+msgctxt "#32312"
+msgid "Providers Timeout"
+msgstr "Udbyder timeout"
+
+msgctxt "#32313"
+msgid "Indicators"
+msgstr "Indikatorer"
+
+msgctxt "#32314"
+msgid "Local"
+msgstr "Lokal"
+
+msgctxt "#32315"
+msgid "Trakt"
+msgstr "Trakt"
+
+msgctxt "#32316"
+msgid "Info Language"
+msgstr "Info Sprog"
+
+msgctxt "#32317"
+msgid "Flatten TV seasons"
+msgstr "Fladgør TV Serier/Sæsoner"
+
+msgctxt "#32318"
+msgid "Enable Fanart"
+msgstr "Brug Fankunst"
+
+msgctxt "#32319"
+msgid "Menu"
+msgstr "Menu"
+
+msgctxt "#32320"
+msgid "New Movies"
+msgstr "Nye Film"
+
+msgctxt "#32321"
+msgid "Featured"
+msgstr "Fremhævet"
+
+msgctxt "#32322"
+msgid "People Watching"
+msgstr "Andre Personer Ser"
+
+msgctxt "#32323"
+msgid "Most Popular"
+msgstr "Mest populær"
+
+msgctxt "#32324"
+msgid "In Theaters"
+msgstr "I Biograferne"
+
+msgctxt "#32325"
+msgid "New Episodes"
+msgstr "Nye Episoder"
+
+msgctxt "#32326"
+msgid "Episodes"
+msgstr "Episoder"
+
+msgctxt "#32327"
+msgid "Trakt Progress"
+msgstr "Trakt tidsforløb"
+
+msgctxt "#32328"
+msgid "Trakt Episodes"
+msgstr "Trakt Afsnit"
+
+msgctxt "#32329"
+msgid "My Lists"
+msgstr "Mine Lister"
+
+msgctxt "#32330"
+msgid "Playback"
+msgstr "Afspil"
+
+msgctxt "#32331"
+msgid "Default action"
+msgstr "Standardhandling"
+
+msgctxt "#32332"
+msgid "Dialog"
+msgstr "Dialog"
+
+msgctxt "#32333"
+msgid "Directory"
+msgstr "Directory"
+
+msgctxt "#32334"
+msgid "Auto Play"
+msgstr "Automatisk Afspilning"
+
+msgctxt "#32335"
+msgid "Progress Dialog"
+msgstr "Fremskridt"
+
+msgctxt "#32336"
+msgid "Foreground"
+msgstr "Forgrund"
+
+msgctxt "#32337"
+msgid "Background"
+msgstr "Baggrund"
+
+msgctxt "#32338"
+msgid "File Hosting Filters"
+msgstr "File Hosting Filtre"
+
+msgctxt "#32339"
+msgid "Max Quality"
+msgstr "Max Kvalitet"
+
+msgctxt "#32340"
+msgid "SD Hosters in Auto Play"
+msgstr "SD Hoster ved automatisk afspilning"
+
+msgctxt "#32341"
+msgid "Hosters with captchas"
+msgstr "Hosters med captchas"
+
+msgctxt "#32342"
+msgid "Sort by Provider"
+msgstr "Sorter efter udbyder"
+
+msgctxt "#32343"
+msgid "When playback starts..."
+msgstr "Når afspilning begynder..."
+
+msgctxt "#32344"
+msgid "Resume Playback"
+msgstr "Fortsæt Afspilning"
+
+msgctxt "#32345"
+msgid "Providers"
+msgstr "Udbydere"
+
+msgctxt "#32346"
+msgid "Accounts"
+msgstr "Kontoer"
+
+msgctxt "#32347"
+msgid "Downloads"
+msgstr "Downloads"
+
+msgctxt "#32348"
+msgid "Enable downloads"
+msgstr "Aktiver downloads"
+
+msgctxt "#32349"
+msgid "Movies"
+msgstr "Film"
+
+msgctxt "#32350"
+msgid "TV"
+msgstr "TV"
+
+msgctxt "#32351"
+msgid "Downloading features are disabled by default."
+msgstr "Download funktion er deaktiveret (standard)."
+
+msgctxt "#32352"
+msgid "Set up your download folders in order to enable them."
+msgstr "Konfigurer dine download mapper for at aktivere dem."
+
+msgctxt "#32353"
+msgid "Subtitles"
+msgstr "Undertekster"
+
+msgctxt "#32354"
+msgid "Enable subtitles"
+msgstr "Tænd undertekster"
+
+msgctxt "#32355"
+msgid "Convert subtitles to UTF-8"
+msgstr "Konverter undertekster til UTF-8"
+
+msgctxt "#32356"
+msgid "Primary Language"
+msgstr "Primært Sprog"
+
+msgctxt "#32357"
+msgid "Secondary Language"
+msgstr "Sekundært Sprog"
+
+msgctxt "#32358"
+msgid "Subtitles could be unavailable or out of sync."
+msgstr "Undertekster kan være utilgængelige eller asynkrone"
+
+msgctxt "#32359"
+msgid "In that case use your own subtitles."
+msgstr "I det tilfælde brug egne undertekster"
+
+msgctxt "#32360"
+msgid "Providers Language"
+msgstr "Udbyders Sprog"
+
+msgctxt "#32401"
+msgid "No stream available"
+msgstr "Ingen stream tilgængelig"
+
+msgctxt "#32402"
+msgid "Playback outside Covenant is not allowed"
+msgstr "Afspilning udenfor Covenant er ikke tilladt"
+
+msgctxt "#32403"
+msgid "Download"
+msgstr "Download"
+
+msgctxt "#32404"
+msgid "Time elapsed: %s seconds"
+msgstr "Tid forløbet: %s sekunder"
+
+msgctxt "#32405"
+msgid "%s seconds"
+msgstr "%s sekunder"
+
+msgctxt "#32406"
+msgid "Remaining providers: %s"
+msgstr "Resterende udbydere: %s"
+
+msgctxt "#32407"
+msgid "Are you sure?"
+msgstr "Er du sikker?"
+
+msgctxt "#32408"
+msgid "Process Complete"
+msgstr "Processen er færdig"
+
+msgctxt "#32501"
+msgid "Start from beginning"
+msgstr "Start fra begyndelsen"
+
+msgctxt "#32502"
+msgid "Resume from %s"
+msgstr "Fortsæt fra %s"
+
+msgctxt "#32503"
+msgid "Resume"
+msgstr "Fortsæt"
+
+msgctxt "#32511"
+msgid "An account already exists."
+msgstr "En konto eksisterer allerede."
+
+msgctxt "#32512"
+msgid "Do you want to reset?"
+msgstr "Vil du nulstille?"
+
+msgctxt "#32513"
+msgid "1) Visit : [COLOR skyblue]%s[/COLOR]"
+msgstr "1) Besøg : [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32514"
+msgid "2) When prompted enter : [COLOR skyblue]%s[/COLOR]"
+msgstr "2) Ved forespørgsel indtast : [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32515"
+msgid "Trakt Manager"
+msgstr "Trakt Opsætning"
+
+msgctxt "#32516"
+msgid "Add to [B]Collection[/B]"
+msgstr "Tilføj til [B]Samling[/B]"
+
+msgctxt "#32517"
+msgid "Remove from [B]Collection[/B]"
+msgstr "Fjern fra [B]Samling[/B]"
+
+msgctxt "#32518"
+msgid "Add to [B]Watchlist[/B]"
+msgstr "Tilføj til [B]Ønskeliste[/B]"
+
+msgctxt "#32519"
+msgid "Remove from [B]Watchlist[/B]"
+msgstr "Fjern fra [B]Ønskeliste[/B]"
+
+msgctxt "#32520"
+msgid "Add to [B]new List[/B]"
+msgstr "Tilføj til [B]ny Liste[/B]"
+
+msgctxt "#32521"
+msgid "Add to [B]%s[/B]"
+msgstr "Tilføj til [B]%s[/B]"
+
+msgctxt "#32522"
+msgid "Remove from [B]%s[/B]"
+msgstr "Fjern fra [B]%s[/B]"
+
+msgctxt "#32531"
+msgid "An account already exists."
+msgstr "En konto eksisterer allerede."
+
+msgctxt "#32532"
+msgid "Do you want to reset?"
+msgstr "Vil du nulstille?"
+
+msgctxt "#32533"
+msgid "1) Visit : [COLOR skyblue]%s[/COLOR]"
+msgstr "1) Besøg : [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32534"
+msgid "2) When prompted enter : [COLOR skyblue]%s[/COLOR]"
+msgstr "2) Ved forespørgsel indtast : [COLOR skyblue]%s[/COLOR]"
+

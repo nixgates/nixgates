@@ -1,0 +1,944 @@
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Addon Master, 2016
+# Viper2k4, 2017
+# Daniel Lajeunesse, 2017
+# Dominique Favreau, 2017
+# Jrm, 2015
+# lambda81, 2016
+# lambda81, 2016
+# Pierre Guerin, 2017
+# power grid, 2017
+# bubuleur, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Covenant\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-10-30 17:40+0000\n"
+"Last-Translator: Viper2k4\n"
+"Language-Team: French (http://www.transifex.com/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgctxt "#32001"
+msgid "Movies"
+msgstr "Films"
+
+msgctxt "#32002"
+msgid "TV Shows"
+msgstr "Séries Télé"
+
+msgctxt "#32003"
+msgid "My Movies"
+msgstr "Mes Films"
+
+msgctxt "#32004"
+msgid "My TV Shows"
+msgstr "Mes Séries Télé"
+
+msgctxt "#32005"
+msgid "New Movies"
+msgstr "Nouveaux Films"
+
+msgctxt "#32006"
+msgid "New Episodes"
+msgstr "Nouveaux Épisodes"
+
+msgctxt "#32007"
+msgid "Channels"
+msgstr "Chaines"
+
+msgctxt "#32008"
+msgid "Tools"
+msgstr "Outils"
+
+msgctxt "#32009"
+msgid "Downloads"
+msgstr "Téléchargements"
+
+msgctxt "#32010"
+msgid "Search"
+msgstr "Recherche"
+
+msgctxt "#32011"
+msgid "Genres"
+msgstr "Genres"
+
+msgctxt "#32012"
+msgid "Year"
+msgstr "Année"
+
+msgctxt "#32013"
+msgid "People"
+msgstr "Personne"
+
+msgctxt "#32014"
+msgid "Languages"
+msgstr "Langues"
+
+msgctxt "#32015"
+msgid "Certificates"
+msgstr "Cotes"
+
+msgctxt "#32016"
+msgid "Networks"
+msgstr "Réseaux"
+
+msgctxt "#32017"
+msgid "People Watching"
+msgstr "Visionné en ce moment"
+
+msgctxt "#32018"
+msgid "Most Popular"
+msgstr "Les Plus Populaires"
+
+msgctxt "#32019"
+msgid "Most Voted"
+msgstr "Les Plus Votés"
+
+msgctxt "#32020"
+msgid "Box Office"
+msgstr "Box Office"
+
+msgctxt "#32021"
+msgid "Oscar Winners"
+msgstr "Gagnants d'Oscars"
+
+msgctxt "#32022"
+msgid "In Theaters"
+msgstr "Au Cinéma"
+
+msgctxt "#32023"
+msgid "Highly Rated"
+msgstr "Les Mieux Notés"
+
+msgctxt "#32024"
+msgid "Airing today"
+msgstr "Diffusé Aujourd'hui"
+
+msgctxt "#32025"
+msgid "Returning TV Shows"
+msgstr "Séries TV de Retours"
+
+msgctxt "#32026"
+msgid "New TV Shows"
+msgstr "Nouvelles Séries TV"
+
+msgctxt "#32027"
+msgid "TV Calendar"
+msgstr "Calendrier TV"
+
+msgctxt "#32028"
+msgid "People Search"
+msgstr "Recherche de Personnes"
+
+msgctxt "#32029"
+msgid "People (Movies)"
+msgstr "Personnes (Films)"
+
+msgctxt "#32030"
+msgid "People (TV)"
+msgstr "Personnes (TV)"
+
+msgctxt "#32031"
+msgid "Discover"
+msgstr "Découverte"
+
+msgctxt "#32032"
+msgid "Collection"
+msgstr "Collection"
+
+msgctxt "#32033"
+msgid "Watchlist"
+msgstr "Liste de Suivi"
+
+msgctxt "#32034"
+msgid "IMDb"
+msgstr "IMDb"
+
+msgctxt "#32035"
+msgid "Featured"
+msgstr "À l'Affiche"
+
+msgctxt "#32036"
+msgid "History"
+msgstr "Historique"
+
+msgctxt "#32037"
+msgid "Progress"
+msgstr "Progression"
+
+msgctxt "#32038"
+msgid "Episodes"
+msgstr "Épisodes"
+
+msgctxt "#32039"
+msgid "Movie Lists"
+msgstr "Listes de Films"
+
+msgctxt "#32040"
+msgid "TV Show Lists"
+msgstr "Listes d'Émissions de TV"
+
+msgctxt "#32041"
+msgid "Episode Lists"
+msgstr "Listes des Épisodes"
+
+msgctxt "#32042"
+msgid "No Trakt or IMDb account found."
+msgstr "Pas de Compte Trakt ou IMDb à été Trouvé"
+
+msgctxt "#32043"
+msgid "[B]SETTINGS[/B] : General"
+msgstr "[B]CONFIGURATION[/B] : Générale"
+
+msgctxt "#32044"
+msgid "[B]SETTINGS[/B] : Accounts"
+msgstr "[B]CONFIGURATION[/B] : Comptes"
+
+msgctxt "#32045"
+msgid "[B]SETTINGS[/B] : Playback"
+msgstr "[B]CONFIGURATION[/B] : Lecture"
+
+msgctxt "#32046"
+msgid "[B]SETTINGS[/B] : Subtitles"
+msgstr "[B]CONFIGURATION[/B] : Sous-titres"
+
+msgctxt "#32047"
+msgid "[B]SETTINGS[/B] : Providers"
+msgstr "[B]CONFIGURATION[/B] : Sources"
+
+msgctxt "#32048"
+msgid "[B]COVENANT[/B] : Downloads"
+msgstr "[B]COVENANT[/B] : Téléchargements"
+
+msgctxt "#32049"
+msgid "[B]COVENANT[/B] : Viewtypes"
+msgstr "[B]COVENANT[/B] : Types de Présentation"
+
+msgctxt "#32050"
+msgid "[B]COVENANT[/B] : Clear providers..."
+msgstr "[B]COVENANT[/B] : Nettoyer les sources.."
+
+msgctxt "#32051"
+msgid "[B]COVENANT[/B] : Clear metadata..."
+msgstr "[B]COVENANT[/B] : Nettoyer les Métadata..."
+
+msgctxt "#32052"
+msgid "[B]COVENANT[/B] : Clear cache..."
+msgstr "[B]COVENANT[/B] : Nettoyer la cache..."
+
+msgctxt "#32053"
+msgid "[I]Next Page[/I]"
+msgstr "[I]Page Suivante[/I]"
+
+msgctxt "#32054"
+msgid "Seasons"
+msgstr "Saisons"
+
+msgctxt "#32055"
+msgid "Season"
+msgstr "Saison"
+
+msgctxt "#32056"
+msgid "Are you sure?"
+msgstr "Êtes-vous sûr ?"
+
+msgctxt "#32057"
+msgid "Process Complete"
+msgstr "Opération terminée"
+
+msgctxt "#32058"
+msgid "This will slow down things until they are re-cached!"
+msgstr "Cela vas ralentir le programme jusqu'a ce que l'information soit rechargée!"
+
+msgctxt "#32059"
+msgid "CLICK HERE TO SAVE VIEW"
+msgstr "CLIQUEZ ICI POUR MÉMORISER LA PRÉSENTATION"
+
+msgctxt "#32060"
+msgid ""
+"January|February|March|April|May|June|July|August|September|October|November|December"
+msgstr "Janvier|Février|Mars|Avril|Mai|Juin|Juillet|Août|Septembre|Octobre|Novembre|Décembre"
+
+msgctxt "#32061"
+msgid "Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday"
+msgstr "Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche"
+
+msgctxt "#32062"
+msgid "[B]%s[/B] : %s"
+msgstr "[B]%s[/B] : %s"
+
+msgctxt "#32063"
+msgid "Play using..."
+msgstr "Lire avec..."
+
+msgctxt "#32064"
+msgid "Auto Play"
+msgstr "Lecture Automatique"
+
+msgctxt "#32065"
+msgid "Queue item"
+msgstr "Mettre en file d'attente"
+
+msgctxt "#32066"
+msgid "Watched in Covenant"
+msgstr "Visionné avec Covenant"
+
+msgctxt "#32067"
+msgid "Unwatched in Covenant"
+msgstr "Non Visionné avec Covenant"
+
+msgctxt "#32068"
+msgid "Watched in Trakt"
+msgstr "Visionné dans Trakt"
+
+msgctxt "#32069"
+msgid "Unwatched in Trakt"
+msgstr "Non Visionné dans Trakt"
+
+msgctxt "#32070"
+msgid "Trakt Manager"
+msgstr "Gestionnaire de Trakt"
+
+msgctxt "#32071"
+msgid "Browse Series"
+msgstr "Consulter les Séries TV"
+
+msgctxt "#32072"
+msgid "Refresh"
+msgstr "Rafraîchir"
+
+msgctxt "#32073"
+msgid "[B]TRAKT[/B] : Authorize"
+msgstr "[B]TRAKT[/B]: Autorisation"
+
+msgctxt "#32074"
+msgid "[B]HELP[/B]"
+msgstr "[B]AIDE[/B]"
+
+msgctxt "#32301"
+msgid "Enabled"
+msgstr "Activé"
+
+msgctxt "#32302"
+msgid "Disabled"
+msgstr "Désactivé"
+
+msgctxt "#32303"
+msgid "User"
+msgstr "Usagé"
+
+msgctxt "#32304"
+msgid "Email"
+msgstr "Courriel"
+
+msgctxt "#32305"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "#32306"
+msgid "Authorization..."
+msgstr "Autorisation..."
+
+msgctxt "#32307"
+msgid "Password"
+msgstr "Mot de Passe"
+
+msgctxt "#32308"
+msgid "PIN"
+msgstr "PIN"
+
+msgctxt "#32309"
+msgid "API"
+msgstr "API"
+
+msgctxt "#32310"
+msgid "General"
+msgstr "Général"
+
+msgctxt "#32311"
+msgid "Appearance"
+msgstr "Apparence"
+
+msgctxt "#32312"
+msgid "Providers Timeout"
+msgstr "Temps d'attente des sources"
+
+msgctxt "#32313"
+msgid "Indicators"
+msgstr "Indicateurs"
+
+msgctxt "#32314"
+msgid "Local"
+msgstr "Locale"
+
+msgctxt "#32315"
+msgid "Trakt"
+msgstr "TrakT"
+
+msgctxt "#32316"
+msgid "Info Language"
+msgstr "Langue des informations"
+
+msgctxt "#32317"
+msgid "Flatten TV seasons"
+msgstr "Réduire l'arborescence des saisons de séries TV"
+
+msgctxt "#32318"
+msgid "Enable Fanart"
+msgstr "Activer le Fanart"
+
+msgctxt "#32319"
+msgid "Menu"
+msgstr "Menu"
+
+msgctxt "#32320"
+msgid "New Movies"
+msgstr "Nouveaux Films"
+
+msgctxt "#32321"
+msgid "Featured"
+msgstr "À l'affiche"
+
+msgctxt "#32322"
+msgid "People Watching"
+msgstr "Ce que les Gens Regardent"
+
+msgctxt "#32323"
+msgid "Most Popular"
+msgstr "Les Plus Populaires"
+
+msgctxt "#32324"
+msgid "In Theaters"
+msgstr "Au Cinéma"
+
+msgctxt "#32325"
+msgid "New Episodes"
+msgstr "Nouveaux Épisodes"
+
+msgctxt "#32326"
+msgid "Episodes"
+msgstr "Épisodes"
+
+msgctxt "#32327"
+msgid "Trakt Progress"
+msgstr "Progression TrakT"
+
+msgctxt "#32328"
+msgid "Trakt Episodes"
+msgstr "Épisodes TrakT"
+
+msgctxt "#32329"
+msgid "My Lists"
+msgstr "Mes Listes"
+
+msgctxt "#32330"
+msgid "Playback"
+msgstr "Lecture"
+
+msgctxt "#32331"
+msgid "Default action"
+msgstr "Action par Défaut"
+
+msgctxt "#32332"
+msgid "Dialog"
+msgstr "Dialogue"
+
+msgctxt "#32333"
+msgid "Directory"
+msgstr "Répertoire"
+
+msgctxt "#32334"
+msgid "Auto Play"
+msgstr "Lecture Automatique"
+
+msgctxt "#32335"
+msgid "Progress Dialog"
+msgstr "Progression du Dialogue"
+
+msgctxt "#32336"
+msgid "Foreground"
+msgstr "En Avant"
+
+msgctxt "#32337"
+msgid "Background"
+msgstr "En Arrière"
+
+msgctxt "#32338"
+msgid "File Hosting Filters"
+msgstr "Filtre des Sources Hébergeant les Fichiers"
+
+msgctxt "#32339"
+msgid "Max Quality"
+msgstr "Qualitée Maximale"
+
+msgctxt "#32340"
+msgid "SD Hosters in Auto Play"
+msgstr "Forcer Qualité SD en Lecture Automatique"
+
+msgctxt "#32341"
+msgid "Hosters with captchas"
+msgstr "Hébergeurs avec Captcha"
+
+msgctxt "#32342"
+msgid "Sort by Provider"
+msgstr "Trier par sources"
+
+msgctxt "#32343"
+msgid "When playback starts..."
+msgstr "Lorsque la Lecture Commence..."
+
+msgctxt "#32344"
+msgid "Resume Playback"
+msgstr "Reprendre la Lecture"
+
+msgctxt "#32345"
+msgid "Providers"
+msgstr "Sources"
+
+msgctxt "#32346"
+msgid "Accounts"
+msgstr "Comptes"
+
+msgctxt "#32347"
+msgid "Downloads"
+msgstr "Téléchargements"
+
+msgctxt "#32348"
+msgid "Enable downloads"
+msgstr "Activer les Téléchargements"
+
+msgctxt "#32349"
+msgid "Movies"
+msgstr "Films"
+
+msgctxt "#32350"
+msgid "TV"
+msgstr "TV"
+
+msgctxt "#32351"
+msgid "Downloading features are disabled by default."
+msgstr "Le Téléchargement est Désactivé par Défaut"
+
+msgctxt "#32352"
+msgid "Set up your download folders in order to enable them."
+msgstr "Configurez le Répertoire de Téléchargement pour que vous puissez les Activer"
+
+msgctxt "#32353"
+msgid "Subtitles"
+msgstr "Sous-Titres"
+
+msgctxt "#32354"
+msgid "Enable subtitles"
+msgstr "Actives les Sous-Titres"
+
+msgctxt "#32355"
+msgid "Convert subtitles to UTF-8"
+msgstr "Convertir les Sous-Titres en UTF-8"
+
+msgctxt "#32356"
+msgid "Primary Language"
+msgstr "Langue Principale"
+
+msgctxt "#32357"
+msgid "Secondary Language"
+msgstr "Langue Secondaire"
+
+msgctxt "#32358"
+msgid "Subtitles could be unavailable or out of sync."
+msgstr "Les Sous-Titres Peuvent Êtres Indisponibles ou Désynchronisés."
+
+msgctxt "#32359"
+msgid "In that case use your own subtitles."
+msgstr "Dans ce Cas Utilisez vos Propre Sous-Titres"
+
+msgctxt "#32360"
+msgid "Providers Language"
+msgstr "Langue de la sources"
+
+msgctxt "#32363"
+msgid "HEVC"
+msgstr "HEVC"
+
+msgctxt "#32372"
+msgid "When playback ends..."
+msgstr "Lorsque la lecture se termine..."
+
+msgctxt "#32373"
+msgid "Force container refresh"
+msgstr "Forcer l'actualisation du conteneur"
+
+msgctxt "#32401"
+msgid "No stream available"
+msgstr "Aucun Flux Disponible"
+
+msgctxt "#32402"
+msgid "Playback outside Covenant is not allowed"
+msgstr "La lecture hors Covenant n'est pas permise"
+
+msgctxt "#32403"
+msgid "Download"
+msgstr "Télécharger"
+
+msgctxt "#32404"
+msgid "Time elapsed: %s seconds"
+msgstr "Temps Écoulé en %s Secondes"
+
+msgctxt "#32405"
+msgid "%s seconds"
+msgstr "%s Secondes"
+
+msgctxt "#32406"
+msgid "Remaining providers: %s"
+msgstr "Sources Restantes: %s"
+
+msgctxt "#32407"
+msgid "Are you sure?"
+msgstr "Êtes-Vous Sûr ?"
+
+msgctxt "#32408"
+msgid "Process Complete"
+msgstr "Opération Terminée"
+
+msgctxt "#32501"
+msgid "Start from beginning"
+msgstr "Lire du Début"
+
+msgctxt "#32502"
+msgid "Resume from %s"
+msgstr "Reprendre de %s"
+
+msgctxt "#32503"
+msgid "Resume"
+msgstr "Reprendre"
+
+msgctxt "#32511"
+msgid "An account already exists."
+msgstr "Un Compte Existe Déjà."
+
+msgctxt "#32512"
+msgid "Do you want to reset?"
+msgstr "Voulez-Vous Rénitialiser?"
+
+msgctxt "#32513"
+msgid "1) Visit : [COLOR skyblue]%s[/COLOR]"
+msgstr "1) Visite : [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32514"
+msgid "2) When prompted enter : [COLOR skyblue]%s[/COLOR]"
+msgstr "2) Lorsque Demandé Veuillez Entrer : [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32515"
+msgid "Trakt Manager"
+msgstr "Gestionnaire Trakt"
+
+msgctxt "#32516"
+msgid "Add to [B]Collection[/B]"
+msgstr "Ajouter à la [B]Collection[/B]"
+
+msgctxt "#32517"
+msgid "Remove from [B]Collection[/B]"
+msgstr "Enlever de la [B]Collection[/B]"
+
+msgctxt "#32518"
+msgid "Add to [B]Watchlist[/B]"
+msgstr "Ajouter à la [B]Liste de Suivi[/B]"
+
+msgctxt "#32519"
+msgid "Remove from [B]Watchlist[/B]"
+msgstr "Enlever de la [B]Liste de Suivi[/B]"
+
+msgctxt "#32520"
+msgid "Add to [B]new List[/B]"
+msgstr "Ajouter à une [BNouvelle Liste[/B]"
+
+msgctxt "#32521"
+msgid "Add to [B]%s[/B]"
+msgstr "Ajouter to [B]%s[/B]"
+
+msgctxt "#32522"
+msgid "Remove from [B]%s[/B]"
+msgstr "Enlever from [B]%s[/B]"
+
+msgctxt "#32531"
+msgid "An account already exists."
+msgstr "Un Compte Existe Déjà."
+
+msgctxt "#32532"
+msgid "Do you want to reset?"
+msgstr "Voulez-Vous Rénitialiser?"
+
+msgctxt "#32533"
+msgid "1) Visit : [COLOR skyblue]%s[/COLOR]"
+msgstr "1) Visite : [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32534"
+msgid "2) When prompted enter : [COLOR skyblue]%s[/COLOR]"
+msgstr ""2) Lorsque Demandé Veuillez Entrer : [COLOR skyblue]%s[/COLOR]""
+
+msgctxt "#32535"
+msgid "Play Random"
+msgstr "Reproduction aléatoire"
+
+msgctxt "#32536"
+msgid "Playing"
+msgstr "En Cours de Lecture"
+
+msgctxt "#32537"
+msgid "Nothing found to play"
+msgstr "Rien n'a été trouvé pour visionner"
+
+msgctxt "#32538"
+msgid "DEBRID-SERVICE"
+msgstr "SERVICE DE DÉBRIDEUR"
+
+msgctxt "#32539"
+msgid "Configure Debrid Services in ResolveURL Settings."
+msgstr "Configuration Services de Débridage dans le ResolveURL."
+
+msgctxt "#32540"
+msgid "ResolveURL Settings"
+msgstr "Configuration du ResolveURL"
+
+msgctxt "#32541"
+msgid "Library"
+msgstr "Bibliothèque"
+
+msgctxt "#32542"
+msgid "Covenant folders will be imported to library if they are added to media sources."
+msgstr "Les dossiers seront importés vers la bibliothèque s'ils sont ajoutés aux sources médiatiques"
+
+msgctxt "#32543"
+msgid "Movies"
+msgstr "Films"
+
+msgctxt "#32544"
+msgid "TV"
+msgstr "Series"
+
+msgctxt "#32545"
+msgid "Auto update TV Shows"
+msgstr "Mise à jour automatique des Series TV"
+
+msgctxt "#32546"
+msgid "Show notifications during update"
+msgstr "Afficher les notifications pendant la mise à jour"
+
+msgctxt "#32547"
+msgid "Update library after adding content"
+msgstr "Mettre à jour la bibliothèque après avoir ajouté du contenu"
+
+msgctxt "#32548"
+msgid "Avoid creating duplicate content"
+msgstr "Évitez de créer du contenu en double"
+
+msgctxt "#32549"
+msgid "Check movie before adding it"
+msgstr "Vérifiez le film avant de l'ajouter"
+
+msgctxt "#32550"
+msgid "Check first episode of season before adding it"
+msgstr "Vérifiez le premier épisode de saison avant de l'ajouter"
+
+msgctxt "#32551"
+msgid "Add to Library"
+msgstr "Ajouter à la bibliothèque"
+
+msgctxt "#32552"
+msgid "Adding to library..."
+msgstr "Ajouter à la bibliothèque..."
+
+msgctxt "#32553"
+msgid "Updating TV shows..."
+msgstr "Mise à jour des series TV..."
+
+msgctxt "#32554"
+msgid "Process Complete"
+msgstr "Processus terminé"
+
+msgctxt "#32555"
+msgid "Are you sure?"
+msgstr "Êtes-vous sûr?"
+
+msgctxt "#32556"
+msgid "[B]COVENANT[/B] : Library"
+msgstr "[B]COVENANT[/B]: Bibliothèque"
+
+msgctxt "#32557"
+msgid "[B]LIBRARY[/B] : Settings"
+msgstr "[B]BIBLIOTHÈQUE[/B] : Paramètres"
+
+msgctxt "#32558"
+msgid "[B]COVENANT[/B] : Update library..."
+msgstr "[B]COVENANT[/B] : Mettre à jour la bibliothèque..."
+
+msgctxt "#32559"
+msgid "[B]COVENANT[/B] : Movie folder..."
+msgstr "[B]COVENANT[/B] : Dossier de films..."
+
+msgctxt "#32560"
+msgid "[B]COVENANT[/B] : TV folder..."
+msgstr "[B]COVENANT[/B] : Dossier series..."
+
+msgctxt "#32561"
+msgid "[B]TRAKT[/B] : Import Collection..."
+msgstr "[B]TRAKT[/B] : Importer Collection..."
+
+msgctxt "#32562"
+msgid "[B]TRAKT[/B] : Import Watchlist..."
+msgstr "[B]TRAKT[/B] : Importer liste de vue..."
+
+msgctxt "#32563"
+msgid "[B]TRAKT[/B] : Import TV Collection..."
+msgstr "[B]TRAKT[/B] : Importer Collection series..."
+
+msgctxt "#32564"
+msgid "[B]TRAKT[/B] : Import TV Watchlist..."
+msgstr "[B]TRAKT[/B] : Importer liste de vue series..."
+
+msgctxt "#32565"
+msgid "Include episodes with unknown air dates"
+msgstr "Inclure des épisodes avec des dates inconnues"
+
+msgctxt "#32570"
+msgid "Show unaired seasons/episodes"
+msgstr "Afficher les saisons / épisodes non-utilisés"
+
+msgctxt "#32571"
+msgid "Hide movies in cinema"
+msgstr "Masquer les films au cinéma"
+
+msgctxt "#32572"
+msgid "Protected Link. Please enter account credentials in the settings."
+msgstr "Lien protégé. Entrez les données du compte dans les paramètres svp."
+
+msgctxt "#32580"
+msgid "Films/TV Movies"
+msgstr "Films/Series Tv"
+
+msgctxt "#32581"
+msgid "Results Limit"
+msgstr "Résultats Limité"
+
+msgctxt "#32582"
+msgid "Personal API keys provide quicker API responses."
+msgstr "Les clés API personnelles fournissent des réponses plus rapides"
+
+msgctxt "#32583"
+msgid "Become a VIP member for many benefits at: https://fanart.tv/vip"
+msgstr "Devenez membre VIP pour avoir de nombreux avantages : https://fanart.TV/VIP"
+
+msgctxt "#32584"
+msgid "Sort order for Trakt Watched Progress"
+msgstr "Ordre de tri surveillée pour Trakt"
+
+msgctxt "#32585"
+msgid "Recently aired"
+msgstr "Récemment diffusé"
+
+msgctxt "#32586"
+msgid "Recently watched"
+msgstr "Récemment regardé"
+
+msgctxt "#32587"
+msgid "Show Extra Source Info"
+msgstr "Afficher les informations supplémentaires sur les sources"
+
+msgctxt "#32588"
+msgid "Premium Source Identifier Color"
+msgstr "Couleur de l'identificateur de source Premium"
+
+msgctxt "#32589"
+msgid "Blue"
+msgstr "Bleu"
+
+msgctxt "#32590"
+msgid "Red"
+msgstr "Rouge"
+
+msgctxt "#32591"
+msgid "Yellow"
+msgstr "Jaune"
+
+msgctxt "#32592"
+msgid "Deep Pink"
+msgstr "Rose foncé"
+
+msgctxt "#32593"
+msgid "Cyan"
+msgstr "Cyan"
+
+msgctxt "#32594"
+msgid "Lawn Green"
+msgstr "Vert Pelouse"
+
+msgctxt "#32595"
+msgid "Gold"
+msgstr "Or"
+
+msgctxt "#32596"
+msgid "Magenta"
+msgstr "Magenta"
+
+msgctxt "#32597"
+msgid "Yellow Green"
+msgstr "Vert jaunâtre"
+
+msgctxt "#32598"
+msgid "No Color"
+msgstr "Sans couleur"
+
+msgctxt "#32599"
+msgid "Getting genre information from Trakt"
+msgstr "Obtenir des informations sur le genre auprès de Trakt"
+
+msgctxt "#32600"
+msgid "Preparing sources"
+msgstr "Préparation des sources"
+
+msgctxt "#32601"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "#32602"
+msgid "Waiting for"
+msgstr "En attente de"
+
+msgctxt "#32603"
+msgid "New search..."
+msgstr "Nouvelle recherche..."
+
+msgctxt "#32604"
+msgid "[B]COVENANT[/B] : Clear search history..."
+msgstr "[B]COVENANT[/B] : Effacer l'historique de recherche..."
+
+msgctxt "#32605"
+msgid "Click to clear search history"
+msgstr "Cliquez pour effacer l'historique de recherche"
+
+msgctxt "#32606"
+msgid "Prem"
+msgstr "Premium"
+
+msgctxt "#32607"
+msgid "Normal"
+msgstr "Normal"

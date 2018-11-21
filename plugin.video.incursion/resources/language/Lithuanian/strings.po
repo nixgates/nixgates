@@ -1,0 +1,814 @@
+# Algimantas Margevičius, 2017
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Covenant\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-09-26 14:27+0300\n"
+"Last-Translator: Algimantas Margevičius <algimantas@margevicius.lt>\n"
+"Language-Team: Lithuanian (http://www.transifex.com/)\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.0.3\n"
+
+msgctxt "#32001"
+msgid "Movies"
+msgstr "Filmai"
+
+msgctxt "#32002"
+msgid "TV Shows"
+msgstr "TV laidos"
+
+msgctxt "#32003"
+msgid "My Movies"
+msgstr "Mano filmai"
+
+msgctxt "#32004"
+msgid "My TV Shows"
+msgstr "Mano tv laidos"
+
+msgctxt "#32005"
+msgid "New Movies"
+msgstr "Nauji filmai"
+
+msgctxt "#32006"
+msgid "New Episodes"
+msgstr "Nauji epizodai"
+
+msgctxt "#32007"
+msgid "Channels"
+msgstr "Kanalai"
+
+msgctxt "#32008"
+msgid "Tools"
+msgstr "Įrankiai"
+
+msgctxt "#32009"
+msgid "Downloads"
+msgstr "Atsiuntimai"
+
+msgctxt "#32010"
+msgid "Search"
+msgstr "Paieška:"
+
+msgctxt "#32011"
+msgid "Genres"
+msgstr "Žanrai"
+
+msgctxt "#32012"
+msgid "Year"
+msgstr "Metai"
+
+msgctxt "#32013"
+msgid "People"
+msgstr "Žmonės"
+
+msgctxt "#32014"
+msgid "Languages"
+msgstr "Kalbos"
+
+msgctxt "#32015"
+msgid "Certificates"
+msgstr "Liudijimai"
+
+msgctxt "#32016"
+msgid "Networks"
+msgstr "Tinklai"
+
+msgctxt "#32017"
+msgid "People Watching"
+msgstr "Žmonės žiūri"
+
+msgctxt "#32018"
+msgid "Most Popular"
+msgstr "Populiariausi"
+
+msgctxt "#32019"
+msgid "Most Voted"
+msgstr "Daugiausiai balsų"
+
+msgctxt "#32020"
+msgid "Box Office"
+msgstr "Uždarbis"
+
+msgctxt "#32021"
+msgid "Oscar Winners"
+msgstr "Oskarų laimėtojai"
+
+msgctxt "#32022"
+msgid "In Theaters"
+msgstr "Teatruose"
+
+msgctxt "#32023"
+msgid "Highly Rated"
+msgstr "Gerai įvertinti"
+
+msgctxt "#32024"
+msgid "Airing today"
+msgstr "Šiandien rodyti"
+
+msgctxt "#32025"
+msgid "Returning TV Shows"
+msgstr "Grįžtančios TV laidos"
+
+msgctxt "#32026"
+msgid "New TV Shows"
+msgstr "Naujos TV laidos:"
+
+msgctxt "#32027"
+msgid "TV Calendar"
+msgstr "TV kalendorius "
+
+msgctxt "#32028"
+msgid "People Search"
+msgstr "Žmonių paieška"
+
+msgctxt "#32029"
+msgid "People (Movies)"
+msgstr "Žmonės (filmai)"
+
+msgctxt "#32030"
+msgid "People (TV)"
+msgstr "Žmonės (TV)"
+
+msgctxt "#32031"
+msgid "Discover"
+msgstr "Atraskite"
+
+msgctxt "#32032"
+msgid "Collection"
+msgstr "Filmoteka"
+
+msgctxt "#32033"
+msgid "Watchlist"
+msgstr "Žiūrimų sąrašas"
+
+msgctxt "#32034"
+msgid "IMDb"
+msgstr "IMDb"
+
+msgctxt "#32035"
+msgid "Featured"
+msgstr "Siūloma"
+
+msgctxt "#32036"
+msgid "History"
+msgstr "Istorija"
+
+msgctxt "#32037"
+msgid "Progress"
+msgstr "Pažanga"
+
+msgctxt "#32038"
+msgid "Episodes"
+msgstr "Epizodai"
+
+msgctxt "#32039"
+msgid "Movie Lists"
+msgstr "Filmų sąrašai"
+
+msgctxt "#32040"
+msgid "TV Show Lists"
+msgstr "TV laidų sąrašai"
+
+msgctxt "#32041"
+msgid "Episode Lists"
+msgstr "Epizodų sąrašai"
+
+msgctxt "#32042"
+msgid "No Trakt or IMDb account found."
+msgstr "Trakt ar IMDb paskyros nerasta."
+
+msgctxt "#32043"
+msgid "[B]SETTINGS[/B] : General"
+msgstr "[B]NUSTATYMAI[/B] : Bendra"
+
+msgctxt "#32044"
+msgid "[B]SETTINGS[/B] : Accounts"
+msgstr "[B]NUSTATYMAI[/B] : Paskyros"
+
+msgctxt "#32045"
+msgid "[B]SETTINGS[/B] : Playback"
+msgstr "[B]NUSTATYMAI[/B] : Atkūrimas"
+
+msgctxt "#32046"
+msgid "[B]SETTINGS[/B] : Subtitles"
+msgstr "[B]NUSTATYMAI[/B] : Subtitrai"
+
+msgctxt "#32047"
+msgid "[B]SETTINGS[/B] : Providers"
+msgstr "[B]NUSTATYMAI[/B] : Tiekėjai"
+
+msgctxt "#32048"
+msgid "[B]COVENANT[/B] : Downloads"
+msgstr "[B]COVENANT[/B] : Atsiuntimai"
+
+msgctxt "#32049"
+msgid "[B]COVENANT[/B] : Viewtypes"
+msgstr "[B]COVENANT[/B] : Rodinio tipai"
+
+msgctxt "#32050"
+msgid "[B]COVENANT[/B] : Clear providers..."
+msgstr "[B]COVENANT[/B] : Išvalyti tiekėjus..."
+
+msgctxt "#32051"
+msgid "[B]COVENANT[/B] : Clear metadata..."
+msgstr "[B]COVENANT[/B] : Išvalyti metaduomenis..."
+
+msgctxt "#32052"
+msgid "[B]COVENANT[/B] : Clear cache..."
+msgstr "[B]COVENANT[/B] : Išvalyti podėlį..."
+
+msgctxt "#32053"
+msgid "[I]Next Page[/I]"
+msgstr "[I]Sekantis puslapis[/I]"
+
+msgctxt "#32054"
+msgid "Seasons"
+msgstr "Sezonai"
+
+msgctxt "#32055"
+msgid "Season"
+msgstr "Sezonas"
+
+msgctxt "#32056"
+msgid "Are you sure?"
+msgstr "Ar esate įsitikinę?"
+
+msgctxt "#32057"
+msgid "Process Complete"
+msgstr "Atlikta"
+
+msgctxt "#32058"
+msgid "This will slow down things until they are re-cached!"
+msgstr "Tai sulėtins veikseną kol bus perkurtas podėlis"
+
+msgctxt "#32059"
+msgid "CLICK HERE TO SAVE VIEW"
+msgstr "PASPAUSKITE ČIA NORĖDAMI IŠSAUGOTI RODINĮ"
+
+msgctxt "#32060"
+msgid ""
+"January|February|March|April|May|June|July|August|September|October|"
+"November|December"
+msgstr ""
+"Sausis|Vasaris|Kovas|Balandis|Gegužė|Birželis|Liepa|Rugpjūtis|Rugsėjis|"
+"Spalis|Lapkritis|Gruodis"
+
+msgctxt "#32061"
+msgid "Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday"
+msgstr ""
+"Pirmadienis|Antradienis|Trečiadienis|Ketvirtadienis|Penktadienis|"
+"Šeštadienis|Sekmadienis\\v"
+
+msgctxt "#32062"
+msgid "[B]%s[/B] : %s"
+msgstr "[B]%s[/B] : %s"
+
+msgctxt "#32063"
+msgid "Play using..."
+msgstr "Atkurti naudojant..."
+
+msgctxt "#32064"
+msgid "Auto Play"
+msgstr "Automatinis atkūrimas"
+
+msgctxt "#32065"
+msgid "Queue item"
+msgstr "Įdėti į eilę"
+
+msgctxt "#32066"
+msgid "Watched in Covenant"
+msgstr "Žiūrėta per Covenant"
+
+msgctxt "#32067"
+msgid "Unwatched in Covenant"
+msgstr "Nežiūrėta per Covenant"
+
+msgctxt "#32068"
+msgid "Watched in Trakt"
+msgstr "Žiūrėta per Trakt"
+
+msgctxt "#32069"
+msgid "Unwatched in Trakt"
+msgstr "Nežiūrėta per Trakt"
+
+msgctxt "#32070"
+msgid "Trakt Manager"
+msgstr "Trakt valdymas"
+
+msgctxt "#32071"
+msgid "Browse Series"
+msgstr "Naršyti serijas"
+
+msgctxt "#32072"
+msgid "Refresh"
+msgstr "Atnaujinti"
+
+msgctxt "#32073"
+msgid "[B]TRAKT[/B] : Authorize"
+msgstr "[B]TRAKT[/B]: Autorizacija"
+
+msgctxt "#32074"
+msgid "[B]HELP[/B]"
+msgstr "[B]PAGALBA[/B]"
+
+msgctxt "#32301"
+msgid "Enabled"
+msgstr "Įgalinta"
+
+msgctxt "#32302"
+msgid "Disabled"
+msgstr "Išjungta"
+
+msgctxt "#32303"
+msgid "User"
+msgstr "Naudotojas"
+
+msgctxt "#32304"
+msgid "Email"
+msgstr "El. paštas"
+
+msgctxt "#32305"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "#32306"
+msgid "Authorization..."
+msgstr "Autorizacija..."
+
+msgctxt "#32307"
+msgid "Password"
+msgstr "Slaptažodis"
+
+msgctxt "#32308"
+msgid "PIN"
+msgstr "PIN"
+
+msgctxt "#32309"
+msgid "API"
+msgstr "API"
+
+msgctxt "#32310"
+msgid "General"
+msgstr "Bendra"
+
+msgctxt "#32311"
+msgid "Appearance"
+msgstr "Išvaizda"
+
+msgctxt "#32312"
+msgid "Providers Timeout"
+msgstr "Tiekėjų laukimo laikai"
+
+msgctxt "#32313"
+msgid "Indicators"
+msgstr "Indikatoriai"
+
+msgctxt "#32314"
+msgid "Local"
+msgstr "Vietinis"
+
+msgctxt "#32315"
+msgid "Trakt"
+msgstr "Trakt"
+
+msgctxt "#32316"
+msgid "Info Language"
+msgstr "Info kalba"
+
+msgctxt "#32317"
+msgid "Flatten TV seasons"
+msgstr "Sujungti tv sezonai"
+
+msgctxt "#32318"
+msgid "Enable Fanart"
+msgstr "Įjungti fanart"
+
+msgctxt "#32319"
+msgid "Menu"
+msgstr "Meniu"
+
+msgctxt "#32320"
+msgid "New Movies"
+msgstr "Nauji filmai"
+
+msgctxt "#32321"
+msgid "Featured"
+msgstr "Siūloma"
+
+msgctxt "#32322"
+msgid "People Watching"
+msgstr "Žmonės žiūri"
+
+msgctxt "#32323"
+msgid "Most Popular"
+msgstr "Populiariausi"
+
+msgctxt "#32324"
+msgid "In Theaters"
+msgstr "Teatruose"
+
+msgctxt "#32325"
+msgid "New Episodes"
+msgstr "Nauji epizodai"
+
+msgctxt "#32326"
+msgid "Episodes"
+msgstr "Epizodai"
+
+msgctxt "#32327"
+msgid "Trakt Progress"
+msgstr "Trakt pažanga"
+
+msgctxt "#32328"
+msgid "Trakt Episodes"
+msgstr "Trakt epizodai"
+
+msgctxt "#32329"
+msgid "My Lists"
+msgstr "Mano sąrašai"
+
+msgctxt "#32330"
+msgid "Playback"
+msgstr "Atkūrimas"
+
+msgctxt "#32331"
+msgid "Default action"
+msgstr "Numatytas veiksmas"
+
+msgctxt "#32332"
+msgid "Dialog"
+msgstr "Dialogas"
+
+msgctxt "#32333"
+msgid "Directory"
+msgstr "Aplankas"
+
+msgctxt "#32334"
+msgid "Auto Play"
+msgstr "Automatinis paleidimas"
+
+msgctxt "#32335"
+msgid "Progress Dialog"
+msgstr "Eigos dialogas"
+
+msgctxt "#32336"
+msgid "Foreground"
+msgstr "Priekinis planas"
+
+msgctxt "#32337"
+msgid "Background"
+msgstr "Fonas"
+
+msgctxt "#32338"
+msgid "File Hosting Filters"
+msgstr "Failų talpinimo filtrai"
+
+msgctxt "#32339"
+msgid "Max Quality"
+msgstr "Geriausia kokybė"
+
+msgctxt "#32340"
+msgid "SD Hosters in Auto Play"
+msgstr "SD šaltiniai automatiniame atkūrime"
+
+msgctxt "#32341"
+msgid "Hosters with captchas"
+msgstr "Talpyklos su „captcha“"
+
+msgctxt "#32342"
+msgid "Sort by Provider"
+msgstr "Rūšiuoti tiekėjus"
+
+msgctxt "#32343"
+msgid "When playback starts..."
+msgstr "Pradedant atkūrimą..."
+
+msgctxt "#32344"
+msgid "Resume Playback"
+msgstr "Tęsti atkūrimą"
+
+msgctxt "#32345"
+msgid "Providers"
+msgstr "Tiekėjai"
+
+msgctxt "#32346"
+msgid "Accounts"
+msgstr "Paskyros"
+
+msgctxt "#32347"
+msgid "Downloads"
+msgstr "Atsiuntimai"
+
+msgctxt "#32348"
+msgid "Enable downloads"
+msgstr "Įjungti atsiuntimus"
+
+msgctxt "#32349"
+msgid "Movies"
+msgstr "Filmai"
+
+msgctxt "#32350"
+msgid "TV"
+msgstr "TV"
+
+msgctxt "#32351"
+msgid "Downloading features are disabled by default."
+msgstr "Parsiuntimo galimybė, pagal nutylėjimą, išjungta."
+
+msgctxt "#32352"
+msgid "Set up your download folders in order to enable them."
+msgstr "Norėdami įjungti nustatykite parsiuntimo aplanką."
+
+msgctxt "#32353"
+msgid "Subtitles"
+msgstr "Subtitrai"
+
+msgctxt "#32354"
+msgid "Enable subtitles"
+msgstr "Įjungti subtitrus"
+
+msgctxt "#32355"
+msgid "Convert subtitles to UTF-8"
+msgstr "Konvertuoti subtitrus į UTF-8"
+
+msgctxt "#32356"
+msgid "Primary Language"
+msgstr "Pagrindinė kalba"
+
+msgctxt "#32357"
+msgid "Secondary Language"
+msgstr "Antrinė kalba"
+
+msgctxt "#32358"
+msgid "Subtitles could be unavailable or out of sync."
+msgstr "Subtitrai neprieinami arba nesinchronizuoti."
+
+msgctxt "#32359"
+msgid "In that case use your own subtitles."
+msgstr "Tokiu atveju naudoti savo subtitrus."
+
+msgctxt "#32360"
+msgid "Providers Language"
+msgstr "Tiekėjų kalba"
+
+msgctxt "#32363"
+msgid "HEVC"
+msgstr "HEVC"
+
+msgctxt "#32372"
+msgid "When playback ends..."
+msgstr "Baigus atkūrimą..."
+
+msgctxt "#32373"
+msgid "Force container refresh"
+msgstr "Priverstinai atnaujinti"
+
+msgctxt "#32401"
+msgid "No stream available"
+msgstr "Neprieinamas joks srautas"
+
+msgctxt "#32402"
+msgid "Playback outside Covenant is not allowed"
+msgstr "Atkūrimas ne per Covenant neleidžiamas"
+
+msgctxt "#32403"
+msgid "Download"
+msgstr "Atsisiųsti"
+
+msgctxt "#32404"
+msgid "Time elapsed: %s seconds"
+msgstr "Praėjo laiko: %s sekundės"
+
+msgctxt "#32405"
+msgid "%s seconds"
+msgstr "%s sekundžių"
+
+msgctxt "#32406"
+msgid "Remaining providers: %s"
+msgstr "Liko tiekėjų: %s"
+
+msgctxt "#32407"
+msgid "Are you sure?"
+msgstr "Ar esate įsitikinę?"
+
+msgctxt "#32408"
+msgid "Process Complete"
+msgstr "Atlikta"
+
+msgctxt "#32501"
+msgid "Start from beginning"
+msgstr "Pradėti nuo pradžios"
+
+msgctxt "#32502"
+msgid "Resume from %s"
+msgstr "Tęsti nuo %s"
+
+msgctxt "#32503"
+msgid "Resume"
+msgstr "Tęsti"
+
+msgctxt "#32511"
+msgid "An account already exists."
+msgstr "Paskyra jau yra."
+
+msgctxt "#32512"
+msgid "Do you want to reset?"
+msgstr "Ar norite atstatyti?"
+
+msgctxt "#32513"
+msgid "1) Visit : [COLOR skyblue]%s[/COLOR]"
+msgstr "1) Aplankykite : [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32514"
+msgid "2) When prompted enter : [COLOR skyblue]%s[/COLOR]"
+msgstr "2) Paprašyti įveskite: [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32515"
+msgid "Trakt Manager"
+msgstr "Trakt tvarkyklė"
+
+msgctxt "#32516"
+msgid "Add to [B]Collection[/B]"
+msgstr "Pridėti į [B]Filmoteką[/B]"
+
+msgctxt "#32517"
+msgid "Remove from [B]Collection[/B]"
+msgstr "Pašalinti iš [B]Filmotekos[/B]"
+
+msgctxt "#32518"
+msgid "Add to [B]Watchlist[/B]"
+msgstr "Pridėti į [B]žiūrimų sąrašą[/B]"
+
+msgctxt "#32519"
+msgid "Remove from [B]Watchlist[/B]"
+msgstr "Pašalinti iš [B]žiūrimų sąrašo[/B]"
+
+msgctxt "#32520"
+msgid "Add to [B]new List[/B]"
+msgstr "Pridėti į [B]naują sąrašą[/B]"
+
+msgctxt "#32521"
+msgid "Add to [B]%s[/B]"
+msgstr "Pridėti į [B]%s[/B]"
+
+msgctxt "#32522"
+msgid "Remove from [B]%s[/B]"
+msgstr "Pašalinti iš [B]%s[/B]"
+
+msgctxt "#32531"
+msgid "An account already exists."
+msgstr "Paskyra jau yra."
+
+msgctxt "#32532"
+msgid "Do you want to reset?"
+msgstr "Ar norite atstatyti?"
+
+msgctxt "#32533"
+msgid "1) Visit : [COLOR skyblue]%s[/COLOR]"
+msgstr "1) Aplankykite : [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32534"
+msgid "2) When prompted enter : [COLOR skyblue]%s[/COLOR]"
+msgstr "2) Paprašyti įveskite: [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32535"
+msgid "Play Random"
+msgstr "Atkurti atsitiktinai"
+
+msgctxt "#32536"
+msgid "Playing"
+msgstr "Atkuriama"
+
+msgctxt "#32537"
+msgid "Nothing found to play"
+msgstr "Nėra ką atkurti"
+
+msgctxt "#32538"
+msgid "DEBRID-SERVICE"
+msgstr "DEBRID-PASLAUGA"
+
+msgctxt "#32539"
+msgid "Configure Debrid Services in ResolveURL Settings."
+msgstr "Debrid paslaugų nustatymus konfigūruokit ResolveURL nustatymuose."
+
+msgctxt "#32540"
+msgid "ResolveURL Settings"
+msgstr "ResolveURL nustatymai"
+
+msgctxt "#32541"
+msgid "Library"
+msgstr "Biblioteka"
+
+msgctxt "#32542"
+msgid ""
+"Covenant folders will be imported to library if they are added to media "
+"sources."
+msgstr ""
+"Pridėjus Covenant aplankus į media šaltinius jie bus importuoti į "
+"biblioteką. "
+
+msgctxt "#32543"
+msgid "Movies"
+msgstr "Filmai"
+
+msgctxt "#32544"
+msgid "TV"
+msgstr "TV"
+
+msgctxt "#32545"
+msgid "Auto update TV Shows"
+msgstr "Automatiškai atnaujinti tv laidas"
+
+msgctxt "#32546"
+msgid "Show notifications during update"
+msgstr "Atnaujinant rodyti pranešimą"
+
+msgctxt "#32547"
+msgid "Update library after adding content"
+msgstr "Pridėjus turinio atnaujinti biblioteką"
+
+msgctxt "#32548"
+msgid "Avoid creating duplicate content"
+msgstr "Neleisti kurti besidubliuojančio turinio"
+
+msgctxt "#32549"
+msgid "Check movie before adding it"
+msgstr "Prieš pridedant patikrinti filmą"
+
+msgctxt "#32550"
+msgid "Check first episode of season before adding it"
+msgstr "Prieš pridedant patikrinti pirmą sezono epizodą"
+
+msgctxt "#32551"
+msgid "Add to Library"
+msgstr "Pridėti į biblioteką"
+
+msgctxt "#32552"
+msgid "Adding to library..."
+msgstr "Pridedama į biblioteką..."
+
+msgctxt "#32553"
+msgid "Updating TV shows..."
+msgstr "Atnaujinamos tv laidos..."
+
+msgctxt "#32554"
+msgid "Process Complete"
+msgstr "Atlikta"
+
+msgctxt "#32555"
+msgid "Are you sure?"
+msgstr "Ar esate tikri?"
+
+msgctxt "#32556"
+msgid "[B]COVENANT[/B] : Library"
+msgstr "[B]COVENANT[/B] : Biblioteka"
+
+msgctxt "#32557"
+msgid "[B]LIBRARY[/B] : Settings"
+msgstr "[B]LIBRARY[/B] : nustatymai"
+
+msgctxt "#32558"
+msgid "[B]COVENANT[/B] : Update library..."
+msgstr "[B]COVENANT[/B] : Atnaujinti biblioteką..."
+
+msgctxt "#32559"
+msgid "[B]COVENANT[/B] : Movie folder..."
+msgstr "[B]COVENANT[/B] : Filmų aplankas..."
+
+msgctxt "#32560"
+msgid "[B]COVENANT[/B] : TV folder..."
+msgstr "[B]COVENANT[/B] : TV aplankas..."
+
+msgctxt "#32561"
+msgid "[B]TRAKT[/B] : Import Collection..."
+msgstr "[B]TRAKT[/B] : Importuoti kolekciją..."
+
+msgctxt "#32562"
+msgid "[B]TRAKT[/B] : Import Watchlist..."
+msgstr "[B]TRAKT[/B] : Importuoti žiūrimų sąrašą..."
+
+msgctxt "#32563"
+msgid "[B]TRAKT[/B] : Import TV Collection..."
+msgstr "[B]TRAKT[/B] : Importuoti TV kolekciją..."
+
+msgctxt "#32564"
+msgid "[B]TRAKT[/B] : Import TV Watchlist..."
+msgstr "[B]TRAKT[/B] : Importuoti Tv žiūrimų sąrašą..."
+
+msgctxt "#32565"
+msgid "Include episodes with unknown air dates"
+msgstr "Įtraukti serijas su nežinoma premjeros data"
+
+msgctxt "#32570"
+msgid "Show unaired seasons/episodes"
+msgstr "Rodyti dar nerodytas serijas/sezonus"
+
+msgctxt "#32571"
+msgid "Hide movies in cinema"
+msgstr "Slėpti filmus rodomus kine"

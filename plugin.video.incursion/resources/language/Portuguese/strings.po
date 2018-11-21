@@ -1,0 +1,686 @@
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Blackspirits, 2017
+# Filipe Torres, 2016
+# Helder, 2016
+# Igor Ferreira, 2017
+# lambda81, 2016
+# Mafarricos, 2015
+# satanuke gervasio, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Covenant\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-05-30 09:11+0000\n"
+"Last-Translator: Viper2k4\n"
+"Language-Team: Portuguese (http://www.transifex.com/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#32001"
+msgid "Movies"
+msgstr "Filmes"
+
+msgctxt "#32002"
+msgid "TV Shows"
+msgstr "Séries"
+
+msgctxt "#32003"
+msgid "My Movies"
+msgstr "Os Meus Filmes"
+
+msgctxt "#32004"
+msgid "My TV Shows"
+msgstr "As Minhas Séries"
+
+msgctxt "#32005"
+msgid "New Movies"
+msgstr "Filmes Novos"
+
+msgctxt "#32006"
+msgid "New Episodes"
+msgstr "Episódios Novos"
+
+msgctxt "#32007"
+msgid "Channels"
+msgstr "Canais"
+
+msgctxt "#32008"
+msgid "Tools"
+msgstr "Ferramentas"
+
+msgctxt "#32009"
+msgid "Downloads"
+msgstr "Transferências"
+
+msgctxt "#32010"
+msgid "Search"
+msgstr "Pesquisar"
+
+msgctxt "#32011"
+msgid "Genres"
+msgstr "Géneros"
+
+msgctxt "#32012"
+msgid "Year"
+msgstr "Ano"
+
+msgctxt "#32013"
+msgid "People"
+msgstr "Pessoas"
+
+msgctxt "#32014"
+msgid "Languages"
+msgstr "Idiomas"
+
+msgctxt "#32015"
+msgid "Certificates"
+msgstr "Certificados"
+
+msgctxt "#32016"
+msgid "Networks"
+msgstr "Redes"
+
+msgctxt "#32017"
+msgid "People Watching"
+msgstr "A ser Visto"
+
+msgctxt "#32018"
+msgid "Most Popular"
+msgstr "Mais Populares"
+
+msgctxt "#32019"
+msgid "Most Voted"
+msgstr "Mais Votados"
+
+msgctxt "#32020"
+msgid "Box Office"
+msgstr "Sucessos de Bilheteira"
+
+msgctxt "#32021"
+msgid "Oscar Winners"
+msgstr "Vencedores de Óscares"
+
+msgctxt "#32022"
+msgid "In Theaters"
+msgstr "Nos Cinemas"
+
+msgctxt "#32023"
+msgid "Highly Rated"
+msgstr "Bem Classificados"
+
+msgctxt "#32024"
+msgid "Airing today"
+msgstr "Estreia hoje"
+
+msgctxt "#32025"
+msgid "Returning TV Shows"
+msgstr "Séries Renovadas"
+
+msgctxt "#32026"
+msgid "New TV Shows"
+msgstr "Novas Séries"
+
+msgctxt "#32027"
+msgid "TV Calendar"
+msgstr "Calendário de Séries"
+
+msgctxt "#32028"
+msgid "People Search"
+msgstr "Pesquisar Atores"
+
+msgctxt "#32029"
+msgid "People (Movies)"
+msgstr "Atores (Filmes)"
+
+msgctxt "#32030"
+msgid "People (TV)"
+msgstr "Atores (Séries)"
+
+msgctxt "#32031"
+msgid "Discover"
+msgstr "Descobrir"
+
+msgctxt "#32032"
+msgid "Collection"
+msgstr "Coleção"
+
+msgctxt "#32033"
+msgid "Watchlist"
+msgstr "Desejo Ver"
+
+msgctxt "#32034"
+msgid "IMDb"
+msgstr "IMDb"
+
+msgctxt "#32035"
+msgid "Featured"
+msgstr "Em Destaque"
+
+msgctxt "#32036"
+msgid "History"
+msgstr "Histórico"
+
+msgctxt "#32037"
+msgid "Progress"
+msgstr "Progresso"
+
+msgctxt "#32038"
+msgid "Episodes"
+msgstr "Episódios"
+
+msgctxt "#32039"
+msgid "Movie Lists"
+msgstr "Listas de Filmes"
+
+msgctxt "#32040"
+msgid "TV Show Lists"
+msgstr "Listas de Séries"
+
+msgctxt "#32041"
+msgid "Episode Lists"
+msgstr "Lista de Episódios"
+
+msgctxt "#32042"
+msgid "No Trakt or IMDb account found."
+msgstr "Conta Trakt ou IMDb não encontrada."
+
+msgctxt "#32043"
+msgid "[B]SETTINGS[/B] : General"
+msgstr "[B]CONFIGURAÇÕES[/B] : Geral"
+
+msgctxt "#32044"
+msgid "[B]SETTINGS[/B] : Accounts"
+msgstr "[B]CONFIGURAÇÕES[/B] : Contas"
+
+msgctxt "#32045"
+msgid "[B]SETTINGS[/B] : Playback"
+msgstr "[B]CONFIGURAÇÕES[/B] : Reprodução"
+
+msgctxt "#32046"
+msgid "[B]SETTINGS[/B] : Subtitles"
+msgstr "[B]CONFIGURAÇÕES[/B] : Legendas"
+
+msgctxt "#32047"
+msgid "[B]SETTINGS[/B] : Providers"
+msgstr "[B]CONFIGURAÇOES[/B] : Fontes"
+
+msgctxt "#32048"
+msgid "[B]COVENANT[/B] : Downloads"
+msgstr "[B]COVENANT[/B]: Transferências"
+
+msgctxt "#32049"
+msgid "[B]COVENANT[/B] : Viewtypes"
+msgstr "[B]COVENANT[/B]: Vistas"
+
+msgctxt "#32050"
+msgid "[B]COVENANT[/B] : Clear providers..."
+msgstr "[B]COVENANT[/B]: Limpar Fontes..."
+
+msgctxt "#32051"
+msgid "[B]COVENANT[/B] : Clear metadata..."
+msgstr "[B]COVENANT[/B]: Limpar metadados..."
+
+msgctxt "#32052"
+msgid "[B]COVENANT[/B] : Clear cache..."
+msgstr "[B]COVENANT[/B]: Limpar cache..."
+
+msgctxt "#32053"
+msgid "[I]Next Page[/I]"
+msgstr "[I]Próxima Página[/I]"
+
+msgctxt "#32054"
+msgid "Seasons"
+msgstr "Temporadas"
+
+msgctxt "#32055"
+msgid "Season"
+msgstr "Temporada"
+
+msgctxt "#32056"
+msgid "Are you sure?"
+msgstr "Tem a certeza?"
+
+msgctxt "#32057"
+msgid "Process Complete"
+msgstr "Processo Terminado"
+
+msgctxt "#32058"
+msgid "This will slow down things until they are re-cached!"
+msgstr "Notará alguma lentidão até que todos os urls sejam re-colocados em cache!"
+
+msgctxt "#32059"
+msgid "CLICK HERE TO SAVE VIEW"
+msgstr "CLIQUE AQUI PARA GUARDAR A VISTA"
+
+msgctxt "#32060"
+msgid ""
+"January|February|March|April|May|June|July|August|September|October|November|December"
+msgstr "Janeiro|Fevereiro|Março|Abril|Maio|Junho|Julho|Agosto|Setembro|Outubro|Novembro|Dezembro"
+
+msgctxt "#32061"
+msgid "Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday"
+msgstr "Segunda|Terça|Quarta|Quinta|Sexta|Sábado|Domingo"
+
+msgctxt "#32062"
+msgid "[B]%s[/B] : %s"
+msgstr "[B]%s[/B] : %s"
+
+msgctxt "#32063"
+msgid "Play using..."
+msgstr "Reproduzir com..."
+
+msgctxt "#32064"
+msgid "Auto Play"
+msgstr "Reproduzir automaticamente"
+
+msgctxt "#32065"
+msgid "Queue item"
+msgstr "Item em fila de espera"
+
+msgctxt "#32066"
+msgid "Watched in Covenant"
+msgstr "Visto no Covenant"
+
+msgctxt "#32067"
+msgid "Unwatched in Covenant"
+msgstr "Não Visto no Covenant"
+
+msgctxt "#32068"
+msgid "Watched in Trakt"
+msgstr "Visto no Trakt"
+
+msgctxt "#32069"
+msgid "Unwatched in Trakt"
+msgstr "Não Visto no Trakt"
+
+msgctxt "#32070"
+msgid "Trakt Manager"
+msgstr "Gerir Trakt"
+
+msgctxt "#32071"
+msgid "Browse Series"
+msgstr "Procurar séries"
+
+msgctxt "#32072"
+msgid "Refresh"
+msgstr "Atualizar"
+
+msgctxt "#32073"
+msgid "[B]TRAKT[/B] : Authorize"
+msgstr "[B]TRAKT[/B]: Autorização"
+
+msgctxt "#32074"
+msgid "[B]HELP[/B]"
+msgstr "[B]AJUDA[/B]"
+
+msgctxt "#32301"
+msgid "Enabled"
+msgstr "Ativado"
+
+msgctxt "#32302"
+msgid "Disabled"
+msgstr "Desativado"
+
+msgctxt "#32303"
+msgid "User"
+msgstr "Utilizador"
+
+msgctxt "#32304"
+msgid "Email"
+msgstr "E-mail"
+
+msgctxt "#32305"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "#32306"
+msgid "Authorization..."
+msgstr "Autorização..."
+
+msgctxt "#32307"
+msgid "Password"
+msgstr "Palavra-passe"
+
+msgctxt "#32308"
+msgid "PIN"
+msgstr "PIN"
+
+msgctxt "#32309"
+msgid "API"
+msgstr "API"
+
+msgctxt "#32310"
+msgid "General"
+msgstr "Geral"
+
+msgctxt "#32311"
+msgid "Appearance"
+msgstr "Aspecto"
+
+msgctxt "#32312"
+msgid "Providers Timeout"
+msgstr "Tempo dos serviços expirou"
+
+msgctxt "#32313"
+msgid "Indicators"
+msgstr "Indicadores"
+
+msgctxt "#32314"
+msgid "Local"
+msgstr "Local"
+
+msgctxt "#32315"
+msgid "Trakt"
+msgstr "Trakt"
+
+msgctxt "#32316"
+msgid "Info Language"
+msgstr "Informação do Idioma"
+
+msgctxt "#32317"
+msgid "Flatten TV seasons"
+msgstr "Agrupar temporadas de Séries"
+
+msgctxt "#32318"
+msgid "Enable Fanart"
+msgstr "Ativar Fanart"
+
+msgctxt "#32319"
+msgid "Menu"
+msgstr "Menu Principal"
+
+msgctxt "#32320"
+msgid "New Movies"
+msgstr "Filmes Recentes"
+
+msgctxt "#32321"
+msgid "Featured"
+msgstr "Em Destaque"
+
+msgctxt "#32322"
+msgid "People Watching"
+msgstr "A ser Visto"
+
+msgctxt "#32323"
+msgid "Most Popular"
+msgstr "Mais Populares"
+
+msgctxt "#32324"
+msgid "In Theaters"
+msgstr "Nos Cinemas"
+
+msgctxt "#32325"
+msgid "New Episodes"
+msgstr "Episódios Novos"
+
+msgctxt "#32326"
+msgid "Episodes"
+msgstr "Episódios"
+
+msgctxt "#32327"
+msgid "Trakt Progress"
+msgstr "Progresso do Trakt"
+
+msgctxt "#32328"
+msgid "Trakt Episodes"
+msgstr "Episódios do Trakt"
+
+msgctxt "#32329"
+msgid "My Lists"
+msgstr "As Minhas Listas"
+
+msgctxt "#32330"
+msgid "Playback"
+msgstr "Reprodução"
+
+msgctxt "#32331"
+msgid "Default action"
+msgstr "Ação por defeito"
+
+msgctxt "#32332"
+msgid "Dialog"
+msgstr "Diálogo"
+
+msgctxt "#32333"
+msgid "Directory"
+msgstr "Pasta"
+
+msgctxt "#32334"
+msgid "Auto Play"
+msgstr "Reproduzir automaticamente"
+
+msgctxt "#32335"
+msgid "Progress Dialog"
+msgstr "Progresso"
+
+msgctxt "#32336"
+msgid "Foreground"
+msgstr "Primeiro-plano"
+
+msgctxt "#32337"
+msgid "Background"
+msgstr "Segundo-plano"
+
+msgctxt "#32338"
+msgid "File Hosting Filters"
+msgstr "Filtros de Fontes de Ficheiros"
+
+msgctxt "#32339"
+msgid "Max Quality"
+msgstr "Qualidade Máxima"
+
+msgctxt "#32340"
+msgid "SD Hosters in Auto Play"
+msgstr "Fontes SD em reprodução automática"
+
+msgctxt "#32341"
+msgid "Hosters with captchas"
+msgstr "Fontes com captchas"
+
+msgctxt "#32342"
+msgid "Sort by Provider"
+msgstr "Organizar por Fonte"
+
+msgctxt "#32343"
+msgid "When playback starts..."
+msgstr "Quando a reprodução começar..."
+
+msgctxt "#32344"
+msgid "Resume Playback"
+msgstr "Resumir Reprodução"
+
+msgctxt "#32345"
+msgid "Providers"
+msgstr "Fontes"
+
+msgctxt "#32346"
+msgid "Accounts"
+msgstr "Contas"
+
+msgctxt "#32347"
+msgid "Downloads"
+msgstr "Transferências"
+
+msgctxt "#32348"
+msgid "Enable downloads"
+msgstr "Ativar Transferências"
+
+msgctxt "#32349"
+msgid "Movies"
+msgstr "Filmes"
+
+msgctxt "#32350"
+msgid "TV"
+msgstr "Séries"
+
+msgctxt "#32351"
+msgid "Downloading features are disabled by default."
+msgstr "As opções de transferência estão desativas por defeito."
+
+msgctxt "#32352"
+msgid "Set up your download folders in order to enable them."
+msgstr "Defina a pasta de transferência para os ativar."
+
+msgctxt "#32353"
+msgid "Subtitles"
+msgstr "Legendas"
+
+msgctxt "#32354"
+msgid "Enable subtitles"
+msgstr "Ativar Legendas"
+
+msgctxt "#32355"
+msgid "Convert subtitles to UTF-8"
+msgstr "Converter legendas para UTF-8"
+
+msgctxt "#32356"
+msgid "Primary Language"
+msgstr "Idioma Principal"
+
+msgctxt "#32357"
+msgid "Secondary Language"
+msgstr "Idioma Secundário"
+
+msgctxt "#32358"
+msgid "Subtitles could be unavailable or out of sync."
+msgstr "As legendas poderão não estar disponíveis ou sincronizadas."
+
+msgctxt "#32359"
+msgid "In that case use your own subtitles."
+msgstr "Nesse caso utilize as suas próprias legendas."
+
+msgctxt "#32360"
+msgid "Providers Language"
+msgstr "Fontes de Idioma"
+
+msgctxt "#32401"
+msgid "No stream available"
+msgstr "Sem fonte disponível"
+
+msgctxt "#32402"
+msgid "Playback outside Covenant is not allowed"
+msgstr "Reproduzir fora do Covenant não é permitido"
+
+msgctxt "#32403"
+msgid "Download"
+msgstr "Transferência"
+
+msgctxt "#32404"
+msgid "Time elapsed: %s seconds"
+msgstr "Tempo Decorrido: %s segundos"
+
+msgctxt "#32405"
+msgid "%s seconds"
+msgstr "%s segundos"
+
+msgctxt "#32406"
+msgid "Remaining providers: %s"
+msgstr "Fontes Restantes: %s"
+
+msgctxt "#32407"
+msgid "Are you sure?"
+msgstr "Tem a certeza?"
+
+msgctxt "#32408"
+msgid "Process Complete"
+msgstr "Processo Terminado"
+
+msgctxt "#32501"
+msgid "Start from beginning"
+msgstr "Reproduzir do início"
+
+msgctxt "#32502"
+msgid "Resume from %s"
+msgstr "Continuar de %s"
+
+msgctxt "#32503"
+msgid "Resume"
+msgstr "Continuar"
+
+msgctxt "#32511"
+msgid "An account already exists."
+msgstr "A conta já existe."
+
+msgctxt "#32512"
+msgid "Do you want to reset?"
+msgstr "Deseja reinicializar?"
+
+msgctxt "#32513"
+msgid "1) Visit : [COLOR skyblue]%s[/COLOR]"
+msgstr "1) Visite : [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32514"
+msgid "2) When prompted enter : [COLOR skyblue]%s[/COLOR]"
+msgstr "2) Quando solicitado, introduza : [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32515"
+msgid "Trakt Manager"
+msgstr "Gerir Trakt"
+
+msgctxt "#32516"
+msgid "Add to [B]Collection[/B]"
+msgstr "Adicionar à [B]Coleção[/B]"
+
+msgctxt "#32517"
+msgid "Remove from [B]Collection[/B]"
+msgstr "Remover da [B]Coleção[/B]"
+
+msgctxt "#32518"
+msgid "Add to [B]Watchlist[/B]"
+msgstr "Adicionar à [B]Desejo Ver[/B]"
+
+msgctxt "#32519"
+msgid "Remove from [B]Watchlist[/B]"
+msgstr "Remover da [B]Desejo Ver[/B]"
+
+msgctxt "#32520"
+msgid "Add to [B]new List[/B]"
+msgstr "Adicionar a [B]Nova Lista[/B]"
+
+msgctxt "#32521"
+msgid "Add to [B]%s[/B]"
+msgstr "Adicionar a [B]%s[/B]"
+
+msgctxt "#32522"
+msgid "Remove from [B]%s[/B]"
+msgstr "Remover de [B]%s[/B]"
+
+msgctxt "#32531"
+msgid "An account already exists."
+msgstr "A conta já existe."
+
+msgctxt "#32532"
+msgid "Do you want to reset?"
+msgstr "Deseja reinicializar?"
+
+msgctxt "#32533"
+msgid "1) Visit : [COLOR skyblue]%s[/COLOR]"
+msgstr "1) Visite : [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32534"
+msgid "2) When prompted enter : [COLOR skyblue]%s[/COLOR]"
+msgstr "2) Quando solicitado, introduza : [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32535"
+msgid "Play Random"
+msgstr "Reproduzir ao acaso"
+

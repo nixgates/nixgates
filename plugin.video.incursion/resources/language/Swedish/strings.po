@@ -1,0 +1,803 @@
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Jonatan Nyberg, 2017
+# Simon Eriksson, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Covenant\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-06-06 06:03+0000\n"
+"Last-Translator: Jonatan Nyberg\n"
+"Language-Team: Swedish (http://www.transifex.com/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#32001"
+msgid "Movies"
+msgstr "Filmer"
+
+msgctxt "#32002"
+msgid "TV Shows"
+msgstr "TV-serier"
+
+msgctxt "#32003"
+msgid "My Movies"
+msgstr "Mina filmer"
+
+msgctxt "#32004"
+msgid "My TV Shows"
+msgstr "Mina TV-serier"
+
+msgctxt "#32005"
+msgid "New Movies"
+msgstr "Nya filmer"
+
+msgctxt "#32006"
+msgid "New Episodes"
+msgstr "Nya avsnitt"
+
+msgctxt "#32007"
+msgid "Channels"
+msgstr "Kanaler"
+
+msgctxt "#32008"
+msgid "Tools"
+msgstr "Verktyg"
+
+msgctxt "#32009"
+msgid "Downloads"
+msgstr "Hämtningar"
+
+msgctxt "#32010"
+msgid "Search"
+msgstr "Sök"
+
+msgctxt "#32011"
+msgid "Genres"
+msgstr "Genre"
+
+msgctxt "#32012"
+msgid "Year"
+msgstr "Årtal"
+
+msgctxt "#32013"
+msgid "People"
+msgstr "Skådespelare"
+
+msgctxt "#32014"
+msgid "Languages"
+msgstr "Språk"
+
+msgctxt "#32015"
+msgid "Certificates"
+msgstr "Certifikat"
+
+msgctxt "#32016"
+msgid "Networks"
+msgstr "Nätverk"
+
+msgctxt "#32017"
+msgid "People Watching"
+msgstr "Vad folk tittar på just nu"
+
+msgctxt "#32018"
+msgid "Most Popular"
+msgstr "Populärt"
+
+msgctxt "#32019"
+msgid "Most Voted"
+msgstr "Flest röster"
+
+msgctxt "#32020"
+msgid "Box Office"
+msgstr "Storsäljare"
+
+msgctxt "#32021"
+msgid "Oscar Winners"
+msgstr "Oscarsvinnare"
+
+msgctxt "#32022"
+msgid "In Theaters"
+msgstr "På bio"
+
+msgctxt "#32023"
+msgid "Highly Rated"
+msgstr "Högst framröstad"
+
+msgctxt "#32024"
+msgid "Airing today"
+msgstr "Sänds idag"
+
+msgctxt "#32025"
+msgid "Returning TV Shows"
+msgstr "Återkommande TV-serier"
+
+msgctxt "#32026"
+msgid "New TV Shows"
+msgstr "Nya TV-serier"
+
+msgctxt "#32027"
+msgid "TV Calendar"
+msgstr "TV-tablå"
+
+msgctxt "#32028"
+msgid "People Search"
+msgstr "Sök bland skådespelare"
+
+msgctxt "#32029"
+msgid "People (Movies)"
+msgstr "Skådespelare (Filmer)"
+
+msgctxt "#32030"
+msgid "People (TV)"
+msgstr "Skådespelare (TV)"
+
+msgctxt "#32031"
+msgid "Discover"
+msgstr "Upptäck"
+
+msgctxt "#32032"
+msgid "Collection"
+msgstr "Samling"
+
+msgctxt "#32033"
+msgid "Watchlist"
+msgstr "Titta senare"
+
+msgctxt "#32034"
+msgid "IMDb"
+msgstr "IMDb"
+
+msgctxt "#32035"
+msgid "Featured"
+msgstr "Utvalda"
+
+msgctxt "#32036"
+msgid "History"
+msgstr "Historik"
+
+msgctxt "#32037"
+msgid "Progress"
+msgstr "Framsteg"
+
+msgctxt "#32038"
+msgid "Episodes"
+msgstr "Avsnitt"
+
+msgctxt "#32039"
+msgid "Movie Lists"
+msgstr "Lista över filmer"
+
+msgctxt "#32040"
+msgid "TV Show Lists"
+msgstr "Lista över TV-serier"
+
+msgctxt "#32041"
+msgid "Episode Lists"
+msgstr "Lista över avsnitt"
+
+msgctxt "#32042"
+msgid "No Trakt or IMDb account found."
+msgstr "Hittade inget Trakt- eller IMDb-konto."
+
+msgctxt "#32043"
+msgid "[B]SETTINGS[/B] : General"
+msgstr "[B]INSTÄLLNINGAR[/B] : Allmänt"
+
+msgctxt "#32044"
+msgid "[B]SETTINGS[/B] : Accounts"
+msgstr "[B]INSTÄLLNINGAR[/B] : Konton"
+
+msgctxt "#32045"
+msgid "[B]SETTINGS[/B] : Playback"
+msgstr "[B]INSTÄLLNINGAR[/B] : Uppspelning"
+
+msgctxt "#32046"
+msgid "[B]SETTINGS[/B] : Subtitles"
+msgstr "[B]INSTÄLLNINGAR[/B] : Undertexter"
+
+msgctxt "#32047"
+msgid "[B]SETTINGS[/B] : Providers"
+msgstr "[B]INSTÄLLNINGAR[/B] : Källor"
+
+msgctxt "#32048"
+msgid "[B]COVENANT[/B] : Downloads"
+msgstr "[B]COVENANT[/B] : Hämtningar"
+
+msgctxt "#32049"
+msgid "[B]COVENANT[/B] : Viewtypes"
+msgstr "[B]COVENANT[/B] : Visningstyp"
+
+msgctxt "#32050"
+msgid "[B]COVENANT[/B] : Clear providers..."
+msgstr "[B]COVENANT[/B] : Rensa källor..."
+
+msgctxt "#32051"
+msgid "[B]COVENANT[/B] : Clear metadata..."
+msgstr "[B]COVENANT[/B] : Rensa metadata..."
+
+msgctxt "#32052"
+msgid "[B]COVENANT[/B] : Clear cache..."
+msgstr "[B]COVENANT[/B] : Rensa cache..."
+
+msgctxt "#32053"
+msgid "[I]Next Page[/I]"
+msgstr "[I]Nästa sida[/I]"
+
+msgctxt "#32054"
+msgid "Seasons"
+msgstr "Säsonger"
+
+msgctxt "#32055"
+msgid "Season"
+msgstr "Säsong"
+
+msgctxt "#32056"
+msgid "Are you sure?"
+msgstr "Är du säker?"
+
+msgctxt "#32057"
+msgid "Process Complete"
+msgstr "Process färdig"
+
+msgctxt "#32058"
+msgid "This will slow down things until they are re-cached!"
+msgstr "Detta kommer sakta ner saker och ting tills dem åter är i cacheminnet!"
+
+msgctxt "#32059"
+msgid "CLICK HERE TO SAVE VIEW"
+msgstr "KLICKA HÄR FÖR ATT SPARA VY"
+
+msgctxt "#32060"
+msgid ""
+"January|February|March|April|May|June|July|August|September|October|November|December"
+msgstr "Januari|Februari|Mars|April|Maj|Juni|Juli|Augusti|September|Oktober|November|December"
+
+msgctxt "#32061"
+msgid "Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday"
+msgstr "Måndag|Tisdag|Onsdag|Torsdag|Fredag|Lördag|Söndag"
+
+msgctxt "#32062"
+msgid "[B]%s[/B] : %s"
+msgstr "[B]%s[/B] : %s"
+
+msgctxt "#32063"
+msgid "Play using..."
+msgstr "Spela med..."
+
+msgctxt "#32064"
+msgid "Auto Play"
+msgstr "Automatisk uppspelning"
+
+msgctxt "#32065"
+msgid "Queue item"
+msgstr "Lägg till i kö"
+
+msgctxt "#32066"
+msgid "Watched in Covenant"
+msgstr "Sedda i Covenant"
+
+msgctxt "#32067"
+msgid "Unwatched in Covenant"
+msgstr "Osedda i Covenant"
+
+msgctxt "#32068"
+msgid "Watched in Trakt"
+msgstr "Sedda i Trakt"
+
+msgctxt "#32069"
+msgid "Unwatched in Trakt"
+msgstr "Osedda i Trakt"
+
+msgctxt "#32070"
+msgid "Trakt Manager"
+msgstr "Hantera Trakt"
+
+msgctxt "#32071"
+msgid "Browse Series"
+msgstr "Bläddra bland serier"
+
+msgctxt "#32072"
+msgid "Refresh"
+msgstr "Hämta igen"
+
+msgctxt "#32073"
+msgid "[B]TRAKT[/B] : Authorize"
+msgstr "[B]TRAKT[/B]: Auktorisation"
+
+msgctxt "#32074"
+msgid "[B]HELP[/B]"
+msgstr "[B]HJÄLP[/B]"
+
+msgctxt "#32301"
+msgid "Enabled"
+msgstr "Aktiverad"
+
+msgctxt "#32302"
+msgid "Disabled"
+msgstr "Inaktiverad"
+
+msgctxt "#32303"
+msgid "User"
+msgstr "Användare"
+
+msgctxt "#32304"
+msgid "Email"
+msgstr "E-post"
+
+msgctxt "#32305"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "#32306"
+msgid "Authorization..."
+msgstr "Auktorisation..."
+
+msgctxt "#32307"
+msgid "Password"
+msgstr "Lösenord"
+
+msgctxt "#32308"
+msgid "PIN"
+msgstr "PIN"
+
+msgctxt "#32309"
+msgid "API"
+msgstr "API"
+
+msgctxt "#32310"
+msgid "General"
+msgstr "Allmänt"
+
+msgctxt "#32311"
+msgid "Appearance"
+msgstr "Utseende"
+
+msgctxt "#32312"
+msgid "Providers Timeout"
+msgstr "Tidsgräns nådd hos källa"
+
+msgctxt "#32313"
+msgid "Indicators"
+msgstr "Indikatorer"
+
+msgctxt "#32314"
+msgid "Local"
+msgstr "Lokalt"
+
+msgctxt "#32315"
+msgid "Trakt"
+msgstr "Trakt"
+
+msgctxt "#32316"
+msgid "Info Language"
+msgstr "Info språk"
+
+msgctxt "#32317"
+msgid "Flatten TV seasons"
+msgstr "Platta ut TV-säsonger"
+
+msgctxt "#32318"
+msgid "Enable Fanart"
+msgstr "Aktivera Fanart"
+
+msgctxt "#32319"
+msgid "Menu"
+msgstr "Meny"
+
+msgctxt "#32320"
+msgid "New Movies"
+msgstr "Nya filmer"
+
+msgctxt "#32321"
+msgid "Featured"
+msgstr "Utvalda"
+
+msgctxt "#32322"
+msgid "People Watching"
+msgstr "Vad folk tittar på just nu"
+
+msgctxt "#32323"
+msgid "Most Popular"
+msgstr "Populärt"
+
+msgctxt "#32324"
+msgid "In Theaters"
+msgstr "På bio"
+
+msgctxt "#32325"
+msgid "New Episodes"
+msgstr "Nya avsnitt"
+
+msgctxt "#32326"
+msgid "Episodes"
+msgstr "Avsnitt"
+
+msgctxt "#32327"
+msgid "Trakt Progress"
+msgstr "Trakt framsteg"
+
+msgctxt "#32328"
+msgid "Trakt Episodes"
+msgstr "Trakt avsnitt"
+
+msgctxt "#32329"
+msgid "My Lists"
+msgstr "Mina listor"
+
+msgctxt "#32330"
+msgid "Playback"
+msgstr "Uppspelning"
+
+msgctxt "#32331"
+msgid "Default action"
+msgstr "Standardåtgärd"
+
+msgctxt "#32332"
+msgid "Dialog"
+msgstr "Dialog"
+
+msgctxt "#32333"
+msgid "Directory"
+msgstr "Katalog"
+
+msgctxt "#32334"
+msgid "Auto Play"
+msgstr "Automatisk uppspelning"
+
+msgctxt "#32335"
+msgid "Progress Dialog"
+msgstr "Förloppsdialog"
+
+msgctxt "#32336"
+msgid "Foreground"
+msgstr "Förgrund"
+
+msgctxt "#32337"
+msgid "Background"
+msgstr "Bakgrund"
+
+msgctxt "#32338"
+msgid "File Hosting Filters"
+msgstr "Filter för filvärd"
+
+msgctxt "#32339"
+msgid "Max Quality"
+msgstr "Högsta kvalitet"
+
+msgctxt "#32340"
+msgid "SD Hosters in Auto Play"
+msgstr "SD-värdar i automatisk uppspelning"
+
+msgctxt "#32341"
+msgid "Hosters with captchas"
+msgstr "Värdar med robotfilter/captcha"
+
+msgctxt "#32342"
+msgid "Sort by Provider"
+msgstr "Sortera efter källa"
+
+msgctxt "#32343"
+msgid "When playback starts..."
+msgstr "När uppspelningen startar..."
+
+msgctxt "#32344"
+msgid "Resume Playback"
+msgstr "Återuppta uppspelning"
+
+msgctxt "#32345"
+msgid "Providers"
+msgstr "Källor"
+
+msgctxt "#32346"
+msgid "Accounts"
+msgstr "Konton"
+
+msgctxt "#32347"
+msgid "Downloads"
+msgstr "Hämtningar"
+
+msgctxt "#32348"
+msgid "Enable downloads"
+msgstr "Aktivera hämtningar"
+
+msgctxt "#32349"
+msgid "Movies"
+msgstr "Filmer"
+
+msgctxt "#32350"
+msgid "TV"
+msgstr "TV"
+
+msgctxt "#32351"
+msgid "Downloading features are disabled by default."
+msgstr "Hämtningsfunktioner är inaktiverade i grundutförande."
+
+msgctxt "#32352"
+msgid "Set up your download folders in order to enable them."
+msgstr "Konfigurera dina hämtningsmappar för att kunna aktivera dem."
+
+msgctxt "#32353"
+msgid "Subtitles"
+msgstr "Undertexter"
+
+msgctxt "#32354"
+msgid "Enable subtitles"
+msgstr "Aktivera undertexter"
+
+msgctxt "#32355"
+msgid "Convert subtitles to UTF-8"
+msgstr "Konvertera undertexter till UTF-8"
+
+msgctxt "#32356"
+msgid "Primary Language"
+msgstr "Primärt språk"
+
+msgctxt "#32357"
+msgid "Secondary Language"
+msgstr "Sekundärt språk"
+
+msgctxt "#32358"
+msgid "Subtitles could be unavailable or out of sync."
+msgstr "Undertexter är inte tillgängliga eller osynkade."
+
+msgctxt "#32359"
+msgid "In that case use your own subtitles."
+msgstr "Om detta är fallet använd din egna undertexter."
+
+msgctxt "#32360"
+msgid "Providers Language"
+msgstr "Leverantörer språk"
+
+msgctxt "#32401"
+msgid "No stream available"
+msgstr "Ingen stream tillgänglig"
+
+msgctxt "#32402"
+msgid "Playback outside Covenant is not allowed"
+msgstr "Uppspelning utanför Covenant är inte tillåtet"
+
+msgctxt "#32403"
+msgid "Download"
+msgstr "Hämta"
+
+msgctxt "#32404"
+msgid "Time elapsed: %s seconds"
+msgstr "Förfluten tid: %s sekunder"
+
+msgctxt "#32405"
+msgid "%s seconds"
+msgstr "%s sekunder"
+
+msgctxt "#32406"
+msgid "Remaining providers: %s"
+msgstr "Återstående källor: %s"
+
+msgctxt "#32407"
+msgid "Are you sure?"
+msgstr "Är du säker?"
+
+msgctxt "#32408"
+msgid "Process Complete"
+msgstr "Process färdig"
+
+msgctxt "#32501"
+msgid "Start from beginning"
+msgstr "Börja om från början"
+
+msgctxt "#32502"
+msgid "Resume from %s"
+msgstr "Återuppta från %s"
+
+msgctxt "#32503"
+msgid "Resume"
+msgstr "Återuppta"
+
+msgctxt "#32511"
+msgid "An account already exists."
+msgstr "Det finns redan ett konto."
+
+msgctxt "#32512"
+msgid "Do you want to reset?"
+msgstr "Vill du återställa?"
+
+msgctxt "#32513"
+msgid "1) Visit : [COLOR skyblue]%s[/COLOR]"
+msgstr "1) Besök : [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32514"
+msgid "2) When prompted enter : [COLOR skyblue]%s[/COLOR]"
+msgstr "2) När du uppmanas ange : [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32515"
+msgid "Trakt Manager"
+msgstr "Hantera Trakt"
+
+msgctxt "#32516"
+msgid "Add to [B]Collection[/B]"
+msgstr "Lägg till i [B]samling[/B]"
+
+msgctxt "#32517"
+msgid "Remove from [B]Collection[/B]"
+msgstr "Ta bort från [B]samling[/B]"
+
+msgctxt "#32518"
+msgid "Add to [B]Watchlist[/B]"
+msgstr "Lägg till i [B]titta senare[/B]"
+
+msgctxt "#32519"
+msgid "Remove from [B]Watchlist[/B]"
+msgstr "Ta bort från [B]titta senare[/B]"
+
+msgctxt "#32520"
+msgid "Add to [B]new List[/B]"
+msgstr "Lägg till i [B]ny lista[/B]"
+
+msgctxt "#32521"
+msgid "Add to [B]%s[/B]"
+msgstr "Lägg till i [B]%s[/B]"
+
+msgctxt "#32522"
+msgid "Remove from [B]%s[/B]"
+msgstr "Ta bort från [B]%s[/B]"
+
+msgctxt "#32531"
+msgid "An account already exists."
+msgstr "Det finns redan ett konto."
+
+msgctxt "#32532"
+msgid "Do you want to reset?"
+msgstr "Vill du återställa?"
+
+msgctxt "#32533"
+msgid "1) Visit : [COLOR skyblue]%s[/COLOR]"
+msgstr "1) Besök : [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32534"
+msgid "2) When prompted enter : [COLOR skyblue]%s[/COLOR]"
+msgstr "2) När du uppmanas ange : [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32535"
+msgid "Play Random"
+msgstr "Spela slumpmässigt"
+
+msgctxt "#32536"
+msgid "Playing"
+msgstr "Spelar"
+
+msgctxt "#32537"
+msgid "Nothing found to play"
+msgstr "Hittade ingenting att spela"
+
+msgctxt "#32538"
+msgid "DEBRID-SERVICE"
+msgstr "DEBRID-TJÄNST"
+
+msgctxt "#32539"
+msgid "Configure Debrid Services in ResolveURL Settings."
+msgstr "Konfigurera Debridtjänster i ResolveURL inställningar."
+
+msgctxt "#32540"
+msgid "ResolveURL Settings"
+msgstr "ResolveURL inställningar"
+
+msgctxt "#32541"
+msgid "Library"
+msgstr "Bibliotek"
+
+msgctxt "#32542"
+msgid ""
+"Covenant folders will be imported to library if they are added to media "
+"sources."
+msgstr "Covenant-mappar importeras till biblioteket om de läggs till i mediekällor."
+
+msgctxt "#32543"
+msgid "Movies"
+msgstr "Filmer"
+
+msgctxt "#32544"
+msgid "TV"
+msgstr "TV"
+
+msgctxt "#32545"
+msgid "Auto update TV Shows"
+msgstr "Uppdatera automatiskt TV-serier"
+
+msgctxt "#32546"
+msgid "Show notifications during update"
+msgstr "Visa aviseringar under uppdateringen"
+
+msgctxt "#32547"
+msgid "Update library after adding content"
+msgstr "Uppdatera biblioteket efter att ha lagt till innehåll"
+
+msgctxt "#32548"
+msgid "Avoid creating duplicate content"
+msgstr "Undvik att skapa dubbletter"
+
+msgctxt "#32549"
+msgid "Check movie before adding it"
+msgstr "Kontrollera filmen innan du lägger till den"
+
+msgctxt "#32550"
+msgid "Check first episode of season before adding it"
+msgstr "Kontrollera första episoden av säsong innan du lägger till den"
+
+msgctxt "#32551"
+msgid "Add to Library"
+msgstr "Lägg till bibliotek"
+
+msgctxt "#32552"
+msgid "Adding to library..."
+msgstr "Lägger till bibliotek..."
+
+msgctxt "#32553"
+msgid "Updating TV shows..."
+msgstr "Uppdaterar TV-serier..."
+
+msgctxt "#32554"
+msgid "Process Complete"
+msgstr "Process färdig"
+
+msgctxt "#32555"
+msgid "Are you sure?"
+msgstr "Är du säker?"
+
+msgctxt "#32556"
+msgid "[B]COVENANT[/B] : Library"
+msgstr "[B]COVENANT[/B] : Bibliotek"
+
+msgctxt "#32557"
+msgid "[B]LIBRARY[/B] : Settings"
+msgstr "[B]BIBLIOTEK[/B] : Inställningar"
+
+msgctxt "#32558"
+msgid "[B]COVENANT[/B] : Update library..."
+msgstr "[B]COVENANT[/B] : Uppdatera bibliotek..."
+
+msgctxt "#32559"
+msgid "[B]COVENANT[/B] : Movie folder..."
+msgstr "[B]COVENANT[/B] : Filmmapp..."
+
+msgctxt "#32560"
+msgid "[B]COVENANT[/B] : TV folder..."
+msgstr "[B]COVENANT[/B] : TV-mapp..."
+
+msgctxt "#32561"
+msgid "[B]TRAKT[/B] : Import Collection..."
+msgstr "[B]TRAKT[/B] : Importera samlingar..."
+
+msgctxt "#32562"
+msgid "[B]TRAKT[/B] : Import Watchlist..."
+msgstr "[B]TRAKT[/B] : Import titta senare lista..."
+
+msgctxt "#32563"
+msgid "[B]TRAKT[/B] : Import TV Collection..."
+msgstr "[B]TRAKT[/B] : Importera TV-samling..."
+
+msgctxt "#32564"
+msgid "[B]TRAKT[/B] : Import TV Watchlist..."
+msgstr "[B]TRAKT[/B] : Importera titta senare lista för TV..."
+
+msgctxt "#32565"
+msgid "Include episodes with unknown air dates"
+msgstr "Inkludera episoder med okända sändningsdatum"
+

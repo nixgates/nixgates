@@ -1,0 +1,937 @@
+# Addon Name: Incursion
+# Addon id: plugin.video.incursion
+# Addon Provider: Incursion
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Itay Mizi, 2015
+# SagaMi, 2016
+# lambda81, 2015
+# lambda81, 2016
+# lidor malich, 2015
+# SagaMi, 2016
+# Yaron Shahrabani, 2016
+# ‫לידור מליח‬‎, 2016י
+# Noam Guterman, 2017
+# A. Dambledore, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Covenant\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-10-29 07:49+0200\n"
+"Last-Translator: A. Dambledore\n"
+"Language-Team: Eng2Heb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.4\n"
+
+msgctxt "#32001"
+msgid "Movies"
+msgstr "סרטים"
+
+msgctxt "#32002"
+msgid "TV Shows"
+msgstr "סדרות"
+
+msgctxt "#32003"
+msgid "My Movies"
+msgstr "הסרטים שלי"
+
+msgctxt "#32004"
+msgid "My TV Shows"
+msgstr "הסדרות שלי"
+
+msgctxt "#32005"
+msgid "New Movies"
+msgstr "סרטים חדשים"
+
+msgctxt "#32006"
+msgid "New Episodes"
+msgstr "פרקים חדשים"
+
+msgctxt "#32007"
+msgid "Channels"
+msgstr "סרטים מערוצים"
+
+msgctxt "#32008"
+msgid "Tools"
+msgstr "כלים"
+
+msgctxt "#32009"
+msgid "Downloads"
+msgstr "הורדות"
+
+msgctxt "#32010"
+msgid "Search"
+msgstr "חיפוש"
+
+msgctxt "#32011"
+msgid "Genres"
+msgstr "סגנונות"
+
+msgctxt "#32012"
+msgid "Year"
+msgstr "שנה"
+
+msgctxt "#32013"
+msgid "People"
+msgstr "אנשים"
+
+msgctxt "#32014"
+msgid "Languages"
+msgstr "שפות"
+
+msgctxt "#32015"
+msgid "Certificates"
+msgstr "תעודות"
+
+msgctxt "#32016"
+msgid "Networks"
+msgstr "רשתות"
+
+msgctxt "#32017"
+msgid "People Watching"
+msgstr "אנשים צופים"
+
+msgctxt "#32018"
+msgid "Most Popular"
+msgstr "הכי פופולרי"
+
+msgctxt "#32019"
+msgid "Most Voted"
+msgstr "הוצבע הכי הרבה"
+
+msgctxt "#32020"
+msgid "Box Office"
+msgstr "שוברי קופות"
+
+msgctxt "#32021"
+msgid "Oscar Winners"
+msgstr "זוכי אוסקר"
+
+msgctxt "#32022"
+msgid "In Theaters"
+msgstr "עכשיו בקולנוע"
+
+msgctxt "#32023"
+msgid "Highly Rated"
+msgstr "מדורגים גבוה"
+
+msgctxt "#32024"
+msgid "Airing today"
+msgstr "משודרים היום"
+
+msgctxt "#32025"
+msgid "Returning TV Shows"
+msgstr "סדרות חוזרות"
+
+msgctxt "#32026"
+msgid "New TV Shows"
+msgstr "סדרות חדשות"
+
+msgctxt "#32027"
+msgid "TV Calendar"
+msgstr "לוח שידורים"
+
+msgctxt "#32028"
+msgid "People Search"
+msgstr "חיפוש שחקנים"
+
+msgctxt "#32029"
+msgid "People (Movies)"
+msgstr "שחקנים(סרטים)"
+
+msgctxt "#32030"
+msgid "People (TV)"
+msgstr "אנשים (טלוויזיה)"
+
+msgctxt "#32031"
+msgid "Discover"
+msgstr "גלה"
+
+msgctxt "#32032"
+msgid "Collection"
+msgstr "אוסף"
+
+msgctxt "#32033"
+msgid "Watchlist"
+msgstr "רשימת צפייה"
+
+msgctxt "#32034"
+msgid "IMDb"
+msgstr "IMDb"
+
+msgctxt "#32035"
+msgid "Featured"
+msgstr "מוצגים"
+
+msgctxt "#32036"
+msgid "History"
+msgstr "הסטוריה"
+
+msgctxt "#32037"
+msgid "Progress"
+msgstr "התקדמות"
+
+msgctxt "#32038"
+msgid "Episodes"
+msgstr "פרקים"
+
+msgctxt "#32039"
+msgid "Movie Lists"
+msgstr "רשימת סרטים"
+
+msgctxt "#32040"
+msgid "TV Show Lists"
+msgstr "רשימת סדרות"
+
+msgctxt "#32041"
+msgid "Episode Lists"
+msgstr "רשימת פרקים"
+
+msgctxt "#32042"
+msgid "No Trakt or IMDb account found."
+msgstr "לא נמצא חשבון IMDB או טראקט."
+
+msgctxt "#32043"
+msgid "[B]SETTINGS[/B] : General"
+msgstr "[B]הגדרות[/B] : כללי"
+
+msgctxt "#32044"
+msgid "[B]SETTINGS[/B] : Accounts"
+msgstr "[B]הגדרות[/B] : חשבונות"
+
+msgctxt "#32045"
+msgid "[B]SETTINGS[/B] : Playback"
+msgstr "[B]הגדרות[/B] : ניגון"
+
+msgctxt "#32046"
+msgid "[B]SETTINGS[/B] : Subtitles"
+msgstr "[B]הגדרות[/B] : כתוביות"
+
+msgctxt "#32047"
+msgid "[B]SETTINGS[/B] : Providers"
+msgstr "[B]הגדרות[/B] : ספקים"
+
+msgctxt "#32048"
+msgid "[B]COVENANT[/B] : Downloads"
+msgstr "[B]קובננט[/B] : הורדות"
+
+msgctxt "#32049"
+msgid "[B]COVENANT[/B] : Viewtypes"
+msgstr "[B]קובננט[/B] : סוגים לצפייה"
+
+msgctxt "#32050"
+msgid "[B]COVENANT[/B] : Clear providers..."
+msgstr "[B]קובננט[/B] : ניקוי ספקים..."
+
+msgctxt "#32051"
+msgid "[B]COVENANT[/B] : Clear metadata..."
+msgstr "[B]קובננט[/B] : ניקוי מטא-דאטה..."
+
+msgctxt "#32052"
+msgid "[B]COVENANT[/B] : Clear cache..."
+msgstr "[B]קובננט[/B] : ניקוי מטמון..."
+
+msgctxt "#32053"
+msgid "[I]Next Page[/I]"
+msgstr "[I]לעמוד הבא[/I]"
+
+msgctxt "#32054"
+msgid "Seasons"
+msgstr "עונות"
+
+msgctxt "#32055"
+msgid "Season"
+msgstr "עונה"
+
+msgctxt "#32056"
+msgid "Are you sure?"
+msgstr "האם אתה בטוח?"
+
+msgctxt "#32057"
+msgid "Process Complete"
+msgstr "הפעולה הושלמה"
+
+msgctxt "#32058"
+msgid "This will slow down things until they are re-cached!"
+msgstr "פעולה זו תאט את הפעילות עד לבניית מטמון הכתובות מחדש!"
+
+msgctxt "#32059"
+msgid "CLICK HERE TO SAVE VIEW"
+msgstr "לחץ כאן לשמירת התצוגה"
+
+msgctxt "#32060"
+msgid "January|February|March|April|May|June|July|August|September|October|November|December"
+msgstr "ינואר|פברואר|מרץ|אפריל|מאי|יוני|יולי|אוגוסט|ספטמבר|אוקטובר| נובמבר|דצמבר"
+
+msgctxt "#32061"
+msgid "Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday"
+msgstr "ראשון|שני|שלישי|רביעי|חמישי|שישי|שבת"
+
+msgctxt "#32062"
+msgid "[B]%s[/B] : %s"
+msgstr "[B]%s[/B] : %s"
+
+msgctxt "#32063"
+msgid "Play using..."
+msgstr "נגן באמצעות..."
+
+msgctxt "#32064"
+msgid "Auto Play"
+msgstr "ניגון אוטומטי"
+
+msgctxt "#32065"
+msgid "Queue item"
+msgstr "הוספה לתור"
+
+msgctxt "#32066"
+msgid "Watched in Covenant"
+msgstr "נצפה בקובננט"
+
+msgctxt "#32067"
+msgid "Unwatched in Covenant"
+msgstr "לא נצפה בקובננט"
+
+msgctxt "#32068"
+msgid "Watched in Trakt"
+msgstr "נצפה בטראקט"
+
+msgctxt "#32069"
+msgid "Unwatched in Trakt"
+msgstr "לא נצפה בטראקט"
+
+msgctxt "#32070"
+msgid "Trakt Manager"
+msgstr "מנהל טראקט"
+
+msgctxt "#32071"
+msgid "Browse Series"
+msgstr "עיון בסדרות"
+
+msgctxt "#32072"
+msgid "Refresh"
+msgstr "רענן"
+
+msgctxt "#32073"
+msgid "[B]TRAKT[/B] : Authorize"
+msgstr "[B]טראקט[/B] : הזדהות"
+
+msgctxt "#32074"
+msgid "[B]HELP[/B]"
+msgstr "[B]עזרה[/B]"
+
+msgctxt "#32301"
+msgid "Enabled"
+msgstr "מאופשר"
+
+msgctxt "#32302"
+msgid "Disabled"
+msgstr "מנוטרל"
+
+msgctxt "#32303"
+msgid "User"
+msgstr "משתמש "
+
+msgctxt "#32304"
+msgid "Email"
+msgstr "אי-מייל"
+
+msgctxt "#32305"
+msgid "ID"
+msgstr "מזהה"
+
+msgctxt "#32306"
+msgid "Authorization..."
+msgstr "הזדהות..."
+
+msgctxt "#32307"
+msgid "Password"
+msgstr "סיסמה"
+
+msgctxt "#32308"
+msgid "PIN"
+msgstr "קוד PIN"
+
+msgctxt "#32309"
+msgid "API"
+msgstr "מפתח API"
+
+msgctxt "#32310"
+msgid "General"
+msgstr "כללי"
+
+msgctxt "#32311"
+msgid "Appearance"
+msgstr "הצג"
+
+msgctxt "#32312"
+msgid "Providers Timeout"
+msgstr "זמן קצוב לספקים"
+
+msgctxt "#32313"
+msgid "Indicators"
+msgstr "מחוונים"
+
+msgctxt "#32314"
+msgid "Local"
+msgstr "מקומי"
+
+msgctxt "#32315"
+msgid "Trakt"
+msgstr "טראקט"
+
+msgctxt "#32316"
+msgid "Info Language"
+msgstr "שפת מידע"
+
+msgctxt "#32317"
+msgid "Flatten TV seasons"
+msgstr "שטח עונות בסדרות"
+
+msgctxt "#32318"
+msgid "Enable Fanart"
+msgstr "אפשר פאנארט"
+
+msgctxt "#32319"
+msgid "Menu"
+msgstr "תפריט"
+
+msgctxt "#32320"
+msgid "New Movies"
+msgstr "סרטים חדשים"
+
+msgctxt "#32321"
+msgid "Featured"
+msgstr "מוצגים"
+
+msgctxt "#32322"
+msgid "People Watching"
+msgstr "אנשים צופים"
+
+msgctxt "#32323"
+msgid "Most Popular"
+msgstr "הכי פופולרי"
+
+msgctxt "#32324"
+msgid "In Theaters"
+msgstr "עכשיו בקולנוע"
+
+msgctxt "#32325"
+msgid "New Episodes"
+msgstr "פרקים חדשים"
+
+msgctxt "#32326"
+msgid "Episodes"
+msgstr "פרקים"
+
+msgctxt "#32327"
+msgid "Trakt Progress"
+msgstr "התקדמות טראקט"
+
+msgctxt "#32328"
+msgid "Trakt Episodes"
+msgstr "פרקים בטראקט"
+
+msgctxt "#32329"
+msgid "My Lists"
+msgstr "הרשימות שלי"
+
+msgctxt "#32330"
+msgid "Playback"
+msgstr "שמע"
+
+msgctxt "#32331"
+msgid "Default action"
+msgstr "פעולת ברירת מחדל"
+
+msgctxt "#32332"
+msgid "Dialog"
+msgstr "דיאלוג"
+
+msgctxt "#32333"
+msgid "Directory"
+msgstr "תיקייה"
+
+msgctxt "#32334"
+msgid "Auto Play"
+msgstr "ניגון אוטומטי"
+
+msgctxt "#32335"
+msgid "Progress Dialog"
+msgstr "חלונית התקדמות"
+
+msgctxt "#32336"
+msgid "Foreground"
+msgstr "חזית"
+
+msgctxt "#32337"
+msgid "Background"
+msgstr "‎ברקע"
+
+msgctxt "#32338"
+msgid "File Hosting Filters"
+msgstr "מסנני אירוח קבצים"
+
+msgctxt "#32339"
+msgid "Max Quality"
+msgstr "איכות מקסימלית"
+
+msgctxt "#32340"
+msgid "SD Hosters in Auto Play"
+msgstr "שרתי SD בניגון אוטמטי"
+
+msgctxt "#32341"
+msgid "Hosters with captchas"
+msgstr "שרתים עם קוד אימות"
+
+msgctxt "#32342"
+msgid "Sort by Provider"
+msgstr "מיין לפי ספק"
+
+msgctxt "#32343"
+msgid "When playback starts..."
+msgstr "כאשר הניגון מתחיל..."
+
+msgctxt "#32344"
+msgid "Resume Playback"
+msgstr "המשך ניגון"
+
+msgctxt "#32345"
+msgid "Providers"
+msgstr "שרתים"
+
+msgctxt "#32346"
+msgid "Accounts"
+msgstr "חשבון"
+
+msgctxt "#32347"
+msgid "Downloads"
+msgstr "הורדות"
+
+msgctxt "#32348"
+msgid "Enable downloads"
+msgstr "אפשר הורדות"
+
+msgctxt "#32349"
+msgid "Movies"
+msgstr "סרטים"
+
+msgctxt "#32350"
+msgid "TV"
+msgstr "סדרות"
+
+msgctxt "#32351"
+msgid "Downloading features are disabled by default."
+msgstr "הורדת תכונות מבוטלת לפי ברירת מחדל."
+
+msgctxt "#32352"
+msgid "Set up your download folders in order to enable them."
+msgstr "הגדר את תיקיות ההורדה שלך על מנת לאפשר אותם."
+
+msgctxt "#32353"
+msgid "Subtitles"
+msgstr "כתוביות"
+
+msgctxt "#32354"
+msgid "Enable subtitles"
+msgstr "אפשר כתוביות"
+
+msgctxt "#32355"
+msgid "Convert subtitles to UTF-8"
+msgstr "המר כתוביות לפורמט UTF-8"
+
+msgctxt "#32356"
+msgid "Primary Language"
+msgstr "שפה ראשונה"
+
+msgctxt "#32357"
+msgid "Secondary Language"
+msgstr "שפה שנייה"
+
+msgctxt "#32358"
+msgid "Subtitles could be unavailable or out of sync."
+msgstr "הכתוביות יכולות להיות לא תואמות או לא מסונכרנות."
+
+msgctxt "#32359"
+msgid "In that case use your own subtitles."
+msgstr "במקרה זה השתמש בכתוביות שלך."
+
+msgctxt "#32360"
+msgid "Providers Language"
+msgstr "שפת ספקים"
+
+msgctxt "#32363"
+msgid "HEVC"
+msgstr "HEVC"
+
+msgctxt "#32372"
+msgid "When playback ends..."
+msgstr "כאשר הניגון מסתיים..."
+
+msgctxt "#32373"
+msgid "Force container refresh"
+msgstr "אלץ רענון התכולה"
+
+msgctxt "#32401"
+msgid "No stream available"
+msgstr "אין מקור להזרמה"
+
+msgctxt "#32402"
+msgid "Playback outside Covenant is not allowed"
+msgstr "ניגון מחוץ לקובננט אסור"
+
+msgctxt "#32403"
+msgid "Download"
+msgstr "הורד"
+
+msgctxt "#32404"
+msgid "Time elapsed: %s seconds"
+msgstr "זמן שעבר: %s שניות"
+
+msgctxt "#32405"
+msgid "%s seconds"
+msgstr "%s שניות"
+
+msgctxt "#32406"
+msgid "Remaining providers: %s"
+msgstr "ספקים שנותרו: %s"
+
+msgctxt "#32407"
+msgid "Are you sure?"
+msgstr "האם להחיל את השינויים?"
+
+msgctxt "#32408"
+msgid "Process Complete"
+msgstr "הפעולה הושלמה"
+
+msgctxt "#32501"
+msgid "Start from beginning"
+msgstr "התחל מההתחלה"
+
+msgctxt "#32502"
+msgid "Resume from %s"
+msgstr "המשך מ%s"
+
+msgctxt "#32503"
+msgid "Resume"
+msgstr "תקציר"
+
+msgctxt "#32511"
+msgid "An account already exists."
+msgstr "משתמש קיים."
+
+msgctxt "#32512"
+msgid "Do you want to reset?"
+msgstr "האם ברצונך לאפס?"
+
+msgctxt "#32513"
+msgid "1) Visit : [COLOR skyblue]%s[/COLOR]"
+msgstr "בקר: [COLOR skyblue]%s[/COLOR]1)"
+
+msgctxt "#32514"
+msgid "2) When prompted enter : [COLOR skyblue]%s[/COLOR]"
+msgstr "2) כאשר תתבקש תזין: [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32515"
+msgid "Trakt Manager"
+msgstr "מנהל טראקט"
+
+msgctxt "#32516"
+msgid "Add to [B]Collection[/B]"
+msgstr "הוספה ל[B]אוספים[/B]"
+
+msgctxt "#32517"
+msgid "Remove from [B]Collection[/B]"
+msgstr "הסרה מ[B]אוספים[/B]"
+
+msgctxt "#32518"
+msgid "Add to [B]Watchlist[/B]"
+msgstr "הוספה ל[B]רשימת צפייה[/B]"
+
+msgctxt "#32519"
+msgid "Remove from [B]Watchlist[/B]"
+msgstr "הסרה מ[B]רשימת צפייה[/B]"
+
+msgctxt "#32520"
+msgid "Add to [B]new List[/B]"
+msgstr "הוסף ל[B]רשימה חדשה[/B]"
+
+msgctxt "#32521"
+msgid "Add to [B]%s[/B]"
+msgstr "הוסף ל[B]%s[/B]"
+
+msgctxt "#32522"
+msgid "Remove from [B]%s[/B]"
+msgstr "הסר מ[B]%s[/B]"
+
+msgctxt "#32531"
+msgid "An account already exists."
+msgstr "משתמש קיים."
+
+msgctxt "#32532"
+msgid "Do you want to reset?"
+msgstr "האם ברצונך לאפס?"
+
+msgctxt "#32533"
+msgid "1) Visit : [COLOR skyblue]%s[/COLOR]"
+msgstr "בקר: [COLOR skyblue]%s[/COLOR]1)"
+
+msgctxt "#32534"
+msgid "2) When prompted enter : [COLOR skyblue]%s[/COLOR]"
+msgstr "2) כאשר תתבקש תזין: [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32535"
+msgid "Play Random"
+msgstr "נגן אקראי"
+
+msgctxt "#32536"
+msgid "Playing"
+msgstr "מנגן"
+
+msgctxt "#32537"
+msgid "Nothing found to play"
+msgstr "אין מה לנגן"
+
+msgctxt "#32538"
+msgid "DEBRID-SERVICE"
+msgstr "שירות ריל-דבריד"
+
+msgctxt "#32539"
+msgid "Configure Debrid Services in ResolveURL Settings."
+msgstr "קבע את תצורת שירותי ריל-דבריד בהגדרות ResolveURL."
+
+msgctxt "#32540"
+msgid "ResolveURL Settings"
+msgstr "הגדרות ResolveURL"
+
+msgctxt "#32541"
+msgid "Library"
+msgstr "ספרייה"
+
+msgctxt "#32542"
+msgid "Covenant folders will be imported to library if they are added to media sources."
+msgstr "התיקיות של קובננט ייובאו לספריה אם הן יתווספו למקורות מדיה."
+
+msgctxt "#32543"
+msgid "Movies"
+msgstr "סרטים"
+
+msgctxt "#32544"
+msgid "TV"
+msgstr "סדרות"
+
+msgctxt "#32545"
+msgid "Auto update TV Shows"
+msgstr "עדכון אוטומטי של סדרות"
+
+msgctxt "#32546"
+msgid "Show notifications during update"
+msgstr "הצג הודעות במהלך העדכון"
+
+msgctxt "#32547"
+msgid "Update library after adding content"
+msgstr "עדכון ספריה לאחר הוספת תוכן"
+
+msgctxt "#32548"
+msgid "Avoid creating duplicate content"
+msgstr "הימנע מיצירת תוכן כפול"
+
+msgctxt "#32549"
+msgid "Check movie before adding it"
+msgstr "בדוק סרטים לפני הוספה"
+
+msgctxt "#32550"
+msgid "Check first episode of season before adding it"
+msgstr "בדוק פרק ראשון של עונה לפני הוספה"
+
+msgctxt "#32551"
+msgid "Add to Library"
+msgstr "הוסף לספרייה"
+
+msgctxt "#32552"
+msgid "Adding to library..."
+msgstr "מוסיף לספרייה..."
+
+msgctxt "#32553"
+msgid "Updating TV shows..."
+msgstr "מעדכן סדרות..."
+
+msgctxt "#32554"
+msgid "Process Complete"
+msgstr "הפעולה הושלמה"
+
+msgctxt "#32555"
+msgid "Are you sure?"
+msgstr "האם להחיל את השינויים?"
+
+msgctxt "#32556"
+msgid "[B]COVENANT[/B] : Library"
+msgstr "[B]קובננט[/B] : ספרייה"
+
+msgctxt "#32557"
+msgid "[B]LIBRARY[/B] : Settings"
+msgstr "[B]ספריה[/B]: הגדרות"
+
+msgctxt "#32558"
+msgid "[B]COVENANT[/B] : Update library..."
+msgstr "[B]קובננט[/B] : עדכון ספרייה..."
+
+msgctxt "#32559"
+msgid "[B]COVENANT[/B] : Movie folder..."
+msgstr "[B]קובננט[/B] : תיקיית סרטים..."
+
+msgctxt "#32560"
+msgid "[B]COVENANT[/B] : TV folder..."
+msgstr "[B]קובננט[/B] : תיקיית סדרות..."
+
+msgctxt "#32561"
+msgid "[B]TRAKT[/B] : Import Collection..."
+msgstr "B]טראקט[/B] : ייבוא אוסף..."
+
+msgctxt "#32562"
+msgid "[B]TRAKT[/B] : Import Watchlist..."
+msgstr "B]טראקט[/B] : ייבוא רשימת צפייה."
+
+msgctxt "#32563"
+msgid "[B]TRAKT[/B] : Import TV Collection..."
+msgstr "[B]טראקט[/B]: ייבוא אוסף סדרות..."
+
+msgctxt "#32564"
+msgid "[B]TRAKT[/B] : Import TV Watchlist..."
+msgstr "[B]טראקט[/B]: ייבוא רשימת צפייה בסדרות."
+
+msgctxt "#32565"
+msgid "Include episodes with unknown air dates"
+msgstr "כלול פרקים עם תאריכי שידור לא ידועים"
+
+msgctxt "#32570"
+msgid "Show unaired seasons/episodes"
+msgstr "הצג עונות ופרקים שלא שודרו"
+
+msgctxt "#32571"
+msgid "Hide movies in cinema"
+msgstr "הסתר סרטים בקולנוע"
+
+msgctxt "#32572"
+msgid "Protected Link. Please enter account credentials in the settings."
+msgstr "קישור מוגן. אנא הזינו את פרטי ההתחברות בהגדרות."
+
+msgctxt "#32580"
+msgid "Films/TV Movies"
+msgstr "סרטי טלוויזיה/סרטים"
+
+msgctxt "#32581"
+msgid "Results Limit"
+msgstr "מגבלת תוצאות"
+
+msgctxt "#32582"
+msgid "Personal API keys provide quicker API responses."
+msgstr "מפתח API מותאם אישי מאפשר קבלת מקורות נוספים ומהיר יותר."
+
+msgctxt "#32583"
+msgid "Become a VIP member for many benefits at: https://fanart.tv/vip"
+msgstr "כחבר VIP תזכה להטבות רבות ב- https://fanart.tv/vip"
+
+msgctxt "#32584"
+msgid "Sort order for Trakt Watched Progress"
+msgstr "מיון סדר עבור תהליך רשימת נצפה בטראקט"
+
+msgctxt "#32585"
+msgid "Recently aired"
+msgstr "שודר לאחרונה"
+
+msgctxt "#32586"
+msgid "Recently watched"
+msgstr "נצפה לאחרונה"
+
+msgctxt "#32587"
+msgid "Show Extra Source Info"
+msgstr "הצג פרטי מקור נוסף"
+
+msgctxt "#32588"
+msgid "Premium Source Identifier Color"
+msgstr "מזהה צבע של מקור פרמיום"
+
+msgctxt "#32589"
+msgid "Blue"
+msgstr "כחול"
+
+msgctxt "#32590"
+msgid "Red"
+msgstr "אדום"
+
+msgctxt "#32591"
+msgid "Yellow"
+msgstr "צהוב"
+
+msgctxt "#32592"
+msgid "Deep Pink"
+msgstr "ורוד עמוק"
+
+msgctxt "#32593"
+msgid "Cyan"
+msgstr "ציאן"
+
+msgctxt "#32594"
+msgid "Lawn Green"
+msgstr "ירוק דשא"
+
+msgctxt "#32595"
+msgid "Gold"
+msgstr "זהב"
+
+msgctxt "#32596"
+msgid "Magenta"
+msgstr "מג\\'נטה"
+
+msgctxt "#32597"
+msgid "Yellow Green"
+msgstr "צהוב ירוק"
+
+msgctxt "#32598"
+msgid "No Color"
+msgstr "ללא צבע"
+
+msgctxt "#32599"
+msgid "Getting genre information from Trakt"
+msgstr "מקבל מידע על סגנון מטראקט"
+
+msgctxt "#32600"
+msgid "Preparing sources"
+msgstr "מכין מקורות"
+
+msgctxt "#32601"
+msgid "Total"
+msgstr "סך הכל"
+
+msgctxt "#32602"
+msgid "Waiting for"
+msgstr "ממתין ל-"
+
+msgctxt "#32603"
+msgid "New search..."
+msgstr "חיפוש חדש..."
+
+msgctxt "#32604"
+msgid "[B]COVENANT[/B] : Clear search history..."
+msgstr "[B]קובננט[/B] : ניקוי היסטוריית חיפוש..."
+
+msgctxt "#32605"
+msgid "Click to clear search history"
+msgstr "לחץ כדי לנקות את היסטוריית החיפוש"
+
+msgctxt "#32606"
+msgid "Prem"
+msgstr "פרמיום"
+
+msgctxt "#32607"
+msgid "Normal"
+msgstr "נורמלי"

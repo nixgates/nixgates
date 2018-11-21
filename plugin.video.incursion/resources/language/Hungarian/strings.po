@@ -1,0 +1,806 @@
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Viper2k4, 2017
+# lambda81, 2016
+# lambda81, 2016
+# plasticfighter, 2016
+# plasticfighter, 2016-2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Covenant\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-05-30 12:02+0000\n"
+"Last-Translator: plasticfighter\n"
+"Language-Team: Hungarian (http://www.transifex.com/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#32001"
+msgid "Movies"
+msgstr "Filmek"
+
+msgctxt "#32002"
+msgid "TV Shows"
+msgstr "Sorozatok"
+
+msgctxt "#32003"
+msgid "My Movies"
+msgstr "Kedvenc filmek"
+
+msgctxt "#32004"
+msgid "My TV Shows"
+msgstr "Kedvenc sorozatok"
+
+msgctxt "#32005"
+msgid "New Movies"
+msgstr "Legújabb filmek"
+
+msgctxt "#32006"
+msgid "New Episodes"
+msgstr "Legújabb epizódok"
+
+msgctxt "#32007"
+msgid "Channels"
+msgstr "Csatornák"
+
+msgctxt "#32008"
+msgid "Tools"
+msgstr "Eszközök"
+
+msgctxt "#32009"
+msgid "Downloads"
+msgstr "Letöltések"
+
+msgctxt "#32010"
+msgid "Search"
+msgstr "Keresés"
+
+msgctxt "#32011"
+msgid "Genres"
+msgstr "Műfajok"
+
+msgctxt "#32012"
+msgid "Year"
+msgstr "Évszámok"
+
+msgctxt "#32013"
+msgid "People"
+msgstr "Színészek"
+
+msgctxt "#32014"
+msgid "Languages"
+msgstr "Nyelvek"
+
+msgctxt "#32015"
+msgid "Certificates"
+msgstr "Korhatár-besorolások"
+
+msgctxt "#32016"
+msgid "Networks"
+msgstr "Televíziótársaságok"
+
+msgctxt "#32017"
+msgid "People Watching"
+msgstr "Népszerű"
+
+msgctxt "#32018"
+msgid "Most Popular"
+msgstr "Legnépszerűbb"
+
+msgctxt "#32019"
+msgid "Most Voted"
+msgstr "Legtöbb szavazatot kapott"
+
+msgctxt "#32020"
+msgid "Box Office"
+msgstr "Legnagyobb bevételek"
+
+msgctxt "#32021"
+msgid "Oscar Winners"
+msgstr "Oscar-nyertesek"
+
+msgctxt "#32022"
+msgid "In Theaters"
+msgstr "Jelenleg a mozikban"
+
+msgctxt "#32023"
+msgid "Highly Rated"
+msgstr "Magasan értékelt"
+
+msgctxt "#32024"
+msgid "Airing today"
+msgstr "Ma vetítik"
+
+msgctxt "#32025"
+msgid "Returning TV Shows"
+msgstr "Visszatérő sorozatok"
+
+msgctxt "#32026"
+msgid "New TV Shows"
+msgstr "Új sorozatok"
+
+msgctxt "#32027"
+msgid "TV Calendar"
+msgstr "TV naptár"
+
+msgctxt "#32028"
+msgid "People Search"
+msgstr "Keresés színészre"
+
+msgctxt "#32029"
+msgid "People (Movies)"
+msgstr "Színészek (Filmek)"
+
+msgctxt "#32030"
+msgid "People (TV)"
+msgstr "Színészek (Sorozatok)"
+
+msgctxt "#32031"
+msgid "Discover"
+msgstr "Böngészés"
+
+msgctxt "#32032"
+msgid "Collection"
+msgstr "Gyűjtemény"
+
+msgctxt "#32033"
+msgid "Watchlist"
+msgstr "Figyelőlista"
+
+msgctxt "#32034"
+msgid "IMDb"
+msgstr "IMDb"
+
+msgctxt "#32035"
+msgid "Featured"
+msgstr "Kiemelt"
+
+msgctxt "#32036"
+msgid "History"
+msgstr "Előzmények"
+
+msgctxt "#32037"
+msgid "Progress"
+msgstr "Előrehaladás"
+
+msgctxt "#32038"
+msgid "Episodes"
+msgstr "Epizódok"
+
+msgctxt "#32039"
+msgid "Movie Lists"
+msgstr "Filmes listák"
+
+msgctxt "#32040"
+msgid "TV Show Lists"
+msgstr "Sorozat listák"
+
+msgctxt "#32041"
+msgid "Episode Lists"
+msgstr "Epizódlisták"
+
+msgctxt "#32042"
+msgid "No Trakt or IMDb account found."
+msgstr "Nem található Trakt vagy IMDb fiók."
+
+msgctxt "#32043"
+msgid "[B]SETTINGS[/B] : General"
+msgstr "[B]BEÁLLÍTÁSOK[/B] : Általános"
+
+msgctxt "#32044"
+msgid "[B]SETTINGS[/B] : Accounts"
+msgstr "[B]BEÁLLÍTÁSOK[/B] : Fiókok"
+
+msgctxt "#32045"
+msgid "[B]SETTINGS[/B] : Playback"
+msgstr "[B]BEÁLLÍTÁSOK[/B] : Lejátszás"
+
+msgctxt "#32046"
+msgid "[B]SETTINGS[/B] : Subtitles"
+msgstr "[B]BEÁLLÍTÁSOK[/B] : Feliratok"
+
+msgctxt "#32047"
+msgid "[B]SETTINGS[/B] : Providers"
+msgstr "[B]BEÁLLÍTÁSOK[/B] : Kiszolgálók"
+
+msgctxt "#32048"
+msgid "[B]COVENANT[/B] : Downloads"
+msgstr "[B]COVENANT[/B] : Letöltések"
+
+msgctxt "#32049"
+msgid "[B]COVENANT[/B] : Viewtypes"
+msgstr "[B]COVENANT[/B] : Nézet"
+
+msgctxt "#32050"
+msgid "[B]COVENANT[/B] : Clear providers..."
+msgstr "[B]COVENANT[/B] : Kiszolgálók megtisztítása..."
+
+msgctxt "#32051"
+msgid "[B]COVENANT[/B] : Clear metadata..."
+msgstr "[B]COVENANT[/B] : Metaadatok megtisztítása..."
+
+msgctxt "#32052"
+msgid "[B]COVENANT[/B] : Clear cache..."
+msgstr "[B]COVENANT[/B] : Gyorsítótár megtisztítása..."
+
+msgctxt "#32053"
+msgid "[I]Next Page[/I]"
+msgstr "[I]Következő oldal[/I]"
+
+msgctxt "#32054"
+msgid "Seasons"
+msgstr "Évadok"
+
+msgctxt "#32055"
+msgid "Season"
+msgstr "Évad"
+
+msgctxt "#32056"
+msgid "Are you sure?"
+msgstr "Biztos benne?"
+
+msgctxt "#32057"
+msgid "Process Complete"
+msgstr "Folyamat befejeződött"
+
+msgctxt "#32058"
+msgid "This will slow down things until they are re-cached!"
+msgstr "Ez lelassítja a működést, amíg a tartalmak újra bekerülnek a gyorsítótárba!"
+
+msgctxt "#32059"
+msgid "CLICK HERE TO SAVE VIEW"
+msgstr "A NÉZET MENTÉSÉHEZ KATTINTSON IDE"
+
+msgctxt "#32060"
+msgid ""
+"January|February|March|April|May|June|July|August|September|October|November|December"
+msgstr "Január|Február|Március|Április|Május|Június|Július|Augusztus|Szeptember|Október|November|December"
+
+msgctxt "#32061"
+msgid "Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday"
+msgstr "Hétfő|Kedd|Szerda|Csütörtök|Péntek|Szombat|Vasárnap"
+
+msgctxt "#32062"
+msgid "[B]%s[/B] : %s"
+msgstr "[B]%s[/B] : %s"
+
+msgctxt "#32063"
+msgid "Play using..."
+msgstr "Egyéb lejátszóval..."
+
+msgctxt "#32064"
+msgid "Auto Play"
+msgstr "Automatikus lejátszás"
+
+msgctxt "#32065"
+msgid "Queue item"
+msgstr "Lejátszási sorba tesz"
+
+msgctxt "#32066"
+msgid "Watched in Covenant"
+msgstr "Megnézettként megjelöl (Covenant)"
+
+msgctxt "#32067"
+msgid "Unwatched in Covenant"
+msgstr "Nem látottként megjelöl (Covenant)"
+
+msgctxt "#32068"
+msgid "Watched in Trakt"
+msgstr "Megnézettként megjelöl (Trakt)"
+
+msgctxt "#32069"
+msgid "Unwatched in Trakt"
+msgstr "Nem látottként megjelöl (Trakt)"
+
+msgctxt "#32070"
+msgid "Trakt Manager"
+msgstr "Trakt Kezelő"
+
+msgctxt "#32071"
+msgid "Browse Series"
+msgstr "Évadok megtekintése"
+
+msgctxt "#32072"
+msgid "Refresh"
+msgstr "Frissítés"
+
+msgctxt "#32073"
+msgid "[B]TRAKT[/B] : Authorize"
+msgstr "[B]TRAKT[/B]: Engedélyezés"
+
+msgctxt "#32074"
+msgid "[B]HELP[/B]"
+msgstr "[B]SEGÍTSÉG[/B]"
+
+msgctxt "#32301"
+msgid "Enabled"
+msgstr "Engedélyezve"
+
+msgctxt "#32302"
+msgid "Disabled"
+msgstr "Letiltva"
+
+msgctxt "#32303"
+msgid "User"
+msgstr "Felhasználó"
+
+msgctxt "#32304"
+msgid "Email"
+msgstr "E-mail cím"
+
+msgctxt "#32305"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "#32306"
+msgid "Authorization..."
+msgstr "Engedélyezés..."
+
+msgctxt "#32307"
+msgid "Password"
+msgstr "Jelszó"
+
+msgctxt "#32308"
+msgid "PIN"
+msgstr "PIN"
+
+msgctxt "#32309"
+msgid "API"
+msgstr "API"
+
+msgctxt "#32310"
+msgid "General"
+msgstr "Általános"
+
+msgctxt "#32311"
+msgid "Appearance"
+msgstr "Megjelenés"
+
+msgctxt "#32312"
+msgid "Providers Timeout"
+msgstr "Kiszolgálók időtúllépése"
+
+msgctxt "#32313"
+msgid "Indicators"
+msgstr "Tartalmak"
+
+msgctxt "#32314"
+msgid "Local"
+msgstr "Helyi"
+
+msgctxt "#32315"
+msgid "Trakt"
+msgstr "Trakt"
+
+msgctxt "#32316"
+msgid "Info Language"
+msgstr "Info nyelve"
+
+msgctxt "#32317"
+msgid "Flatten TV seasons"
+msgstr "Sorozatévadok szűkítése"
+
+msgctxt "#32318"
+msgid "Enable Fanart"
+msgstr "Fanart engedélyezése"
+
+msgctxt "#32319"
+msgid "Menu"
+msgstr "Menü"
+
+msgctxt "#32320"
+msgid "New Movies"
+msgstr "Legújabb filmek"
+
+msgctxt "#32321"
+msgid "Featured"
+msgstr "Kiemelt"
+
+msgctxt "#32322"
+msgid "People Watching"
+msgstr "Népszerű"
+
+msgctxt "#32323"
+msgid "Most Popular"
+msgstr "Legnépszerűbb"
+
+msgctxt "#32324"
+msgid "In Theaters"
+msgstr "Jelenleg a mozikban"
+
+msgctxt "#32325"
+msgid "New Episodes"
+msgstr "Legújabb epizódok"
+
+msgctxt "#32326"
+msgid "Episodes"
+msgstr "Epizódok"
+
+msgctxt "#32327"
+msgid "Trakt Progress"
+msgstr "Trakt Előrehaladás"
+
+msgctxt "#32328"
+msgid "Trakt Episodes"
+msgstr "Trakt Epizódok"
+
+msgctxt "#32329"
+msgid "My Lists"
+msgstr "Listáim"
+
+msgctxt "#32330"
+msgid "Playback"
+msgstr "Lejátszás"
+
+msgctxt "#32331"
+msgid "Default action"
+msgstr "Tárhely kiválasztó"
+
+msgctxt "#32332"
+msgid "Dialog"
+msgstr "Ablak"
+
+msgctxt "#32333"
+msgid "Directory"
+msgstr "Mappa"
+
+msgctxt "#32334"
+msgid "Auto Play"
+msgstr "Automatikus lejátszás"
+
+msgctxt "#32335"
+msgid "Progress Dialog"
+msgstr "Folyamat párbeszédablak"
+
+msgctxt "#32336"
+msgid "Foreground"
+msgstr "Előtérben"
+
+msgctxt "#32337"
+msgid "Background"
+msgstr "Háttérben"
+
+msgctxt "#32338"
+msgid "File Hosting Filters"
+msgstr "Tárhely szűrők"
+
+msgctxt "#32339"
+msgid "Max Quality"
+msgstr "Legjobb minőség"
+
+msgctxt "#32340"
+msgid "SD Hosters in Auto Play"
+msgstr "Kényszerített SD lejátszás Automatikus lejátszás módban"
+
+msgctxt "#32341"
+msgid "Hosters with captchas"
+msgstr "Tárhelyek captchaval"
+
+msgctxt "#32342"
+msgid "Sort by Provider"
+msgstr "Rendezés kiszolgálók szerint"
+
+msgctxt "#32343"
+msgid "When playback starts..."
+msgstr "Lejátszás elindulásakor..."
+
+msgctxt "#32344"
+msgid "Resume Playback"
+msgstr "Lejátszás folytatása"
+
+msgctxt "#32345"
+msgid "Providers"
+msgstr "Kiszolgálók"
+
+msgctxt "#32346"
+msgid "Accounts"
+msgstr "Fiókok"
+
+msgctxt "#32347"
+msgid "Downloads"
+msgstr "Letöltések"
+
+msgctxt "#32348"
+msgid "Enable downloads"
+msgstr "Letöltések engedélyezése"
+
+msgctxt "#32349"
+msgid "Movies"
+msgstr "Filmek"
+
+msgctxt "#32350"
+msgid "TV"
+msgstr "Sorozatok"
+
+msgctxt "#32351"
+msgid "Downloading features are disabled by default."
+msgstr "A letöltések alapértelmezés szerint le vannak tiltva."
+
+msgctxt "#32352"
+msgid "Set up your download folders in order to enable them."
+msgstr "Állítsd be a letöltési mappáidat, annak érdekében hogy engedélyezd őket."
+
+msgctxt "#32353"
+msgid "Subtitles"
+msgstr "Feliratok"
+
+msgctxt "#32354"
+msgid "Enable subtitles"
+msgstr "Feliratok engedélyezése"
+
+msgctxt "#32355"
+msgid "Convert subtitles to UTF-8"
+msgstr "Feliratok konvertálása UTF-8 formátumba"
+
+msgctxt "#32356"
+msgid "Primary Language"
+msgstr "Elsődleges nyelv"
+
+msgctxt "#32357"
+msgid "Secondary Language"
+msgstr "Másodlagos nyelv"
+
+msgctxt "#32358"
+msgid "Subtitles could be unavailable or out of sync."
+msgstr "A feliratok egyes esetekben nem elérhetőek vagy nincsenek szinkronban."
+
+msgctxt "#32359"
+msgid "In that case use your own subtitles."
+msgstr "Ebben az esetben használj saját feliratokat."
+
+msgctxt "#32360"
+msgid "Providers Language"
+msgstr "Kiszolgálók nyelve"
+
+msgctxt "#32401"
+msgid "No stream available"
+msgstr "Nincs elérhető adatfolyam"
+
+msgctxt "#32402"
+msgid "Playback outside Covenant is not allowed"
+msgstr "Covenanton kívüli lejátszás nem engedélyezett"
+
+msgctxt "#32403"
+msgid "Download"
+msgstr "Letöltés"
+
+msgctxt "#32404"
+msgid "Time elapsed: %s seconds"
+msgstr "Eltelt idő: %s másodperc"
+
+msgctxt "#32405"
+msgid "%s seconds"
+msgstr "%s másodperc"
+
+msgctxt "#32406"
+msgid "Remaining providers: %s"
+msgstr "Hátralévő kiszolgálók: %s"
+
+msgctxt "#32407"
+msgid "Are you sure?"
+msgstr "Biztos benne?"
+
+msgctxt "#32408"
+msgid "Process Complete"
+msgstr "Folyamat befejeződött"
+
+msgctxt "#32501"
+msgid "Start from beginning"
+msgstr "Lejátszás az elejéről"
+
+msgctxt "#32502"
+msgid "Resume from %s"
+msgstr "Folytatás innen %s"
+
+msgctxt "#32503"
+msgid "Resume"
+msgstr "Folytatás"
+
+msgctxt "#32511"
+msgid "An account already exists."
+msgstr "Egy fiók már meg van adva."
+
+msgctxt "#32512"
+msgid "Do you want to reset?"
+msgstr "Szeretné visszaállítani?"
+
+msgctxt "#32513"
+msgid "1) Visit : [COLOR skyblue]%s[/COLOR]"
+msgstr "1) Látogassa meg : [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32514"
+msgid "2) When prompted enter : [COLOR skyblue]%s[/COLOR]"
+msgstr "2) Amikor kéri írja be ezt : [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32515"
+msgid "Trakt Manager"
+msgstr "Trakt Kezelő"
+
+msgctxt "#32516"
+msgid "Add to [B]Collection[/B]"
+msgstr "Hozzáadás a [B]Gyűjteményhez[/B]"
+
+msgctxt "#32517"
+msgid "Remove from [B]Collection[/B]"
+msgstr "Eltávolítás a [B]Gyűjteményből[/B]"
+
+msgctxt "#32518"
+msgid "Add to [B]Watchlist[/B]"
+msgstr "Hozzáadás a [B]Figyelőlistához[/B]"
+
+msgctxt "#32519"
+msgid "Remove from [B]Watchlist[/B]"
+msgstr "Eltávolítás a [B]Figyelőlistából[/B]"
+
+msgctxt "#32520"
+msgid "Add to [B]new List[/B]"
+msgstr "Hozzáadás [B]új Listához[/B]"
+
+msgctxt "#32521"
+msgid "Add to [B]%s[/B]"
+msgstr "Hozzáadás ehhez [B]%s[/B]"
+
+msgctxt "#32522"
+msgid "Remove from [B]%s[/B]"
+msgstr "Eltávolítás innen [B]%s[/B]"
+
+msgctxt "#32531"
+msgid "An account already exists."
+msgstr "Egy fiók már meg van adva."
+
+msgctxt "#32532"
+msgid "Do you want to reset?"
+msgstr "Szeretné visszaállítani?"
+
+msgctxt "#32533"
+msgid "1) Visit : [COLOR skyblue]%s[/COLOR]"
+msgstr "1) Látogassa meg : [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32534"
+msgid "2) When prompted enter : [COLOR skyblue]%s[/COLOR]"
+msgstr "2) Amikor kéri írja be ezt : [COLOR skyblue]%s[/COLOR]"
+
+msgctxt "#32535"
+msgid "Play Random"
+msgstr "Véletlenszerű lejátszás"
+
+msgctxt "#32536"
+msgid "Playing"
+msgstr "Lejátszás"
+
+msgctxt "#32537"
+msgid "Nothing found to play"
+msgstr "Nem található lejátszható elem"
+
+msgctxt "#32538"
+msgid "DEBRID-SERVICE"
+msgstr "DEBRID SZOLGÁLTATÁS"
+
+msgctxt "#32539"
+msgid "Configure Debrid Services in ResolveURL Settings."
+msgstr "Debrid szolgáltatások konfigurálása az ResolveURL beállíásokban"
+
+msgctxt "#32540"
+msgid "ResolveURL Settings"
+msgstr "ResolveURL beállítások"
+
+msgctxt "#32541"
+msgid "Library"
+msgstr "Médiatár"
+
+msgctxt "#32542"
+msgid ""
+"Covenant folders will be imported to library if they are added to media "
+"sources."
+msgstr "Az Covenant mappák bekerülnek a médiatárba, ha hozzá vannak adva a forrásokhoz."
+
+msgctxt "#32543"
+msgid "Movies"
+msgstr "Filmek"
+
+msgctxt "#32544"
+msgid "TV"
+msgstr "Sorozatok"
+
+msgctxt "#32545"
+msgid "Auto update TV Shows"
+msgstr "Sorozatok automatikus frissítése"
+
+msgctxt "#32546"
+msgid "Show notifications during update"
+msgstr "Értesítések megjelenítése frissítés közben"
+
+msgctxt "#32547"
+msgid "Update library after adding content"
+msgstr "Médiatár frissítése tartalom hozzáadása után"
+
+msgctxt "#32548"
+msgid "Avoid creating duplicate content"
+msgstr "Duplikált tartalom létrehozásának elkerülése"
+
+msgctxt "#32549"
+msgid "Check movie before adding it"
+msgstr "Film leellenőrzése hozzáadás előtt"
+
+msgctxt "#32550"
+msgid "Check first episode of season before adding it"
+msgstr "Sorozat első epizódjának leellenőrzése hozzáadás előtt"
+
+msgctxt "#32551"
+msgid "Add to Library"
+msgstr "Hozzáadás a Médiatárhoz"
+
+msgctxt "#32552"
+msgid "Adding to library..."
+msgstr "Médiatárhoz adás..."
+
+msgctxt "#32553"
+msgid "Updating TV shows..."
+msgstr "Sorozatok frissítése..."
+
+msgctxt "#32554"
+msgid "Process Complete"
+msgstr "A folyamat befejeződött"
+
+msgctxt "#32555"
+msgid "Are you sure?"
+msgstr "Biztos benne?"
+
+msgctxt "#32556"
+msgid "[B]COVENANT[/B] : Library"
+msgstr "[B]COVENANT[/B] : Médiatár"
+
+msgctxt "#32557"
+msgid "[B]LIBRARY[/B] : Settings"
+msgstr "[B]MÉDIATÁR[/B] : Beállítások"
+
+msgctxt "#32558"
+msgid "[B]COVENANT[/B] : Update library..."
+msgstr "[B]COVENANT[/B] : Médiatár frissítése..."
+
+msgctxt "#32559"
+msgid "[B]COVENANT[/B] : Movie folder..."
+msgstr "[B]COVENANT[/B] : Filmek mappa..."
+
+msgctxt "#32560"
+msgid "[B]COVENANT[/B] : TV folder..."
+msgstr "[B]COVENANT[/B] : Sorozatok mappa..."
+
+msgctxt "#32561"
+msgid "[B]TRAKT[/B] : Import Collection..."
+msgstr "[B]TRAKT[/B] : Gyűjtemény importálása..."
+
+msgctxt "#32562"
+msgid "[B]TRAKT[/B] : Import Watchlist..."
+msgstr "[B]TRAKT[/B] : Figyelőlista importálása..."
+
+msgctxt "#32563"
+msgid "[B]TRAKT[/B] : Import TV Collection..."
+msgstr "[B]TRAKT[/B] : TV Gyűjtemény importálása..."
+
+msgctxt "#32564"
+msgid "[B]TRAKT[/B] : Import TV Watchlist..."
+msgstr "[B]TRAKT[/B] : TV figyelőlista importálása..."
+
+msgctxt "#32565"
+msgid "Include episodes with unknown air dates"
+msgstr "Megjelenési időpont nélküli epizódok importálása"
+
