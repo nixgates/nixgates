@@ -14,13 +14,13 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.Seren" version="0.1.03" name="Seren" provider-name="Nixgates">
+<addon id="plugin.video.Seren" version="0.1.04" name="Seren" provider-name="Nixgates">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.requests" version="2.19.1" />
 		<import addon="script.module.beautifulsoup4" version="4.5.3"/>
 		<import addon="script.module.metahandler" version="1.0.0" />
-		<import addon="plugin.video.youtube" version="6.2.2"/>
+		<import addon="plugin.video.youtube" version="6.2.0"/>
 		<import addon="script.module.addon.signals" version="0.0.1"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="seren.py">
@@ -44,5 +44,31 @@
 
 		</news>
 	</extension>
+</addon>
+
+<addon id="service.upnext" name="Up Next" provider-name="im85288" version="0.1.8">
+    <requires>
+        <import addon="script.module.requests" version="2.9.1"/>
+    </requires>
+    <extension library="service.py" point="xbmc.service"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Provides a netflix style pop up notification for watching the next episode with fancy/simple
+            modes.
+        </summary>
+        <description lang="en">Provides a netflix style pop up notification for watching the next episode with
+            fancy/simple modes. A prompt to check if your still watching also occurs after a few automatically watched
+            shows in a row.
+        </description>
+        <platform>all</platform>
+        <language/>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/screenshot-01.jpg</screenshot>
+            <screenshot>resources/screenshot-02.jpg</screenshot>
+            <screenshot>resources/screenshot-03.jpg</screenshot>
+            <screenshot>resources/screenshot-04.jpg</screenshot>
+        </assets>
+    </extension>
 </addon>
 </addons>
