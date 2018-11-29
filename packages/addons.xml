@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="context.seren" version="0.3" name="Seren - Global Context Menu Items" provider-name="Nixgates">
+<addon id="context.seren" version="0.4" name="Seren - Global Context Menu Items" provider-name="Nixgates">
 	<requires>
 		<import addon="xbmc.python" version="2.23.0" />
 		<import addon="plugin.video.seren" version="0.1.08" />
@@ -25,7 +25,7 @@
             </item>
 			<item library="traktManager.py">
 				<label>Trakt Manager</label>
-				<visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,tvshow)|String.IsEqual(ListItem.dbtype,movie)]</visible>
+				<visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,tvshow)|String.IsEqual(ListItem.dbtype,season)|String.IsEqual(ListItem.dbtype,movie)]</visible>
 			</item>
         </menu>
     </extension>
@@ -44,6 +44,9 @@
 			<fanart>temp-fanart.png</fanart>
 		</assets>
 		<news>
+Changelog Version 0.4:
+Trakt Manager now available for season objects
+
 Changelog Version 0.3:
 Fixed Shuffle play on continue watching items
 Added Browse Show for TV show items
