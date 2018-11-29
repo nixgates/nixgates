@@ -67,7 +67,7 @@ Added Trakt Manager
 	</extension>
 </addon>
 
-<addon id="plugin.video.seren" version="0.1.13" name="Seren" provider-name="Nixgates">
+<addon id="plugin.video.seren" version="0.1.15" name="Seren" provider-name="Nixgates">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.requests" version="2.19.1" />
@@ -95,6 +95,14 @@ Added Trakt Manager
 			<fanart>temp-fanart.png</fanart>
 		</assets>
 		<news>
+
+Version 0.1.15 Changelog:
+Fallback for DateTime ValueError
+Changed process of list generating so window shouldn't contain random number of items
+
+Version 0.1.14 Changelog:
+Increased Trakt Caching
+
 Version 0.1.13 Changelog:
 Source Select items now clickable
 Esc Key now closes Source Select dialog
