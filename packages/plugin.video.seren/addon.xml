@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.seren" version="0.1.16" name="Seren" provider-name="Nixgates">
+<addon id="plugin.video.seren" version="0.1.17" name="Seren" provider-name="Nixgates">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.requests" version="2.19.1" />
@@ -27,6 +27,12 @@
 			<fanart>temp-fanart.png</fanart>
 		</assets>
 		<news>
+
+Version 0.1.17 Changelog:
+Removed Trakt Lists pagination (Fixed List Sorting)
+Complete work over of TV show continue watching display
+Added Sort Options for Next Up
+Renamed and moved Continue Watching Menu items to "Finish Watching" and added to their respective folders
 
 Version 0.1.16 Changelog:
 Fixed season items not being marked as watched
