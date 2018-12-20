@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="context.seren" version="0.4" name="Seren - Global Context Menu Items" provider-name="Nixgates">
+<addon id="context.seren" version="0.6" name="Seren - Global Context Menu Items" provider-name="Nixgates">
 	<requires>
 		<import addon="xbmc.python" version="2.23.0" />
-		<import addon="plugin.video.seren" version="0.1.08" />
+		<import addon="plugin.video.seren" version="0.1.22" />
 	</requires>
 	<extension point="kodi.context.item">
         <menu id="kodi.core.main">
@@ -13,6 +13,10 @@
 			<item library="findSimilar.py">
                 <label>Find Similar</label>
                 <visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,tvshow)|String.IsEqual(ListItem.dbtype,movie)]</visible>
+            </item>
+			<item library="rescrape.py">
+                <label>Rescrape Item</label>
+                <visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,movie)]</visible>
             </item>
 			<item library="sourceSelect.py">
                 <label>Source Select</label>
@@ -43,6 +47,9 @@
 			<fanart>temp-fanart.png</fanart>
 		</assets>
 		<news>
+Changelog Version 0.5:
+Fixed Source Select (Changed built-in function to PlayMedia)
+
 Changelog Version 0.4:
 Trakt Manager now available for season objects
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="context.seren" version="0.4" name="Seren - Global Context Menu Items" provider-name="Nixgates">
+<addon id="context.seren" version="0.6" name="Seren - Global Context Menu Items" provider-name="Nixgates">
 	<requires>
 		<import addon="xbmc.python" version="2.23.0" />
-		<import addon="plugin.video.seren" version="0.1.08" />
+		<import addon="plugin.video.seren" version="0.1.22" />
 	</requires>
 	<extension point="kodi.context.item">
         <menu id="kodi.core.main">
@@ -14,6 +14,10 @@
 			<item library="findSimilar.py">
                 <label>Find Similar</label>
                 <visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,tvshow)|String.IsEqual(ListItem.dbtype,movie)]</visible>
+            </item>
+			<item library="rescrape.py">
+                <label>Rescrape Item</label>
+                <visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,movie)]</visible>
             </item>
 			<item library="sourceSelect.py">
                 <label>Source Select</label>
@@ -44,6 +48,9 @@
 			<fanart>temp-fanart.png</fanart>
 		</assets>
 		<news>
+Changelog Version 0.5:
+Fixed Source Select (Changed built-in function to PlayMedia)
+
 Changelog Version 0.4:
 Trakt Manager now available for season objects
 
@@ -70,7 +77,7 @@ Added Trakt Manager
 	</extension>
 </addon>
 
-<addon id="plugin.video.seren" version="0.1.18" name="Seren" provider-name="Nixgates">
+<addon id="plugin.video.seren" version="0.1.23" name="Seren" provider-name="Nixgates">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.requests" version="2.19.1" />
@@ -98,6 +105,41 @@ Added Trakt Manager
 			<fanart>temp-fanart.png</fanart>
 		</assets>
 		<news>
+Version 0.1.23 Changelog:
+Added Watchlist sorting
+Added extra fallbacks for trakt outages
+Changed tools setSetting to a function so Kodi modules are not initialised if there is an exception
+
+Version 0.1.22 Changelog:
+Re-installation and updating of provider packages now honors previous settings
+Fixed Hidden items error if no connection to Trakt could be made.
+
+Version 0.1.21 Changelog:
+Added onAVStarted for Kodi 18+ due to issues with offset
+Re-factored code and cleaned up imports
+
+Version 0.1.20 Changelog:
+Provider installer re-write
+Provider packages can now update automatically or manually
+Fixed Trakt Movie Scrobbling
+Fixed Finish Watching Movies
+Added Remove (movie/episode) Progress to Trakt Manager
+
+Version 0.1.19 Changelog:
+Fixed Hidden Items (Possibly - please check)
+Trakt Lists now paginated and sorted
+Silent Scraper setting now reset on startup incase of Kodi crash
+New Shows and recently updated shows now filtered by Kodi Languge
+Corrected some typos
+Extended relevant show pack identification
+Un-aired episodes now removed from automatic playlist generator
+Premiumize autocache now runs premiumize cleanup instead of deleting transfer
+Added option to allow premiumize users to utilize transcoded files
+Added Banner image to episode objects
+Seasons now sorted by season number and not title
+Added basic duplicate provider filtering (provider name only)
+Show premiered dates now retrieved from Trakt and not TVDB
+
 Version 0.1.18 Changelog:
 Added fallback from TMDB SSL certificate issues
 
