@@ -77,7 +77,7 @@ Added Trakt Manager
 	</extension>
 </addon>
 
-<addon id="plugin.video.seren" version="0.1.23" name="Seren" provider-name="Nixgates">
+<addon id="plugin.video.seren" version="0.1.24" name="Seren" provider-name="Nixgates">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.requests" version="2.19.1" />
@@ -105,6 +105,10 @@ Added Trakt Manager
 			<fanart>temp-fanart.png</fanart>
 		</assets>
 		<news>
+
+Version 0.1.24 Changelog:
+Fixed Movie Watchlist Sort to content type "Show"
+
 Version 0.1.23 Changelog:
 Added Watchlist sorting
 Added extra fallbacks for trakt outages
