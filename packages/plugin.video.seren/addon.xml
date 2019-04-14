@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.seren" version="0.2.7" name="Seren" provider-name="Nixgates">
+<addon id="plugin.video.seren" version="0.2.8" name="Seren" provider-name="Nixgates">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.requests" version="2.19.1" />
@@ -27,6 +27,12 @@
 			<fanart>temp-fanart.png</fanart>
 		</assets>
 		<news>
+Changelog 0.2.8:
+Fixed issue with getDebridDuplicates sources crashing getSources Module
+Fixed Pre-emptive termination
+Fixed extra information crashing trakt sync
+Reduced number of threads for initial sync to lessen imapct on device
+
 Changelog 0.2.7:
 Fixed filter function naming
 
