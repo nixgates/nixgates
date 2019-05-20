@@ -83,7 +83,8 @@ Added Trakt Manager
 	</extension>
 </addon>
 
-<addon id="plugin.video.seren" version="0.2.30" name="Seren" provider-name="Nixgates">
+
+<addon id="plugin.video.seren" version="0.2.35" name="Seren" provider-name="Nixgates">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.requests" version="2.19.1" />
@@ -91,6 +92,7 @@ Added Trakt Manager
 		<import addon="script.module.metahandler" version="1.0.0" />
 		<import addon="plugin.video.youtube" version="6.2.0"/>
 		<import addon="script.module.addon.signals" version="0.0.1"/>
+		<import addon="script.module.dateutil" version="2.7.3"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="seren.py">
 		<provides>video</provides>
@@ -111,6 +113,27 @@ Added Trakt Manager
 			<fanart>temp-fanart.png</fanart>
 		</assets>
 		<news>
+Changelog 0.2.35:
+Seren now utilizes Kodi Repository dateutil package
+
+Changelog 0.2.34:
+Cleaned up logging
+
+Changelog 0.2.33:
+Premiumize Cloud Inspection now includes size for identified items
+Cloud Inspection threads now gracefully exit if pre-emptive termination limit is reached
+Increased file identification
+Fixed delay with getsources window showing
+
+Changelog 0.2.32:
+Fixed is_aired format error
+Fixed issue with hide SD removing cloud files
+
+Changelog 0.2.31:
+Fixed issue with un-aired episodes being added to playlist after smartplay speedup
+Seren now confirms TMDB year information with IMDB prior to scraping
+Fixed issues with Seren identifying sources from the users premiumize cloud
+
 Changelog 0.2.30:
 Fixed dictionary key issue for show items in smartPlay modules created with new workaround
 
