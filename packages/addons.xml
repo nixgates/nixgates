@@ -101,7 +101,7 @@ Added Trakt Manager
 	</extension>
 </addon>
 
-<addon id="plugin.video.seren" version="1.0.22" name="Seren" provider-name="Nixgates">
+<addon id="plugin.video.seren" version="1.0.23" name="Seren" provider-name="Nixgates">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.requests" version="2.19.1" />
@@ -131,6 +131,10 @@ Added Trakt Manager
 			<fanart>fanart-fox-gold-final.png</fanart>
 		</assets>
 		<news>
+Changelog 1.0.23:
+Fixed disable/enabled of providers
+Clean up some missed logging
+
 Changelog 1.0.22:
 Fixed Background Scraping Display style
 
