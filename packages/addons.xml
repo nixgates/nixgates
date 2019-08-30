@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="context.seren" version="1.0.3" name="Seren - Global Context Menu Items" provider-name="Nixgates">
+<addon id="context.seren" version="1.0.4" name="Seren - Global Context Menu Items" provider-name="Nixgates">
 	<requires>
 		<import addon="xbmc.python" version="2.23.0" />
-		<import addon="plugin.video.seren" version="0.1.22" />
 	</requires>
 	<extension point="kodi.context.item">
         <menu id="kodi.core.main">
-			<item library="browseSeason.py">
-				<label>Browse Season</label>
-				<visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+String.IsEqual(ListItem.dbtype,episode)</visible>
+			<item library="quickResume.py">
+				<label>Quick Resume Show</label>
+				<visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+String.IsEqual(ListItem.dbtype,tvshow)</visible>
 			</item>
             <item library="shuffle.py">
                 <label>Shuffle Play</label>
                 <visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,tvshow)|String.IsEqual(ListItem.dbtype,episode)]</visible>
             </item>
-			<item library="findSimilar.py">
-                <label>Find Similar</label>
-                <visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,tvshow)|String.IsEqual(ListItem.dbtype,movie)]</visible>
+			<item library="playFromRandomPoint.py">
+                <label>Play From Random Episode</label>
+                <visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+String.IsEqual(ListItem.dbtype,tvshow)</visible>
             </item>
 			<item library="rescrape.py">
                 <label>Rescrape Item</label>
@@ -27,10 +26,18 @@
                 <label>Source Select</label>
                 <visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,movie)]</visible>
             </item>
+			<item library="findSimilar.py">
+                <label>Find Similar</label>
+                <visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,tvshow)|String.IsEqual(ListItem.dbtype,movie)]</visible>
+            </item>
 			<item library="browseShow.py">
                 <label>Browse Show</label>
                 <visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,tvshow)]</visible>
             </item>
+			<item library="browseSeason.py">
+				<label>Browse Season</label>
+				<visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+String.IsEqual(ListItem.dbtype,episode)</visible>
+			</item>
 			<item library="traktManager.py">
 				<label>Trakt Manager</label>
 				<visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,tvshow)|String.IsEqual(ListItem.dbtype,season)|String.IsEqual(ListItem.dbtype,movie)]</visible>
@@ -52,6 +59,11 @@
 			<fanart>fanart-fox-gold-final.png</fanart>
 		</assets>
 		<news>
+Changelog 1.0.4:
+Remove plugin.video.seren Dependency
+Added Quick Resume option
+Added Play From Random Episode option
+
 Changelog 1.0.3:
 Updated artwork to match Seren
 
