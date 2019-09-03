@@ -113,7 +113,7 @@ Added Trakt Manager
 	</extension>
 </addon>
 
-<addon id="plugin.video.seren" version="1.4.6" name="Seren" provider-name="Nixgates">
+<addon id="plugin.video.seren" version="1.4.7" name="Seren" provider-name="Nixgates">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.requests" version="2.19.1" />
@@ -144,6 +144,13 @@ Added Trakt Manager
 			<fanart>fanart-fox-gold-final.png</fanart>
 		</assets>
 		<news>
+Changelog 1.4.7:
+Enable Kodi Menu caching on search results
+Increase source info identification
+Fix mislabeled strings in trakt manager
+Adjust premiered meta key to be gathered from trakt information instead of alternative indexer
+Add fallback to account for empty premiered key set to empty string
+
 Changelog 1.4.6:
 Removed duplicate caching from meta provider modules
 Fixed typos
