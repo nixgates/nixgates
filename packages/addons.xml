@@ -113,7 +113,7 @@ Added Trakt Manager
 	</extension>
 </addon>
 
-<addon id="plugin.video.seren" version="1.6.0" name="Seren" provider-name="Nixgates">
+<addon id="plugin.video.seren" version="1.6.1" name="Seren" provider-name="Nixgates">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.requests" version="2.19.1" />
@@ -159,6 +159,15 @@ Added Trakt Manager
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
 		<news>
+Changelog 1.6.1:
+Fix playback for RD items in My Files
+Fix Trakt Sync Databsae not upgrading correctly
+Fixed Trakt lists missing items
+Settings dialog now closes during PM auth
+Fixed double database rebuilding
+Fixed AllDebrid movie resolving
+Fix list comprehension error in check_for_updates method in skin_manager module
+
 Changelog 1.6.0:
 Some Greek translations added
 Some German translations added
