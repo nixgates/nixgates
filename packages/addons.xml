@@ -113,7 +113,7 @@ Added Trakt Manager
 	</extension>
 </addon>
 
-<addon id="plugin.video.seren" version="1.6.10" name="Seren" provider-name="Nixgates">
+<addon id="plugin.video.seren" version="1.6.12" name="Seren" provider-name="Nixgates">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.requests" version="2.19.1" />
@@ -156,6 +156,12 @@ Added Trakt Manager
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
 		<news>
+Changelog 1.6.12:
+Fix endpoint for still watching and playing next windows
+
+Changelog 1.6.11:
+Fix provider list not showing due to theme changes
+
 Changelog 1.6.10:
 Increased concurrent threads for Trakt Sync database to speed up large menu lists
 Fixed movie view by ID setting not displaying
