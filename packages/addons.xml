@@ -113,7 +113,7 @@ Added Trakt Manager
 	</extension>
 </addon>
 
-<addon id="plugin.video.seren" version="1.6.12" name="Seren" provider-name="Nixgates">
+<addon id="plugin.video.seren" version="1.6.13" name="Seren" provider-name="Nixgates">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 		<import addon="script.module.requests" version="2.19.1" />
@@ -156,6 +156,9 @@ Added Trakt Manager
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
 		<news>
+Changelog 1.6.13:
+Add workaround on failure to grab user lists
+
 Changelog 1.6.12:
 Fix endpoint for still watching and playing next windows
 
