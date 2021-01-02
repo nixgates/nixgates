@@ -80,7 +80,7 @@ Rework for Seren 2.0
 	</extension>
 </addon>
 
-<addon id="plugin.video.seren" version="2.0.5" name="Seren" provider-name="Nixgates">
+<addon id="plugin.video.seren" version="2.0.6" name="Seren" provider-name="Nixgates">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.future" version="0.17.1"/>
@@ -144,6 +144,10 @@ Rework for Seren 2.0
             <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
         </assets>
         <news>
+            Changelog 2.0.6:
+            Create Skins directory if missing
+            Allow failure in pre-term until investigated
+
             Changelog 2.0.5:
             Allow more failures that will require to be investigated further in the future
 
