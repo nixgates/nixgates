@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.seren" version="2.0.15+matrix.2" name="Seren" provider-name="Nixgates">
+<addon id="plugin.video.seren" version="2.0.16+matrix.1" name="Seren" provider-name="Nixgates">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.future" version="0.17.1"/>
         <import addon="script.module.requests" version="2.22.0" />
         <import addon="plugin.video.youtube" version="6.8.3"/>
         <import addon="script.module.beautifulsoup4" version="4.6.2"/>
-        <import addon="context.seren" version="2.0.0"/>
+        <import addon="context.seren" version="1.0.3"/>
         <import addon="script.module.inputstreamhelper" version="0.3.3"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="seren.py">
@@ -61,6 +61,10 @@
             <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
         </assets>
         <news>
+            Changelog 2.0.16:
+            Fix addon update check
+            Fix trakt module attempting to refresh when not authorised
+
             Changelog 2.0.15:
             Fixed python depend
 
