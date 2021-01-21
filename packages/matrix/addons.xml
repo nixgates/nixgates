@@ -66,27 +66,7 @@ Rework for Seren 2.0
 	</extension>
 </addon>
 
-<addon id="repository.nixgates" name="Nixgates Repo" version="2.0.0" provider-name="Nixgates">
-	<extension point="xbmc.addon.repository" name="Nixgates Repo">
-		<dir minversion="18.0" maxversion="18.9.0">
-			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/leia/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/packages/leia/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/leia/</datadir>
-		</dir>
-		<dir minversion="18.9.0">
-			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/matrix/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/packages/matrix/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/matrix/</datadir>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Nixgates</summary>
-		<description>Nixgates Repository</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="plugin.video.seren" version="2.0.14+matrix.1" name="Seren" provider-name="Nixgates">
+<addon id="plugin.video.seren" version="2.0.15+matrix.1" name="Seren" provider-name="Nixgates">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.future" version="0.17.1"/>
@@ -148,6 +128,9 @@ Rework for Seren 2.0
             <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
         </assets>
         <news>
+            Changelog 2.0.15:
+            Fixed python depend
+
             Changelog 2.0.14:
             Fixed scraping issue if title is not present at IMDB
             Added workarounds for syncing trakt database on xbox
@@ -305,5 +288,25 @@ Rework for Seren 2.0
             Debrid account status now visible from Seren settings
         </news>
     </extension>
+</addon>
+
+<addon id="repository.nixgates" name="Nixgates Repo" version="2.0.0" provider-name="Nixgates">
+	<extension point="xbmc.addon.repository" name="Nixgates Repo">
+		<dir minversion="18.0" maxversion="18.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/leia/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/packages/leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/leia/</datadir>
+		</dir>
+		<dir minversion="18.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/matrix/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/packages/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/matrix/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Nixgates</summary>
+		<description>Nixgates Repository</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 </addons>
