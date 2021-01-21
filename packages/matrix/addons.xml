@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="context.seren" version="2.0.0+matrix.1" name="Seren - Global Context Menu Items" provider-name="Nixgates">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+	</requires>
+	<extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+			<item library="quickResume.py">
+				<label>$ADDON[context.seren 32001]</label>
+				<visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+String.IsEqual(ListItem.dbtype,tvshow)</visible>
+			</item>
+            <item library="shuffle.py">
+                <label>$ADDON[context.seren 32002]</label>
+                <visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,tvshow)|String.IsEqual(ListItem.dbtype,episode)]</visible>
+            </item>
+			<item library="playFromRandomPoint.py">
+                <label>$ADDON[context.seren 32003]</label>
+                <visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+String.IsEqual(ListItem.dbtype,tvshow)</visible>
+            </item>
+			<item library="rescrape.py">
+                <label>$ADDON[context.seren 32004]</label>
+                <visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,movie)]</visible>
+            </item>
+			<item library="sourceSelect.py">
+                <label>$ADDON[context.seren 32005]</label>
+                <visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,movie)]</visible>
+            </item>
+			<item library="findSimilar.py">
+                <label>$ADDON[context.seren 32006]</label>
+                <visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,tvshow)|String.IsEqual(ListItem.dbtype,movie)]</visible>
+            </item>
+			<item library="browseShow.py">
+                <label>$ADDON[context.seren 32007]</label>
+                <visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,tvshow)]</visible>
+            </item>
+			<item library="browseSeason.py">
+				<label>$ADDON[context.seren 32008]</label>
+				<visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+String.IsEqual(ListItem.dbtype,episode)</visible>
+			</item>
+			<item library="traktManager.py">
+				<label>$ADDON[context.seren 32009]</label>
+				<visible>String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,tvshow)|String.IsEqual(ListItem.dbtype,season)|String.IsEqual(ListItem.dbtype,movie)]</visible>
+			</item>
+        </menu>
+    </extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Seren - This Addon is currently in beta. Please be aware there may be bugs present</summary>
+		<summary lang="nl">Seren - Deze add-on is momenteel in beta. Let op: er kunnen bugs aanwezig zijn</summary>
+		<description lang="en">Adds Global Contextual Menu Items for Seren menu items throughout Kodi</description>
+		<description lang="ml">Voegt globale contextuele menu-items toe voor Seren-menu-items in Kodi</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<disclaimer lang="en"></disclaimer>
+		<assets>
+			<icon>ico-fox-gold-final.png</icon>
+			<fanart>fanart-fox-gold-final.png</fanart>
+		</assets>
+		<news>
+Changelog 2.0.0:
+Rework for Seren 2.0
+		</news>
+	</extension>
+</addon>
+
+<addon id="repository.nixgates" name="Nixgates Repo" version="2.0.0" provider-name="Nixgates">
+	<extension point="xbmc.addon.repository" name="Nixgates Repo">
+		<dir minversion="18.0" maxversion="18.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/leia/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/packages/leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/leia/</datadir>
+		</dir>
+		<dir minversion="18.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/matrix/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/packages/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/matrix/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Nixgates</summary>
+		<description>Nixgates Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.seren" version="2.0.14+matrix.1" name="Seren" provider-name="Nixgates">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.future" version="0.17.1"/>
+        <import addon="script.module.requests" version="2.22.0" />
+        <import addon="plugin.video.youtube" version="6.8.3"/>
+        <import addon="script.module.beautifulsoup4" version="4.6.2"/>
+        <import addon="context.seren" version="1.0.3"/>
+        <import addon="script.module.inputstreamhelper" version="0.3.3"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="seren.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <summary lang="en">Seren - Modular Multi-source Addon</summary>
+        <description lang="en">Seren is a modular provider based, cloud service streaming software that is tightly
+            interwoven with Trakt. Seren provides the freedom to view media from a single menu system from service
+            providers of the users choosing. Please Note: This addon requires the use of a compatible cloud service.
+        </description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum/>
+        <website>https://github.com/nixgates/plugin.video.seren</website>
+        <source>https://github.com/nixgates/plugin.video.seren</source>
+        <disclaimer lang="en">
+            Last updated: September 09, 2019.
+            The information contained within the Seren software (the "Service") is for general information purposes
+            only.
+            The author assumes no responsibility for errors, omissions in the contents on the Service, nor does it
+            assume responsibility for any material provided by any external services.
+            The use of the Service does not author the user to engage in any kind of illegal, criminal or tortious
+            activity through the use of the software, including infringement of any third party intellectual property
+            rights (including without limitation copyright, trade marks, patent, trade secrets and confidential
+            information), fraud, child pornography, trafficking in obscene material, violation of applicable export
+            restrictions, drug dealing, gambling, harassment, stalking, spamming, hacking, sending of viruses or other
+            harmful files or illegal posting of computer passwords or computer code.
+            The user is responsible for all their activity in connection with the use of the Service and the author
+            reserves the right to report any potentially criminal activity to appropriate law enforcement agencies.
+            The user must not transmit to or via the Service, any material that may infringe the intellectual property
+            rights of any third party, or any defamatory, derogatory or offensive material or publication.
+            In no event shall the author of this software be liable for any special, direct, indirect, consequential, or
+            incidental damages or any damages whatsoever, whether in an action of contract, negligence or other tort,
+            arising out of or in connection with the use of the Service or the contents of the Service.
+            The author reserves the right to make additions, deletions, or modification to the contents on the Service
+            at any time without prior notice.
+            The author of this software does not warrant that the software is free of viruses or other harmful
+            components.
+            Seren may contain links to external websites that are not provided or maintained by or in any way affiliated
+            with the author.
+            Please note that the author does not guarantee the accuracy, relevance, timeliness, or completeness of any
+            information on these external websites.
+        </disclaimer>
+        <assets>
+            <icon>ico-seren-2.jpg</icon>
+            <fanart>fanart-seren-2.jpg</fanart>
+            <screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+            <screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+            <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+        </assets>
+        <news>
+            Changelog 2.0.14:
+            Fixed scraping issue if title is not present at IMDB
+            Added workarounds for syncing trakt database on xbox
+            Fixed Trending/Popular Trakt lists repeating
+            Seperated sort and pagination setting for Trakt collection
+            Applied sort and pagination settings for collection to unfinished shows in collection
+            Re-worked date handling to use UTC for all internal uses and convert to local on display
+            Fixed pagination on recently watched shows menu
+            Fixed source sorting issue for py3
+            Fixed race condition in pre-term for py3
+            File size now displayed on resolver dialog
+            Updated some dutch translations
+            Fixed hosters not being handled correctly at scrape
+            Fix reuselanguageinvoker default
+            Fixed background sync attempting to run when no Trakt auth present
+
+            Changelog 2.0.13
+            Fixed settings not sticking when using reuselanguageinvoker
+            Fixed reuselanguageinvoke status not sticking after toggling
+            Reuselangugageinvoker state now forced on startup
+            Reduced Trakt retries on server failures
+            Increased backoff timeout for retries
+            Fixed playback for special episodes failing
+            Eased timeout issues for bookmarks
+            Fixed non-direct, non-debrid hosters appearing in source select
+            Fix spanish translation file name
+            Fixed title sorting for lists with articles
+            Fixed paging on new shows
+
+            Changelog 2.0.12
+            Fix for source select, tested on 4 skins
+
+            Changelog 2.0.11
+            Take preventative measures to reduce overloading Trakt servers
+            Increase local show/season statistic refreshing
+            Fixed cloud source sorting
+            Fixed HEVC source sorting
+            New shows api call now pulls english and local language from Trakt
+            Modified database commit method to allow for xbox support
+            Reformat source select screen again to allow better filename displaying
+            Fixed next button showing on next up menu
+            Removed pycryptodome dependency, this will need to be requested on a per provider basis
+            Fixed pre-term
+            Fixed empty search results raising exception
+            Fixed auto episode resuming
+            Fixed superficial exceptions in play dialogs
+            Updated danish language strings
+
+            Changelog 2.0.10
+            Fixed issue with milling seasons to often
+            Added checks when attempting to cache magnet
+            Fixed tvshows new
+            Fetching of RD account details after auth fixed
+            Fixed spanish translation folder name
+            Reformat of source select to allow larger file name sizes
+            Fixed race condition in ThreadPool
+            Added fallback for text color if skin color could not be inherited
+            Add legacy param support for smart play playlist creation
+            Fix hide the hiding of unaired episodes from non mixed episode lists
+            Removed default action setting until a appropriate workaround for kodi setting is achieved
+            Wrapped player interactions with Trakt API with Try/Excepts to allow network failures
+            Added fallback method if no thumb art is available
+            Added temporary workaround for ratings issue in add_directory_items
+            Fixed keep-alive in player module. (Fixes dialogs, playlist creation, marking as watched if not caused by network failure)
+            Allowed exceptions in cache check to allow for debrid providers who are offline
+            Replaced ok dialogs for connection issues with notifications
+
+
+            Changelog 2.0.9:
+            Fixed RD cloud scraping
+            Fixed issue if all providers were disabled scraping would run as if all were enabled
+            Fixed smartplay and legacy paramas support
+            Fixed bug causing failure when checking art from TMDB
+            Fixed user lists menus
+            Added spanish translation
+            Fixed backing out from menu when opened from widget (having to backout multiple times)
+            Fixed season watch markers
+            Fixed hidden_items handling with New Shows menu
+
+            Changelog 2.0.8:
+            Temporary Workaround for trakt items not providing trakt_id
+            Better RD episode resolving
+            Better episode identification during resolving
+            Catch WindowsError exception when handling skins
+            Fix text highlight selection
+            Cool down background service on failure
+
+            Changelog 2.0.7:
+            Fixed All debrid torrent resolving
+            Fixed movie resuming
+            Fixed issue with limited providers running at scrape
+            Fixed AD re-auth
+            Changes to attempt to fix XBOX support and ascii issues with timezones
+            Fixed unaired episodes showing blank
+            Fixed AD User info fetching
+            Fixed ghost providers
+            Fixed TypeError with pre-termination
+
+            Changelog 2.0.6:
+            Create Skins directory if missing
+            Allow failure in pre-term until investigated
+
+            Changelog 2.0.5:
+            Allow more failures that will require to be investigated further in the future
+
+            Changelog 2.0.4:
+            Safe get release title when cloud scraping
+            Allow and log failures in maintenance process
+
+            Changelog 2.0.3:
+            Added default value of None for skin color when attempting to pull color from user's skin
+
+            Changelog 2.0.2:
+            Force table re-fresh is sync database fails to rebuild when updating
+
+            Changelog 2.0.1:
+            Fix last_meta_update value to reflect new Seren version
+
+            Changleog 2.0.0:
+
+            Added Download Manager
+            Complete re-write of Trakt Sync Database
+            Metadata handler introduced and complete re-write of handling of metadata
+            Settings that modify metadata can now be changed on the fly and do not require a rebuild
+            Users can now manually resolve a file from the source select screen
+            Users can now manually cache a specific source from the source select screen
+            Complete re-write of menu handling
+            Introduced globals module to handle global variables for interpreter
+            Implement re-use language invoker setting from Kodi
+            Pre-emptive termination now disabled for background Pre-scrapes and timeout set to max for background scrapes
+            New artwork and custom dialogs
+            Metadata now upadted on the fly when updated item encountered from Trakt
+            Next Up menu now populated from local database
+            Sync has been fleshed out to include even more meta data during cycle
+            Failures to auto resolve now prompt user in case they wish to manually interrupt
+            Items are now able to supply multiple images for any given type for skins that make use of it
+            Support for Python 3
+            Global thread lock now implemented for required methods (prevents multiple syncs occuring at once and other locks)
+            InputStreamAdaptive support
+            Providers now have the abiity to implement settings
+            Provider packages can now elect to make use of their own background services
+            Provider packages can now offer images for each provider
+            Cache and Sync database items are now pickled
+            Complete re-write of resovler module and consolidated code
+            Kodi 19 support
+            All Debrid implementation now fully featured
+            Sources can now be sorted by filesize low to high for users that wish to do so
+            Forcing widget refresh after playback now optional
+            Zip manager implemented for handling of zip files
+            Skin Manager rework
+            Automated resolving now more reliable
+            OMDB API implemented
+            Feedback provided at scrape if no providers are found
+            Feedback provided at scrape if no debrid providers are setup
+            Debrid account status now visible from Seren settings
+        </news>
+    </extension>
+</addon>
+</addons>
