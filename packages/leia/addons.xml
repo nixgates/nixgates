@@ -69,15 +69,15 @@ Rework for Seren 2.0
 	</extension>
 </addon>
 
-<addon id="plugin.video.seren" version="2.0.17" name="Seren" provider-name="Nixgates">
+<addon id="plugin.video.seren" version="2.0.18" name="Seren" provider-name="Nixgates">
     <requires>
         <import addon="xbmc.python" version="2.26.0" />
         <import addon="script.module.future" version="0.17.1"/>
         <import addon="script.module.requests" version="2.22.0" />
-        <import addon="plugin.video.youtube" version="6.8.3"/>
-        <import addon="script.module.beautifulsoup4" version="4.6.2"/>
-        <import addon="context.seren" version="2.0.0"/>
-        <import addon="script.module.inputstreamhelper" version="0.3.3"/>
+        <import addon="plugin.video.youtube" version="6.8.10"/>
+        <import addon="script.module.beautifulsoup4" version="4.9.3"/>
+        <import addon="context.seren" version="2.0.1"/>
+        <import addon="script.module.inputstreamhelper" version="0.5.2"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="seren.py">
         <provides>video</provides>
@@ -130,195 +130,1114 @@ Rework for Seren 2.0
             <screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
             <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
         </assets>
-        <news>
-            Changelog 2.0.17:
-            Fix for shows search and TVDB empty data
-            Fix handling of timestamp creation to be UTC compliant
-            Fix timezone code taking unix path on Windows
-            Added a fall through for android getprop timezone detection
-            Handle invalid dates from metadata indexer when obtaining year value.
-            Fix Matrix UI spins on closing download manager
-            Add check for invalid list position in download manager returned by an empty list
-            Fix isFolder bool for download manager
-            Fix resume progress indicators
-            Calculate resumetime at bookmark insert for movies
-            Add support for clearing bookmarks on Matrix
-            Fix view_type has no attribute isdigit bug
-            Ensure studio info value in seasons/episodes
-            Add provider package version information to existing logging item
-            Handle removal of legacy provider meta file both on uninstall and upgrade
-            Replaced seekTime with execute of BigSkipForward
-            Fix Simplejson decode error not caught bug
-            Handle exception instances from a4ksubtitles
-            Fix pagination for genre multi-select
-            Fix paging of Finish Watching has same items bug
-            Fixed show pack suffixes and checking of 1x1 episode naming
-            Updated missing codes and added it-IT, fr-FR and ar-SA translations
-            Update Danish language strings
+        <news>Changelog 2.0.18
+Fix the thread pool issues
+Added logic to push down the country_origin to be used by the scrapers
+Original title swap now only occurs for display, use unicode everywhere
+Fixed normalization function retuning unnormalized values
+Fix for genre multi-select always showing same items
+Fixed local TZ conversion for dates in Upcoming, Source Select and OSD
+Real Debrid use status_codes to determine what are good requests
+Make sure we have all parts for the calculation of the bookmarks
+Added regex to parse semver out of version label
+Re-implemented update checker that will work regardless of repo changes
 
-            Changelog 2.0.16:
-            Fix addon update check
-            Fix trakt module attempting to refresh when not authorised
+Changelog 2.0.17:
+Fix for shows search and TVDB empty data
+Fix handling of timestamp creation to be UTC compliant
+Fix timezone code taking unix path on Windows
+Added a fall through for android getprop timezone detection
+Handle invalid dates from metadata indexer when obtaining year value.
+Fix Matrix UI spins on closing download manager
+Add check for invalid list position in download manager returned by an empty list
+Fix isFolder bool for download manager
+Fix resume progress indicators
+Calculate resumetime at bookmark insert for movies
+Add support for clearing bookmarks on Matrix
+Fix view_type has no attribute isdigit bug
+Ensure studio info value in seasons/episodes
+Add provider package version information to existing logging item
+Handle removal of legacy provider meta file both on uninstall and upgrade
+Replaced seekTime with execute of BigSkipForward
+Fix Simplejson decode error not caught bug
+Handle exception instances from a4ksubtitles
+Fix pagination for genre multi-select
+Fix paging of Finish Watching has same items bug
+Fixed show pack suffixes and checking of 1x1 episode naming
+Updated missing codes and added it-IT, fr-FR and ar-SA translations
+Update Danish language strings
 
-            Changelog 2.0.15:
-            Fixed python depend
+Changelog 2.0.16:
+Fix addon update check
+Fix trakt module attempting to refresh when not authorised
 
-            Changelog 2.0.14:
-            Fixed scraping issue if title is not present at IMDB
-            Added workarounds for syncing trakt database on xbox
-            Fixed Trending/Popular Trakt lists repeating
-            Seperated sort and pagination setting for Trakt collection
-            Applied sort and pagination settings for collection to unfinished shows in collection
-            Re-worked date handling to use UTC for all internal uses and convert to local on display
-            Fixed pagination on recently watched shows menu
-            Fixed source sorting issue for py3
-            Fixed race condition in pre-term for py3
-            File size now displayed on resolver dialog
-            Updated some dutch translations
-            Fixed hosters not being handled correctly at scrape
-            Fix reuselanguageinvoker default
-            Fixed background sync attempting to run when no Trakt auth present
+Changelog 2.0.15:
+Fixed python depend
 
-            Changelog 2.0.13
-            Fixed settings not sticking when using reuselanguageinvoker
-            Fixed reuselanguageinvoke status not sticking after toggling
-            Reuselangugageinvoker state now forced on startup
-            Reduced Trakt retries on server failures
-            Increased backoff timeout for retries
-            Fixed playback for special episodes failing
-            Eased timeout issues for bookmarks
-            Fixed non-direct, non-debrid hosters appearing in source select
-            Fix spanish translation file name
-            Fixed title sorting for lists with articles
-            Fixed paging on new shows
+Changelog 2.0.14:
+Fixed scraping issue if title is not present at IMDB
+Added workarounds for syncing trakt database on xbox
+Fixed Trending/Popular Trakt lists repeating
+Seperated sort and pagination setting for Trakt collection
+Applied sort and pagination settings for collection to unfinished shows in collection
+Re-worked date handling to use UTC for all internal uses and convert to local on display
+Fixed pagination on recently watched shows menu
+Fixed source sorting issue for py3
+Fixed race condition in pre-term for py3
+File size now displayed on resolver dialog
+Updated some dutch translations
+Fixed hosters not being handled correctly at scrape
+Fix reuselanguageinvoker default
+Fixed background sync attempting to run when no Trakt auth present
 
-            Changelog 2.0.12
-            Fix for source select, tested on 4 skins
+Changelog 2.0.13
+Fixed settings not sticking when using reuselanguageinvoker
+Fixed reuselanguageinvoke status not sticking after toggling
+Reuselangugageinvoker state now forced on startup
+Reduced Trakt retries on server failures
+Increased backoff timeout for retries
+Fixed playback for special episodes failing
+Eased timeout issues for bookmarks
+Fixed non-direct, non-debrid hosters appearing in source select
+Fix spanish translation file name
+Fixed title sorting for lists with articles
+Fixed paging on new shows
 
-            Changelog 2.0.11
-            Take preventative measures to reduce overloading Trakt servers
-            Increase local show/season statistic refreshing
-            Fixed cloud source sorting
-            Fixed HEVC source sorting
-            New shows api call now pulls english and local language from Trakt
-            Modified database commit method to allow for xbox support
-            Reformat source select screen again to allow better filename displaying
-            Fixed next button showing on next up menu
-            Removed pycryptodome dependency, this will need to be requested on a per provider basis
-            Fixed pre-term
-            Fixed empty search results raising exception
-            Fixed auto episode resuming
-            Fixed superficial exceptions in play dialogs
-            Updated danish language strings
+Changelog 2.0.12
+Fix for source select, tested on 4 skins
 
-            Changelog 2.0.10
-            Fixed issue with milling seasons to often
-            Added checks when attempting to cache magnet
-            Fixed tvshows new
-            Fetching of RD account details after auth fixed
-            Fixed spanish translation folder name
-            Reformat of source select to allow larger file name sizes
-            Fixed race condition in ThreadPool
-            Added fallback for text color if skin color could not be inherited
-            Add legacy param support for smart play playlist creation
-            Fix hide the hiding of unaired episodes from non mixed episode lists
-            Removed default action setting until a appropriate workaround for kodi setting is achieved
-            Wrapped player interactions with Trakt API with Try/Excepts to allow network failures
-            Added fallback method if no thumb art is available
-            Added temporary workaround for ratings issue in add_directory_items
-            Fixed keep-alive in player module. (Fixes dialogs, playlist creation, marking as watched if not caused by network failure)
-            Allowed exceptions in cache check to allow for debrid providers who are offline
-            Replaced ok dialogs for connection issues with notifications
+Changelog 2.0.11
+Take preventative measures to reduce overloading Trakt servers
+Increase local show/season statistic refreshing
+Fixed cloud source sorting
+Fixed HEVC source sorting
+New shows api call now pulls english and local language from Trakt
+Modified database commit method to allow for xbox support
+Reformat source select screen again to allow better filename displaying
+Fixed next button showing on next up menu
+Removed pycryptodome dependency, this will need to be requested on a per provider basis
+Fixed pre-term
+Fixed empty search results raising exception
+Fixed auto episode resuming
+Fixed superficial exceptions in play dialogs
+Updated danish language strings
 
 
-            Changelog 2.0.9:
-            Fixed RD cloud scraping
-            Fixed issue if all providers were disabled scraping would run as if all were enabled
-            Fixed smartplay and legacy paramas support
-            Fixed bug causing failure when checking art from TMDB
-            Fixed user lists menus
-            Added spanish translation
-            Fixed backing out from menu when opened from widget (having to backout multiple times)
-            Fixed season watch markers
-            Fixed hidden_items handling with New Shows menu
+Changelog 2.0.10
+Fixed issue with milling seasons to often
+Added checks when attempting to cache magnet
+Fixed tvshows new
+Fetching of RD account details after auth fixed
+Fixed spanish translation folder name
+Reformat of source select to allow larger file name sizes
+Fixed race condition in ThreadPool
+Added fallback for text color if skin color could not be inherited
+Add legacy param support for smart play playlist creation
+Fix hide the hiding of unaired episodes from non mixed episode lists
+Removed default action setting until a appropriate workaround for kodi setting is achieved
+Wrapped player interactions with Trakt API with Try/Excepts to allow network failures
+Added fallback method if no thumb art is available
+Added temporary workaround for ratings issue in add_directory_items
+Fixed keep-alive in player module. (Fixes dialogs, playlist creation, marking as watched if not caused by network failure)
+Allowed exceptions in cache check to allow for debrid providers who are offline
+Replaced ok dialogs for connection issues with notifications
 
-            Changelog 2.0.8:
-            Temporary Workaround for trakt items not providing trakt_id
-            Better RD episode resolving
-            Better episode identification during resolving
-            Catch WindowsError exception when handling skins
-            Fix text highlight selection
-            Cool down background service on failure
+Changelog 2.0.9:
+Fixed RD cloud scraping
+Fixed issue if all providers were disabled scraping would run as if all were enabled
+Fixed smartplay and legacy paramas support
+Fixed bug causing failure when checking art from TMDB
+Fixed user lists menus
+Added spanish translation
+Fixed backing out from menu when opened from widget (having to backout multiple times)
+Fixed season watch markers
 
-            Changelog 2.0.7:
-            Fixed All debrid torrent resolving
-            Fixed movie resuming
-            Fixed issue with limited providers running at scrape
-            Fixed AD re-auth
-            Changes to attempt to fix XBOX support and ascii issues with timezones
-            Fixed unaired episodes showing blank
-            Fixed AD User info fetching
-            Fixed ghost providers
-            Fixed TypeError with pre-termination
+Changelog 2.0.8:
+Temporary Workaround for trakt items not providing trakt_id
+Better RD episode resolving
+Better episode identification during resolving
+Catch WindowsError exception when handling skins
+Fix text highlight selection
+Cool down background service on failure
 
-            Changelog 2.0.6:
-            Create Skins directory if missing
-            Allow failure in pre-term until investigated
+Changelog 2.0.7:
+Fixed All debrid torrent resolving
+Fixed movie resuming
+Fixed issue with limited providers running at scrape
+Fixed AD re-auth
+Changes to attempt to fix XBOX support and ascii issues with timezones
+Fixed unaired episodes showing blank
+Fixed AD User info fetching
+Fixed ghost providers
+Fixed TypeError with pre-termination
 
-            Changelog 2.0.5:
-            Allow more failures that will require to be investigated further in the future
+Changelog 2.0.6:
+Create Skins directory if missing
+Allow failure in pre-term until investigated
 
-            Changelog 2.0.4:
-            Safe get release title when cloud scraping
-            Allow and log failures in maintenance process
+Changelog 2.0.5:
+Allow more failures that will require to be investigated further in the future
 
-            Changelog 2.0.3:
-            Added default value of None for skin color when attempting to pull color from user's skin
+Changelog 2.0.4:
+Safe get release title when cloud scraping
+Allow and log failures in maintenance process
 
-            Changelog 2.0.2:
-            Force table re-fresh is sync database fails to rebuild when updating
+Changelog 2.0.3:
+Added default value of None for skin color when attempting to pull color from user's skin
 
-            Changelog 2.0.1:
-            Fix last_meta_update value to reflect new Seren version
+Changelog 2.0.2:
+Force table re-fresh is sync database fails to rebuild when updating
 
-            Changleog 2.0.0:
+Changelog 2.0.1:
+Fix last_meta_update value to reflect new Seren version
 
-            Added Download Manager
-            Complete re-write of Trakt Sync Database
-            Metadata handler introduced and complete re-write of handling of metadata
-            Settings that modify metadata can now be changed on the fly and do not require a rebuild
-            Users can now manually resolve a file from the source select screen
-            Users can now manually cache a specific source from the source select screen
-            Complete re-write of menu handling
-            Introduced globals module to handle global variables for interpreter
-            Implement re-use language invoker setting from Kodi
-            Pre-emptive termination now disabled for background Pre-scrapes and timeout set to max for background scrapes
-            New artwork and custom dialogs
-            Metadata now upadted on the fly when updated item encountered from Trakt
-            Next Up menu now populated from local database
-            Sync has been fleshed out to include even more meta data during cycle
-            Failures to auto resolve now prompt user in case they wish to manually interrupt
-            Items are now able to supply multiple images for any given type for skins that make use of it
-            Support for Python 3
-            Global thread lock now implemented for required methods (prevents multiple syncs occuring at once and other locks)
-            InputStreamAdaptive support
-            Providers now have the abiity to implement settings
-            Provider packages can now elect to make use of their own background services
-            Provider packages can now offer images for each provider
-            Cache and Sync database items are now pickled
-            Complete re-write of resovler module and consolidated code
-            Kodi 19 support
-            All Debrid implementation now fully featured
-            Sources can now be sorted by filesize low to high for users that wish to do so
-            Forcing widget refresh after playback now optional
-            Zip manager implemented for handling of zip files
-            Skin Manager rework
-            Automated resolving now more reliable
-            OMDB API implemented
-            Feedback provided at scrape if no providers are found
-            Feedback provided at scrape if no debrid providers are setup
-            Debrid account status now visible from Seren settings
-        </news>
+Changleog 2.0.0:
+
+Added Download Manager
+Complete re-write of Trakt Sync Database
+Metadata handler introduced and complete re-write of handling of metadata
+Settings that modify metadata can now be changed on the fly and do not require a rebuild
+Users can now manually resolve a file from the source select screen
+Users can now manually cache a specific source from the source select screen
+Complete re-write of menu handling
+Introduced globals module to handle global variables for interpreter
+Implement re-use language invoker setting from Kodi
+Pre-emptive termination now disabled for background Pre-scrapes and timeout set to max for background scrapes
+New artwork and custom dialogs
+Metadata now upadted on the fly when updated item encountered from Trakt
+Next Up menu now populated from local database
+Sync has been fleshed out to include even more meta data during cycle
+Failures to auto resolve now prompt user in case they wish to manually interrupt
+Items are now able to supply multiple images for any given type for skins that make use of it
+Support for Python 3
+Global thread lock now implemented for required methods (prevents multiple syncs occuring at once and other locks)
+InputStreamAdaptive support
+Providers now have the abiity to implement settings
+Provider packages can now elect to make use of their own background services
+Provider packages can now offer images for each provider
+Cache and Sync database items are now pickled
+Complete re-write of resovler module and consolidated code
+Kodi 19 support
+All Debrid implementation now fully featured
+Sources can now be sorted by filesize low to high for users that wish to do so
+Forcing widget refresh after playback now optional
+Zip manager implemented for handling of zip files
+Skin Manager rework
+Automated resolving now more reliable
+OMDB API implemented
+Feedback provided at scrape if no providers are found
+Feedback provided at scrape if no debrid providers are setup
+Debrid account status now visible from Seren settings
+
+
+Changelog 1.6.10:
+Increased concurrent threads for Trakt Sync database to speed up large menu lists
+Fixed movie view by ID setting not displaying
+Fix TypeError when a manual update check is performed and no providers are installed.
+Added monkey patch of requests to allow cancellation of provider requests after we have exited getSources keepalive
+Added support to inform providers to shutdown
+Force lists to sync against trakts dates instead of local
+Fix marking watched on specials if no episodes are present
+Re-factored marking as watched for shows/seasons to speed up process
+Randomize service run time to avoid conflicting schedules
+More py3 compatibility fixes
+Zip file handling fixes due to issues with py3 compat
+Extended logging in RD resolving to allow better identification of issues
+
+Changelog 1.6.9:
+Fixed AllDebrid Cache check mistake during py3 compatibility changes
+
+Changelog 1.6.8:
+Tighten and speed up PM cloud file inspection
+Multiple fixes to TMDb module
+buildSimpleTorrentInfo now more safe for shows that lack information
+Added compatibility for Trakt usernames with non ASCII characters
+Created new regex method for identifying files inside a pack
+Premiumize resolver now uses regex method
+Real Debrid resolver now uses regex method
+Reworked RD cache check method to use new new methods created
+Cleaned up Real Debrid resolver method
+Cleaned up Premiumize resolver method
+Genre lists now use the trending endpoint to provide more current/relevant titles
+Fix possible double resolving of source in source select if not using auto-try next source
+Fixed Play from random point not clearing playing items from playlist
+
+Changelog 1.6.7:
+Fix season sort due to stringed season number from TMDb module
+
+Changelog 1.6.6:
+Fix Fanart.tv call for movies
+
+Changelog 1.6.5:
+Fixed shows not syncing due to oddly formatted season information
+Fix MyFiles link resolving
+Fix All Debrid menu structuring in MyFiles
+Added more filtering to cache assist to provide a more relevant source
+Moved TMDb indexer to default meta provider for show items
+Added try/except/finally to _remove_old_meta_items in sync activities to ensure database cursor is closed on failure
+
+Changelog 1.6.4:
+Trakt requests now automatically re-try in the event of remote server failures
+Fixed issue with some movies not being marked as collected during sync
+Catch stringed NoneType values in database.py
+Resolver now returns None if cancelled, regardless if resolving was successful
+File size limits are now enabled by default (10GB)
+Fixed settings cleanup method (missmatch settings error)
+Fixed MyFiles for All Debrid
+Seperated cloud services within MyFiles
+
+Changelog 1.6.3:
+Fixed backwards compatibility for older Seren list urls
+Movie titles now confirm against IMDB before scrape
+Stop triggering Oauth refresh on 401 errors
+Next up sort style now requires Trakt Auth
+All Debrid magnets are now removed from account after resolving is complete
+Fixed source size possibly displaying multiple times in resolver window
+Rescrape now only applies to initial playlist item
+Fixed ability to backout of Hide Item selection in Trakt manager
+Fixed Trakt lists with same name being mixed up
+Trakt list titles now also append the username
+
+Changelog 1.6.2:
+Fixed trakt database rebuild issues
+
+Changelog 1.6.1:
+Fix playback for RD items in My Files
+Fix Trakt Sync Databsae not upgrading correctly
+Fixed Trakt lists missing items
+Settings dialog now closes during PM auth
+Fixed double database rebuilding
+Fixed AllDebrid movie resolving
+Fix list comprehension error in check_for_updates method in skin_manager module
+
+Changelog 1.6.0:
+Some Greek translations added
+Some German translations added
+Next Up menu now generated completely locally using DB query
+Added All-Debrid Support
+Premiumize now uses O-Auth (re-auth is required)
+Complete re-work of the standard playlist building (removes building playlist window for standard playback)
+Re-work of My Files module to reduce spaghetti
+Re-work of resolver module to reduce spaghetti
+New Custom Windows Still Watching/Play Next
+Added update support for Seren Themes
+Removed support for UpNext addon
+Lists are now synced to the trakt database
+More work on player.py module, better bookmark identification and playback marking
+Re-work Trakt Manager to be more context sensitive
+Added ability to paginate Trakt lists
+Added some more shortcuts to the search menu
+Show information is confirmed with IMDB prior to scrape
+Date and time in custom windows now displays in regional format
+Added fallbacks for shows meta gathering in Trakt DB
+Source filtering improvements to reduce meta loss
+Set a timeout for Fanart.tv calls (reduces slow downs at cost of artwork)
+Re-worked intial trakt sync and removed dialog box
+Complete overhaul of the bookmark system
+Fixed torrent semaphore not being released
+Playback parameters are now applied to further episodes
+Implement new listall endpoint for Premiumize cloud scraping (decreased scrape times)
+More minor bugfixes (honestly could not list them all)
+
+Changelog 1.4.7:
+Enable Kodi Menu caching on search results
+Increase source info identification
+Fix mislabeled strings in trakt manager
+Adjust premiered meta key to be gathered from trakt information instead of alternative indexer
+Add fallback to account for empty premiered key set to empty string
+
+Changelog 1.4.6:
+Removed duplicate caching from meta provider modules
+Fixed typos
+Additional translation strings added
+Fixed potential deadlocks from occuring in the worker module
+Reduced workers for Trakt Sync operations
+
+Changelog 1.4.5:
+Inceased speed in TMDb module by threading more network requests
+
+Changelog 1.4.4:
+Fixed accidental swap of preferred source of artwork labels
+Duplicated poster value to thumb for show and season objects
+
+Changelog 1.4.3:
+Created Artwork Category in settings
+Adjusted artwork settings visibility to better represent end format
+
+Changelog 1.4.2:
+Adjust Advanced artwork strings
+Fixed Premiumize Max Storage setting visibility
+Changing highlight color now re-opens settings menu
+Adjusted getInfo to support more information tags
+
+Changelog 1.4.1:
+Created worker module and lazy threadpool
+Increased title and information identification for sources
+Added advanced settings for item artwork
+Increased network request caching
+Uninstall in provider manager now works similar to disabling providers
+Threadlocked SQL database entries
+
+Changelog 1.4.0:
+Fixed Provider Manager Default Focus
+Fixed language string spacing for Disable All Hosters
+Fixed Notification timeouts for available updates
+Added multiple fall backs for metadata information to better support outages
+Fixed Premiumize visibility equations
+Settings re-work for better flow
+Added settings to allow user to choose artwork service
+Fix setCast for items, cast items now display images
+Updated last_meta_update for trakt sync database
+
+Changelog 1.3.6:
+Fix skin_dir XML pointer
+
+Changelog 1.3.5:
+Theme Manager now uses pointer to reduce file movements
+Fixed Unicode errors on deaccentString method
+Fixed SkinManager import for Provider Manager
+Fixed type issues with tuples for view types
+
+Changelog 1.3.4:
+Fixed Cache Assist always triggering
+Fixed cache clear notification appearing if user cancels process
+Increased fall backs for TV show artwork
+Fixed series posters being served as thumbnail fallback, changed to fanart
+Removed Caching of Trakt user lists
+Increased text translation
+Added Dutch Translations
+
+Changelog 1.3.3:
+Added check to confirm folder "Default" is included in theme package
+Added new language strings
+
+Changelog 1.3.2:
+Fixed Scrobbling
+
+Changelog 1.3.1:
+Fixed delay when resuming items
+Fixed issues with missing theme variables in tools module
+Lowered RD request timeout
+Improved Seren's ability to detect moment playback has started
+Improved handeling of accented text in Premiumize resolver
+
+Changelog 1.3.0:
+Serens skins renamed to "Themes" to try avoid confusion with Kodi skins
+Fixed issue displaying show seasons where season numbering does not start from 1 eg BBC Horizon
+Added Flatten Seasons setting
+Small improvements to player module
+
+Changelog 1.2.2:
+Fixed search history results not searching
+Fixed issue with providers not displaying names correctly
+Fixed RD Cloud movie sources showing incorrect size meta
+Movies Fanart now acquired using TMDB ID
+Added redundant reset to scrobble status on playback start in player module
+Fixed and confirmed all searching related items
+
+Changelog 1.2.1:
+Fixed providers not refreshing after new dialog raised with Toolbox button in Provider Manager
+Added touch/mouse support for Provider Manager window
+Fixed Kodi crashing on playback from widgets
+Fixed Kodi playback error displaying when played from skin info dialog
+
+Changelog 1.2.0:
+Fixed arguments or Trakt Manager context item
+Fixed playlist not clearing on cancel of source select
+Re-design of provider package management
+
+Changelog 1.1.3:
+Updated hash regex to support uncommon magnets
+Fixed browse show from mixed episode lists
+Language string "32055" change to "Clear Local Torrent Cache"
+Added confirmation at clearing of torrent cache
+Added confirmation at clearing of search history
+Removed multiline source select setting as it is no longer required
+Setting "Hide Low Quality Items" renamed to "Hide Common Undesirable Items"
+Setting "Check for Seren Updates" renamed to "Notify Me About Available Updates"
+Removal of orphaned files
+Restructuring of some folders
+Fixed duplicate removal process removing debrid duplicates
+Clean up of player init method
+
+Changelog 1.1.2:
+Added fallback to hash on failure to extract from magnet in RD resolver
+
+Changelog 1.1.1:
+Added the ability to use custom images for custom window skins
+Added the window property "skin.dir", property contains the file path for the current active skin (similar to special://skin/)
+Moved RD premium check further down in auth process
+Trakt username api call changed to users/me endpoint
+
+Changelog 1.1.0:
+Added the Skin Manager Feature
+Users can now install custom XML window packages
+Users can now uninstall custom XML window packages
+Users can now switch between custom XML window packages
+
+Changelog 1.0.24:
+Fix Automatic Episode Resume
+
+Changelog 1.0.23:
+Fixed disable/enabled of providers
+Clean up some missed logging
+
+Changelog 1.0.22:
+Fixed Background Scraping Display style
+
+Changelog 1.0.21:
+Fixed issue with Custom Providers refresh not honoring disabled status (Actually this time)
+Added try/except for property/progress updates in getSources module
+Fixed issue with source dicts being stringed during source select
+Added onClick callback for source select
+
+Changelog 1.0.20:
+Fixed Source Select selecting wrong source
+Fixed issue with Custom Providers refresh not honoring disabled status
+
+Changelog 1.0.19:
+Further adjustments of background overlay to better suit brighter fanart images
+
+Changelog 1.0.18:
+Added Overlay to custom windows
+Added re-worked versions of artwork
+Seren Fanart now applies to all items that are missing fanart
+
+Changelog 1.0.17:
+Adjust poster size in Source Select
+Added setting "Auto try next link on resolve failure (Source Select)"
+
+Changelog 1.0.16:
+Cleaned up and re-worked provider database sync function
+Fixed issue with providers not showing on initial install of providers
+
+Changelog 1.0.15:
+Local torrent database restructued to increase speeds and handling of entries
+Increased visibility of selected item in source select view
+Fixed hosters providers not scraping episodes
+Hosters now display the release title of the source if available
+Re-work of Seren artwork
+
+Changelog 1.0.14:
+Fixed Shuffle Play
+Adjusted contrast levels for new windows
+
+Changelog 1.0.13:
+All custom windows have been migrated over to XML based windows
+Tidied code within getSources endpoint
+Failure to resolve an item with source select active now returns the user to the source select window
+Improvements to trakt bookmarks occuring
+Added notification at RD auth to check if users account is premium and advise accordingly
+Adjusted Premiumize Automatic Cloud Removal to support new Fair Usage system
+Premiumize percentage threshold is now maximum GBs of used storage
+Fixed appending seasons to current playlist
+
+Changelog 1.0.12:
+Fixed issues with show year returning INT
+
+Changelog 1.0.11:
+Fixed removal of hidden items during sync
+
+Changelog 1.0.10:
+Fixed Hiding show from episode items
+
+Changelog 1.0.9:
+Fixed Date Display issue with Up Next notification
+Menu caching is now optional within Seren settings, defaulted to On
+Show year meta information now gathered from Trakt instead of TVDB (meta missing on some titles)
+Changes to search menu to provide better usability
+Increasesd title identification
+
+Changelog 1.0.8:
+Improvements to title identification
+Improvements to window handling on playback failure/cancellation
+Disabled Kodi menu caching for all directories
+Moved playback resume execution closer to start of playback
+Fixed IMDB meta confirmation for movies
+
+Changelog 1.0.7:
+Adjusted Trakt Manager method to better suit new URLS
+Fixed Smartplay playlist builder not honoring hide un-aired setting
+Further improvements to show pack filter
+
+Changelog 1.0.6:
+Change movie items action to the correct action
+Changing trakt account now raises an initial sync process.
+Removing trakt account removes all watched status and collected status from local database
+Authorising trakt for the first time raises an initial sync process to occur
+Added trakt_username column to the Trakt Sync activities database
+Added migration for existing trakt users
+Unsuccesful attempts to mark/unmark watched status on items is now notified and logged
+Fixed issue with pre-emptive scraping failing when set to background task style scraping
+TV module functions now use a shared instance of the Trakt Sync database class
+Movie modules functions now use a shared instance of the Trakt Sync database class
+
+Changelog 1.0.5:
+Rollback changes to initial playlist creation due to issues with skin widgets
+
+Changelog 1.0.4:
+Added workaround for getSources api call
+Fixed more URL issues in seren.py breaking play style
+
+Changelog 1.0.3:
+Fixed issue cloud scraping for movie items caused by URL changes
+Fixed Source Select List (Movies) issues due to URL changes
+Fixed issues caused in player module from URL change
+Fixed issues caused in smartPlay from URL change
+
+Changelog 1.0.2:
+Fixed issue with Trakt Sync Database repeatedly downgrading/upgrading
+
+Changelog 1.0.1:
+Fix slow trakt sync speeds caused by maximum SQL statements variable not resetting
+Fix issues with list style source select and URL changes
+Fixed date display in list style source select window
+
+Changelog 1.0.0:
+Removed Building Playlist process, seren now moves straight to scraping and fills in the playlist in the background
+Re-worked smartplay module
+Moving forward, Seren's versioning should now match semantic versioning
+Complete restructure of actionArgs for Seren API endpoints
+Fixed issues with trakt manager when in a mixed episode list
+Fixed Trakt Sync failing with exceptionally large libraries
+
+Changelog 0.2.38:
+Fixed issue with marking items as watched locally
+
+Changelog 0.2.37:
+Fixed Episode File Size setting visibility
+Fixed getSources module displaying checking local database when setting is disabled
+Removed logging of some superficial errors in Trakt Sync and Next Up menu
+Reduced minimum of percentage watched before marked as watched locally
+Fixed issue where seasons would not display for shows with odd season number conventions
+
+Changelog 0.2.36:
+Fixed visibility of Premiumize Account Settings
+Provider update check timeout increased to hourly
+Addon update checks timeout increased to daily
+Drastic increases to trakt sync speeds
+Added fallbacks for possible network failures in trakt syncing process
+Fixed default tuple length in getSources
+Fixed Real-Debrid Cloud Sources breaking due to missing size key
+Disabled cache assist when cloud files are present during scrape process
+Adjusted scrobble check for player module to occur only when successfully scrobbled to trakt
+Added fallback for trakt scrobbling to playbackended player callback
+Removed duplicate trakt prompt on auth failure
+Un-cached Sources in manual cache assist are now sorted by seeds descending
+Added Browse Season option to episode context menu
+Added ability to shuffle play show from an episode item
+Fixed setting retrieval for Apple devices
+Movies and episodes now have seperate file size limits
+Source select view now defaults to list
+Fixed delayed playback failed dialog from Kodi
+Fixed issue with appending next season to active playlist
+Escaped ampersand characters in settings file
+Fixed issue where item meta information would not update unless a Trakt account was authorised
+Disabled caching of results if no sources are found
+Fixed missing settings check for Local Torrent Cache inspection.
+Fixed CM options not showing if context menu addon not installed
+
+Changelog 0.2.35:
+Seren now utilizes Kodi Repository dateutil package
+
+Changelog 0.2.34:
+Cleaned up logging
+
+Changelog 0.2.33:
+Premiumize Cloud Inspection now includes size for identified items
+Cloud Inspection threads now gracefully exit if pre-emptive termination limit is reached
+Increased file identification
+Fixed delay with getsources window showing
+
+Changelog 0.2.32:
+Fixed is_aired format error
+Fixed issue with hide SD removing cloud files
+
+Changelog 0.2.31:
+Fixed issue with un-aired episodes being added to playlist after smartplay speedup
+Seren now confirms TMDB year information with IMDB prior to scraping
+Fixed issues with Seren identifying sources from the users premiumize cloud
+
+Changelog 0.2.30:
+Fixed dictionary key issue for show items in smartPlay modules created with new workaround
+
+Changelog 0.2.29:
+Added removal of duplicate space characters to clean title function
+Added support for single episode folders to Premiumize cloud inspection
+
+Changelog 0.2.28:
+Fixed issue with ADDON_NAME variable change
+
+Changelog 0.2.27:
+Adjusted RD cache inspection to allow multiple video files within a single movie item
+Adjust RD movie resolving to pull largest file out of torrent item
+Seren now polls Kodi for supported video containers instead of hardcoding
+Fixed key error when marking episode as watched in local database
+Added settings cache dictionary to reduce Kodi's logging of "trying to load setting definitions from old format..."
+Cleaned up addon logging
+
+Changelog 0.2.26:
+Fix Auto Episode Resume
+
+Changelog 0.2.25:
+Movie years now uses the popular API endpoint
+Added option to enable Debrid Cloud inspection during scrape
+Added Upcoming Episodes to My Shows menu
+Added By Actor search to Discover Show/Movie menus
+"Hide Un-Aired Episodes" renamed to "Hide Un-Aired Items"
+"Hide Un-Aired Items" setting now applies to movie/show/season menus as well
+Marking show/season item as watched/collected now triggers a background re-sync of relevant items
+Increased resolving restrictions
+Playstyle for Episodes and Movies are now seperate
+Fixed issue with Premiumize Torrent File Picker
+Speed Increase for playlist building
+
+
+Changelog 0.2.24:
+Fixed issue with None value for seren_version entry of trakt database
+
+Changelog 0.2.23:
+Added workaround to combat file extraction error while obtaining GMT timezone information
+Fixed issue with activities failing due to no progress dialog raised
+Re-added extended information argument to the list items call to fix issue with first
+
+
+Changelog 0.2.22:
+Re-added ability for next-up to be sorted by Recently Played
+Added error message when attempting to play an item with no debrid accounts setup
+Added clearart/clearlogo to upnext meta data
+Fixed issue with menu "Unfinished Show In Collection" showing finished shows
+Removed requests for extended info for tvshowMenus trakt requests
+Further removal of un-aired items from SmartPlay Lists
+Added argument "ignore_collected" to recommended shows
+Added argument "ignore_collected" to recommended movies
+Removed remaining requests for extended info for movie menus
+Cleaned up logging
+
+Changelog 0.2.21:
+Fixed datetime error on playlist building
+
+Changelog 0.2.20:
+Date delay setting now set to false by default
+Fixed datetime format for mixed episode lists
+Fixed general.textColor not applying if no value has been set
+
+Changelog 0.2.19:
+Release times are now measured to exact date/time provided from trakt
+Added fallback to Trakt title if TVDB does not supply title
+Trakt Databases upgraded to version 0.2.19
+Duplicate search queries now removed from search history
+Search queries are now URL quoted
+Clear Search history added to tools menu
+Language strings added for New show/movie search, clear search history
+Added option to add item to user's cloud on successful resolving of link for premiumize users
+Fixed type in drop table requests for trakt sync database
+Re-added release filter for playlist builder
+Added ability to set addon menu view types
+Fixed aliases info key not being cleaned up
+Added general.textColor back to settings to avoid
+Added ability to resolve files containing conjoined episodes eg: 's04e01e02' identifier
+Tightended up resolving on some items being triggered by 1080p label
+Added progress dialog for the rare case that show/movie meta is updated on initial sync
+
+Changelog 0.2.18:
+Fixed season premiers not showing if the previous season was not finished
+
+Changelog 0.2.17:
+Fixed variable issue in Next Up call
+
+Changelog 0.2.16:
+Fixed language filter for New Shows menu
+Networks now utilise the Trakt shows/Popular API endpoint
+Reduced meta refresh check timeout to 2 hours
+Next Up now utilises the trakt sync database to identify the next episode to watch
+Added database versioning, database can now be flushed and upgraded/downgraded as required by Seren
+
+Changelog 0.2.15:
+Fixed genre capitalization
+Fixed clear meta dialog text
+
+Changelog 0.2.14:
+Added ability to clear metadata for individual items using Trakt Manager
+
+Changelog 0.2.13:
+Fixed Movies being marked as un-aired
+Fixed Movie Release Date Meta Information
+Fixed Unaired episodes showing as aired
+
+Changelog 0.2.12:
+Fixed Next menu item for show Years
+Re-added ability for Seren to display un-aired episodes if Hide Unaired is unchecked
+Added automatic checks and prompt for Seren updates
+Force check for episodes in season episode menus if hide unaired is disabled
+Stopped trakt sync from attempting to update user information if user is not authorised with trakt
+
+Changelog 0.2.11:
+Fixed Playable flag for mixedEpisodeList
+Fixed Context menu not showing on mixed episode lists
+
+Changelog 0.2.10:
+Fixed issue with incorrect episode playing.
+
+Changelog 0.2.9:
+Added try except for AttributeError on getTorrents/getHoster functions to account for change of variable type
+Fixed Attribute Issue causing cache assist to fail
+Re-added smartplay workaround (fixes playback failed message even when playback was successful)
+
+Changelog 0.2.8:
+Fixed issue with getDebridDuplicates sources crashing getSources Module
+Fixed Pre-emptive termination
+Fixed extra information crashing trakt sync
+Reduced number of threads for initial sync to lessen imapct on device
+
+Changelog 0.2.7:
+Fixed filter function naming
+
+Changelog 0.2.6:
+Fixed Trakt Sync prompting if trakt not authorised
+
+Changelog 0.2.5:
+Fixed issue with clean_title not applying to old version of function
+
+Changelog 0.2.4:
+Added ability to delay Trakt Sync
+Added notice for Initial Trakt Sync with warning about delaying
+Added further information to the Trakt Sync background progress dialog
+Increased item filtering accuracy
+Improvements to Premiumize torrent link identification
+
+Changelog 0.2.3:
+Removed unused show thread for TVDB modoule episodeIDToListItem
+Rework of 24 hour release delay setting
+Fixed issue with some seasons not showing episodes
+Hoster scrape threads exit more gracefully now
+
+Changelog 0.2.2:
+Maintenance cycle timeout reduced to 15 minutes
+Reduced concurrent tasks for background trakt syncs
+Added more fallbacks for menus with items that can't be built
+
+Changelog 0.2.1:
+Fixed issue if Kodi meta was unable to be filled for mixed episode list record
+
+Changelog 0.2.0:
+Added removal of None items for next up list.
+
+Changelog 0.1.50:
+Fixed UnWatchedEpisodes list item property for seasons
+
+Changelog 0.1.49:
+Fixed Movie Collection Sorting
+Fixed shows get_season_episodes falling back to episode update
+
+Changelog 0.1.48:
+Fixed Marking As Watched not updating local trakt records
+Meta requests now run in a queue to throttle thread creation
+Fixed season_count not being checked in local trakt database
+Added more info label cleanups
+Added TotalSeasons to item properties
+Fixed spelling of UnWatchedEpisodes item property
+
+Changelog 0.1.47:
+Removed thread stack size changes (possibly causing Kodi crashes)
+
+Changelog 0.1.46:
+Fixed Movies not correctly marked as watched
+Movies Collection now pulled from local database instead of Trakt call
+
+Changelog 0.1.45:
+Added Years menu item to shows
+Added Background Task Style scrape display option
+Fixed source utils deaccent function
+Added Re-Build Trakt Datbase menu item
+
+Changelog 0.1.44:
+Trakt Sync Database now integrated
+Duplicate source removal now performed using dictionary of hashes and urls
+Real Debrid cache checks are now threaded to increase cache check speeds
+Fixed Hide SD causing only SD to show
+Torrents from local database now show original provider name
+Fixed temporary provider files not being cleaned up on zip install
+Added new My Files menu, allows browsing and playback of cloud stored files
+Fixed Trakt Bookmarks
+
+Changelog 0.1.43:
+Fixed trakt scrobbling on item start
+Slowest 5 providers now show their names on scraping screen
+Missing season posters now fall back to show poster
+
+Changelog 0.1.42
+Fixed issue with movies creating transfer requests for premiumize users
+Fixed lists throwing error when no liked lists were found
+Fixed watched episodes showing in Next Up
+Fixed issue with trakt scrobbling on item finish
+
+Changelog 0.1.41
+Fixed Fanart pulling items with wrong language
+Fixed Scrobbling (again)
+
+Changelog 0.1.40:
+Fixed My Movies List Menu Item
+Fixed display of individual providers in dialog
+Increased Premiumize movie detection
+Fixed Trakt Scrobbling
+Fixed issue error caused on player skip
+Fixed Search History not showing from main menu search
+Fixed Search History sorting
+Fixed error on torrent sizes if size is 0
+Fixed spelling issue on Movies Years Menu
+
+Changelog 0.1.39:
+Removed duplicate semaphore acquisition which caused large show menus to stall forever
+
+Changelog 0.1.38:
+Provider versions are now shown in the disable/enable windows
+
+Changelog 0.1.37:
+Fixed issue with scraping caused by absolute numbering
+
+Changelog 0.1.36
+Torrent Sources now receive two new keys in the simpleInfo dictionary "isanime, absolute_number"
+absolute_number is the relevant episode number in the series
+Adjust custom providers so installs can be requested from external addons (with user approval)
+Added Hide SD quality option to settings
+TVDB images now filter by language code (statically set to english for the interim)
+Multiple Language String Fixes
+Added fix for Seren scrobbling items twice
+Added ability for providers to override provider display names
+Next Up now filters items if they are the first episode in the series and have previously been completed
+Added Show Networks to Discover TV Shows
+Added Hide Un-Aired Episodes to Settings options
+Added Movie Years to Menu
+Added Networks to TV Shows Menu
+Fixed Real Debrid Cache Assist
+Real Debrid Cache Assist should now properly cache entire season packs
+Fixed issue where providers/__init__.py could be overwritten with malformed provider package
+
+Changelog 0.1.35
+Fixed scrape error caused by missing artwork
+Sources that are not compatible are now hidden from users
+Fixed landscape image issue for episode items
+
+Changelog 0.1.34
+Fanart now also supplies landscape images
+Workaround put in place for issue where trakt would supply multiples of a show season
+Fixed issue where episodes would show as None if not released
+Fixed Most Collected sorting by title
+
+Changelog 0.1.33
+Fixed RD resolving errors
+Fanart.tv module now only applies clear art and clear logo to movies and
+Fixed Source Select not selecting files
+
+Changelog 0.1.32
+Decreased TVDB semaphore limit
+Fixed Trakt list sorting with titles that start with the word 'The'
+Added support for RealDebrid API changes
+Began work on console mode
+Added multiple meta labels for movie items
+Added possible workaround for UTC to local timezone conversion
+Movie filter now supports years surrounded in []
+Added Fanart Support
+Fixed Search history order
+Limited Next Up show amount to 200 most recently watched titles
+Fixed error caused from Auto Episode Resume and Kodi 18 widget workaround
+Added better resolve support for movies in premiumize module
+Added workaround for long cache check urls with Real Debrid
+Fixed issue were items were incorrectly marked as watched with Trakt
+Re-designed Source Select window
+Added support for package developers to use github archives to push updates
+Added IMDB variable to torernt provider modules (Package devs please update to include this new variable, as support for modules without it will be dropped in the near future)
+Added Ratings for movie items
+
+Changelog 0.1.31
+Added Sort and Filter for low quality items
+Re-order Settings Menu
+
+Changelog 0.1.30
+Fixed Finish Watching sort order
+Increased Hoster Support
+Added Search History option
+Premiumize module now uses direct download to resolve torrent files
+
+Changelog 0.1.29
+Reverted changes to mixed episode lists
+Added option to disable title overwrites for episode lists
+
+Changelog 0.1.28
+Added try except in zfile module to handle if file is already in byte form
+
+Changelog 0.1.27
+Added delay to setViewType call
+Added setting to disable setting viewTypes with Seren
+Removed idle, closeAllDialogs, added closeOkDialog, added closeBusyDialog
+Removed busy dialog stalling after failure to find sources
+
+Changelog 0.1.26
+Increased keep-alive ticks to prevent pre-scrape occuring to early
+Reduced busy dialog occurance on failure to scrape
+Fixed provider install issue with zipfiles
+
+Changelog 0.1.25
+Fixed setSetting argument naming (Fixes pre-emptive scraping)
+Trakt lists sorting now ignores 'The '
+Removed title appends to follow more closely to Kodi standards, another method of showing play percentage must be met
+Fixed Trakt dates for episode items
+Added Studio to metadata
+Seren now appends next season to current playlist during playback instead of after
+Removed references to now defunct OMNIConnect Addon
+Added Re-scrape cm item to episode items
+Fixed and optimised list pagination
+Trakt Lists now use user slugs to support users with periods in their username
+Added ability to direct search through plugin url
+Confirmed Trakt list sorting for all types except excluded (popularity, percentage, my rating)
+Added support to fail resolve if file ends with .rar
+Release titles are now deaccented and encoded with utf-8 to prevent unicode errors
+Fixed Ghost providers occuring if a provider was no longer available in a updated version of a provider package.
+Fixed TVDB module creating an artwork URL if no artwork is available
+Added token refresh lock to the TVDB module to stop instances of the class spawning mass refresh requests
+Massively reduced chance Kodi will drop Seren's settings
+Fixed Real Debrid post request making a get request after token refresh
+Custom Provider module now uses Zfile module to accomodate zipfile module bug on Android devices
+
+Version 0.1.24 Changelog:
+Fixed Movie Watchlist Sort to content type "Show"
+
+Version 0.1.23 Changelog:
+Added Watchlist sorting
+Added extra fallbacks for trakt outages
+Changed tools setSetting to a function so Kodi modules are not initialised if there is an exception
+
+Version 0.1.22 Changelog:
+Re-installation and updating of provider packages now honors previous settings
+Fixed Hidden items error if no connection to Trakt could be made.
+
+Version 0.1.21 Changelog:
+Added onAVStarted for Kodi 18+ due to issues with offset
+Re-factored code and cleaned up imports
+
+Version 0.1.20 Changelog:
+Provider installer re-write
+Provider packages can now update automatically or manually
+Fixed Trakt Movie Scrobbling
+Fixed Finish Watching Movies
+Added Remove (movie/episode) Progress to Trakt Manager
+
+Version 0.1.19 Changelog:
+Fixed Hidden Items (Possibly - please check)
+Trakt Lists now paginated and sorted
+Silent Scraper setting now reset on startup incase of Kodi crash
+New Shows and recently updated shows now filtered by Kodi Languge
+Corrected some typos
+Extended relevant show pack identification
+Un-aired episodes now removed from automatic playlist generator
+Premiumize autocache now runs premiumize cleanup instead of deleting transfer
+Added option to allow premiumize users to utilize transcoded files
+Added Banner image to episode objects
+Seasons now sorted by season number and not title
+Added basic duplicate provider filtering (provider name only)
+Show premiered dates now retrieved from Trakt and not TVDB
+
+Version 0.1.18 Changelog:
+Added fallback from TMDB SSL certificate issues
+
+Version 0.1.17 Changelog:
+Removed Trakt Lists pagination (Fixed List Sorting)
+Complete work over of TV show continue watching display
+Added Sort Options for Next Up
+Renamed and moved Continue Watching Menu items to "Finish Watching" and added to their respective folders
+
+Version 0.1.16 Changelog:
+Fixed season items not being marked as watched
+Added try/except clauses to catch errors with get_hidden_items
+Adjust Info detection to better detect source information
+Added fallback if info list was empty for Source Select
+Added ability to show sources in source select as a single line in case of skins that do not support the multiline view
+Simplified provider failure output
+Added removal of unknown video keys for Kodi 18
+Removed trakt list lengths
+Premiumize module now removes items from account if it failed to resolve a link
+Premiumize cleanup now occurs at end of resolving
+Threads no longer marked as daemon as it doesn't work within Kodi
+Forced provider threads to return if getSources canceled
+Added fallback for gathering of hoster domains
+
+Version 0.1.15 Changelog:
+Fallback for DateTime ValueError
+Changed process of list generating so window shouldn't contain random number of items
+
+Version 0.1.14 Changelog:
+Increased Trakt Caching
+
+Version 0.1.13 Changelog:
+Source Select items now clickable
+Esc Key now closes Source Select dialog
+
+Version 0.1.12 Changelog:
+Added premiumize transfer database cleanup to maintenance script
+Changed scrobble ID back to Trakt as IMDB ID was unreliable causing trakt progress for some random show called pride
+if the IMDB ID wasn't available for an episode (sorry for my testers watching origin)
+Fixed issue with keepalive not dying causing scrobble issues and issues with Upnext
+Added 265 priority sort
+Some spelling mistakes
+Changed Upnext episode IDs to Trakt ID
+Added setUniqueIDs to tools.addDirectoryItem function
+Hide Item in trakt manager now actually sends the trakt request (Bad nix)
+
+Version 0.1.11 Changelog:
+Added workaround for Kodi 18 Widgets
+Increased support for Kodi 18 player
+Fixed issue with Kodi 18 where pre-emptive scraping wouldn't occur
+Adjusted menu content types so they now respect their content correctly
+
+Version 0.1.10 Changelog:
+Adjusted Migration Script so it no longer broke Super Faviorates
+Adjusted TMDB movie artwork to fix issue where it would display the wrong media (removed thumbnail)
+
+Version 0.1.09 Changelog:
+Increased torrent file identification
+Extended timeout for failed cache assit attempts to 3 hours
+Changed Trkat Scrobble Object to current playing item IMDB Number
+Fixed Trakt Scrobbling with Up Next Addon Intergration
+Fixed Trakt Scrobbling when seeking
+Added increased fallbacks for TV show metadata
+
+Version 0.1.08 Changelog:
+Restructed Settings page to use subsetting attribute
+Added Support for Context Menu Addon
+
+Version 0.1.07 Changelog:
+Added automatic migration from incorrect addon ID release
+Added Notification if no sources are found during pre-scrape
+Removed manual cache dialog prompt during pre-emptive scraping
+Cache inserts now threaded
+Added Semaphore to relieve thread pressure on database
+Fixed KeyError exception in TVDB episode function
+Custom Windows are now removed from scope with del
+Removed Please Check Internet Connection Dialog
+Added Logging for RD refresh Errors
+
+Version 0.1.06 Changelog:
+Added 3D filter Setting
+Added File Size Limit
+Added View types for Seasons, Episodes and Default for Menus
+Added Debrid Priorities
+Added Install UpNext Addon Setting
+Fixed capitalised Addon ID
+Fixed issue where TVDB token was not initially created
+Added ability to hide items from trakt manager
+Adjusted Source Select to multiline string
+Increased listitem size in custom source select window
+
+Version 0.1.05 Changelog:
+Added better Hoster support
+Changed hoster domains to (domain, name) tuple
+Fixed issue where color change would set color even if cancelled
+Cleaned up logging
+Fixed Manual Caching
+Adjusted Manual Caching display string
+Fixed View Types not being set
+</news>
     </extension>
 </addon>
 
