@@ -111,7 +111,7 @@ class Generator:
         # loop thru and add each addons addon.xml file
         for addon in addons:
             try:
-                if not os.path.isdir(addon) or addon == "zips" or addon.startswith('.'):
+                if not os.path.isdir(addon) or addon == "zips" or addon.startswith('.') or addon in KODI_VERSIONS:
                     continue
                 _path = os.path.join(addon, "addon.xml")
                 xml_lines = open(_path, "r", encoding='utf-8').read().splitlines()
@@ -136,12 +136,12 @@ class Generator:
 
         # clean and add closing tag
         addons_xml = addons_xml.strip() + u"\n</addons>\n"
-        self._save_file(addons_xml.encode('utf-8'), file=os.path.join('zips', 'addons.xml'), decode=True)
+        self._save_file(addons_xml.encode('utf-8'), file=os.path.join(self.zips_path, 'addons.xml'), decode=True)
 
     def _generate_md5_file(self):
         try:
-            m = hashlib.md5(open(os.path.join('zips', 'addons.xml'), 'r', encoding='utf-8').read().encode('utf-8')).hexdigest()
-            self._save_file(m, file=os.path.join('zips', 'addons.xml.md5'))
+            m = hashlib.md5(open(os.path.join(self.zips_path, 'addons.xml'), 'r', encoding='utf-8').read().encode('utf-8')).hexdigest()
+            self._save_file(m, file=os.path.join(self.zips_path, 'addons.xml.md5'))
         except Exception as e:
             print("An error occurred creating addons.xml.md5 file!\n{0}".format(e))
 
