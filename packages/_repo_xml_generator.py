@@ -13,7 +13,7 @@ import shutil
 import hashlib
 import zipfile
 
-KODI_VERSIONS = ['leia']
+KODI_VERSIONS = ['leia', 'matrix']
 
 class Generator:
     """
