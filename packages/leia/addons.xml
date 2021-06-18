@@ -397,7 +397,7 @@ Rework for Seren 2.0
     </extension>
 </addon>
 
-<addon id="repository.nixgates" name="Nixgates Repo" version="2.0.1" provider-name="Nixgates">
+<addon id="repository.nixgates" name="Nixgates Repo" version="2.0.2" provider-name="Nixgates">
 	<extension point="xbmc.addon.repository" name="Nixgates Repo">
 		<dir minversion="18.0">
 			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/leia/addons.xml</info>
@@ -409,6 +409,10 @@ Rework for Seren 2.0
 		<summary>Nixgates</summary>
 		<description>Nixgates Repository</description>
 		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.png</fanart>
+		</assets>
 	</extension>
 </addon>
 </addons>
