@@ -507,4 +507,69 @@
 		</assets>
 	</extension>
 </addon>
+
+<addon id="resource.images.seren.icons" name="Seren Icons" version="0.0.1" provider-name="drinfernoo">
+    <requires>
+        <import addon="kodi.resource" version="1.0.0"/>
+    </requires>
+
+    <extension point="kodi.resource.images" compile="false" type="moviegenreicons"/>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Genre icons for Seren</summary>
+        <description lang="en_GB"></description>
+        <language></language>
+        <platform>all</platform>
+        <license>Apache-2.0</license>
+        <forum></forum>
+        <website>https://www.github.com/SerenKodi/resource.images.seren.icons/</website>
+        <email></email>
+        <source></source>
+        <news></news>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>ico-seren-2.jpg</icon>
+            <fanart>fanart-seren-2.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.module.pytz" name="pytz" version="2021.3.0+matrix.1" provider-name="Stuart Bishop, Paul Backhouse">
+	<extension point="xbmc.python.module" library="lib"/>
+	<extension point="xbmc.addon.metadata">
+	    <summary lang="en_GB">World Timezone Definitions for Python.</summary>
+	    <description lang="en_GB">pytz brings the Olson tz database into Python. This library allows accurate and cross platform timezone calculations using Python 2.4 or higher. It also solves the issue of ambiguous times at the end of daylight saving time, which you can read more about in the Python Library Reference (datetime.tzinfo).</description>
+	    <platform>all</platform>
+	    <license>MIT</license>
+	    <website>https://pythonhosted.org/pytz/</website>
+	    <source>https://github.com/stub42/pytz</source>
+	    <assets>
+            <icon>icon.png</icon>
+	    </assets>
+	</extension>
+</addon>
+
+<addon id="script.module.tzlocal"
+       name="tzlocal"
+       version="3.0.0+matrix.1"
+       provider-name="Lennart Regebro">
+  <requires>
+    <import addon="script.module.pytz" version="2021.3.0+matrix.1"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python Module to find out the current time zone</summary>
+    <description lang="en_GB">Packed for Kodi from https://github.com/regebro/tzlocal, forked from https://github.com/jdollarKodi/script.module.tzlocal</description>
+    <platform>all</platform>
+    <language></language>
+    <license>MIT</license>
+    <forum></forum>
+    <website>https://github.com/regebro/tzlocal</website>
+    <source>https://github.com/regebro/tzlocal</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
 </addons>
