@@ -4,3 +4,6 @@
 [submodule "repo/context.seren"]
 	path = repo/context.seren
 	url = https://github.com/SerenKodi/context.seren
+[submodule "repo/resource.images.seren.icons"]
+	path = repo/resource.images.seren.icons
+	url = https://github.com/SerenKodi/resource.images.seren.icons

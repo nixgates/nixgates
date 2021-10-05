@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="resource.images.seren.icons" name="Seren Icons" version="0.0.1" provider-name="drinfernoo">
+    <requires>
+        <import addon="kodi.resource" version="1.0.0"/>
+    </requires>
+    
+    <extension point="kodi.resource.images" compile="false" type="moviegenreicons"/>
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Genre icons for Seren</summary>
+        <description lang="en_GB"></description>
+        <language></language>
+        <platform>all</platform>
+        <license>Apache-2.0</license>
+        <forum></forum>
+        <website>https://www.github.com/SerenKodi/resource.images.seren.icons/</website>
+        <email></email>
+        <source></source>
+        <news></news>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>ico-seren-2.jpg</icon>
+            <fanart>fanart-seren-2.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
