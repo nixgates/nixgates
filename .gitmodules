@@ -4,6 +4,9 @@
 [submodule "repo/context.seren"]
 	path = repo/context.seren
 	url = https://github.com/SerenKodi/context.seren
+[submodule "repo/script.module.pytz"]
+	path = repo/script.module.pytz
+	url = https://github.com/SerenKodi/script.module.pytz
 [submodule "repo/script.module.tzlocal"]
 	path = repo/script.module.tzlocal
 	url = https://github.com/SerenKodi/script.module.tzlocal
