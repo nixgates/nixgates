@@ -1,113 +1,19 @@
-<?xml version='1.0' encoding='utf-8'?>
-<addons>
-<addon id="context.seren" version="2.2.0" name="Seren - Global Context Menu Items" provider-name="Nixgates">
-	<requires>
-		<import addon="xbmc.addon" version="17.9.910" />
-		<import addon="script.module.future" version="0.17.1" />
-	</requires>
-	<extension point="kodi.context.item">
-        <menu id="kodi.core.main">
-			<item library="quick_resume.py">
-				<label>$ADDON[context.seren 30000]</label>
-				<visible>String.IsEmpty(Window(home).Property(context.seren.quickResume)) + String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+String.IsEqual(ListItem.dbtype,tvshow)</visible>
-			</item>
-            <item library="shuffle.py">
-                <label>$ADDON[context.seren 30001]</label>
-                <visible>String.IsEmpty(Window(home).Property(context.seren.shuffle)) + String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,tvshow)|String.IsEqual(ListItem.dbtype,episode)]</visible>
-            </item>
-			<item library="play_from_random_point.py">
-                <label>$ADDON[context.seren 30002]</label>
-                <visible>String.IsEmpty(Window(home).Property(context.seren.playFromRandomPoint)) + String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+String.IsEqual(ListItem.dbtype,tvshow)</visible>
-            </item>
-			<item library="rescrape.py">
-                <label>$ADDON[context.seren 30003]</label>
-                <visible>String.IsEmpty(Window(home).Property(context.seren.rescrape)) + String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,movie)]</visible>
-            </item>
-			<item library="rescrape_ss.py">
-                <label>$ADDON[context.seren 30010]</label>
-                <visible>String.IsEmpty(Window(home).Property(context.seren.rescrape_ss)) + String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,movie)]</visible>
-            </item>
-			<item library="source_select.py">
-                <label>$ADDON[context.seren 30004]</label>
-                <visible>String.IsEmpty(Window(home).Property(context.seren.sourceSelect)) + String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,movie)]</visible>
-            </item>
-			<item library="find_similar.py">
-                <label>$ADDON[context.seren 30005]</label>
-                <visible>String.IsEmpty(Window(home).Property(context.seren.findSimilar)) + String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,tvshow)|String.IsEqual(ListItem.dbtype,movie)]</visible>
-            </item>
-			<item library="browse_show.py">
-                <label>$ADDON[context.seren 30006]</label>
-                <visible>String.IsEmpty(Window(home).Property(context.seren.browseShow)) + String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,tvshow)]</visible>
-            </item>
-			<item library="browse_season.py">
-				<label>$ADDON[context.seren 30007]</label>
-				<visible>String.IsEmpty(Window(home).Property(context.seren.browseSeason)) + String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+String.IsEqual(ListItem.dbtype,episode)</visible>
-			</item>
-			<item library="trakt_manager.py">
-				<label>$ADDON[context.seren 30008]</label>
-				<visible>String.IsEmpty(Window(home).Property(context.seren.traktManager)) + String.StartsWith(ListItem.path,plugin://plugin.video.seren/)+[String.IsEqual(ListItem.dbtype,episode)|String.IsEqual(ListItem.dbtype,tvshow)|String.IsEqual(ListItem.dbtype,season)|String.IsEqual(ListItem.dbtype,movie)]</visible>
-			</item>
-        </menu>
-    </extension>
-	<extension point="xbmc.service" library="service.py" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Seren - Global Context Menu Items</summary>
-		<summary lang="nl">Seren - Algemene contextmenu-items</summary>
-		<description lang="en">Adds Context Menu items for Seren menu items throughout Kodi</description>
-		<description lang="nl">Voegt contextmenu-items toe voor Seren-menu-items in Kodi</description>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-		<forum />
-		<website />
-		<source />
-		<disclaimer lang="en" />
-		<assets>
-			<icon>ico-seren-2.jpg</icon>
-			<fanart>fanart-seren-2.jpg</fanart>
-		</assets>
-		<news>
-			Changelog 2.2.0
-			Added "Rescrape and Source Select" context menu item.
-
-			Changelog 2.1.2
-			Added Polish translation
-
-			Changelog 2.1.1:
-			Implemented a workaround for broken future.backports module method (fixes Leia issues)
-
-			Changelog 2.1.0:
-			Refactored code to modern standards
-			Use backported URL lib for py2 to ensure unicode compatibility
-			Extracted out common functions and reused
-			Add settings to enable/disable individual items
-			Add more localizations
-			Add GitHub issue templates
-
-			Changelog 2.0.2:
-			Make python version agnostic
-
-			Changelog 2.0.1:
-			Fixed addon icons/fanart
-
-			Changelog 2.0.0:
-			Rework for Seren 2.0
-		</news>
-	</extension>
-</addon><addon id="plugin.video.seren" version="2.1.9" name="Seren" provider-name="Nixgates">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.seren" version="2.1.9" name="Seren" provider-name="Nixgates">
     <requires>
         <import addon="xbmc.addon" version="17.9.910" />
-        <import addon="script.module.future" version="0.17.1" />
+        <import addon="script.module.future" version="0.17.1"/>
         <import addon="script.module.requests" version="2.22.0" />
-        <import addon="script.module.beautifulsoup4" version="4.6.2" />
-        <import addon="context.seren" version="2.0.0" />
-        <import addon="script.module.inputstreamhelper" version="0.3.3" optional="true" />
-        <import addon="script.module.unidecode" version="1.1.1" />
-        <import addon="script.module.myconnpy" version="1.1.7" />
+        <import addon="script.module.beautifulsoup4" version="4.6.2"/>
+        <import addon="context.seren" version="2.0.0"/>
+        <import addon="script.module.inputstreamhelper" version="0.3.3" optional="true"/>
+        <import addon="script.module.unidecode" version="1.1.1"/>
+        <import addon="script.module.myconnpy" version="1.1.7"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="seren.py">
         <provides>video</provides>
     </extension>
-    <extension point="xbmc.service" library="service.py" />
+    <extension point="xbmc.service" library="service.py"/>
     <extension point="xbmc.addon.metadata">
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <summary lang="en">Seren - Modular Multi-source Addon</summary>
@@ -117,7 +23,7 @@
         </description>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <forum />
+        <forum/>
         <website>https://github.com/nixgates/plugin.video.seren</website>
         <source>https://github.com/nixgates/plugin.video.seren</source>
         <disclaimer lang="en">
@@ -181,7 +87,7 @@
             Changelog 2.1.6
             Work around Sqlite on Leia under Windows does not support boolean named values
             Ensure we fetch all pages for syncing ratings and ignore cache for bookmark/hidden sync
-            Fix collections.Mapping import for Python &gt;= 3.3
+            Fix collections.Mapping import for Python >= 3.3
 
             Changelog 2.1.5
             Workaround trakt shitty season data
@@ -517,31 +423,4 @@
             Debrid account status now visible from Seren settings
         </news>
     </extension>
-</addon><addon id="repository.nixgates" name="Nixgates Repo" version="2.2.0" provider-name="Nixgates">
-	<extension point="xbmc.addon.repository" name="Nixgates Repo">
-		<dir minversion="18.0">
-			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/repo/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/repo/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/repo/zips/</datadir>
-		</dir>
-		<dir minversion="18.0" maxversion="18.9.0">
-			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/leia/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/leia/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/leia/zips/</datadir>
-		</dir>
-		<dir minversion="18.9.0">
-			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/matrix/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/matrix/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/matrix/zips/</datadir>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Nixgates</summary>
-		<description>Nixgates Repository</description>
-		<platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.png</fanart>
-		</assets>
-	</extension>
-</addon></addons>
+</addon>

@@ -1,6 +1,12 @@
-[submodule "repo/plugin.video.seren"]
-	path = repo/plugin.video.seren
-	url = https://github.com/nixgates/plugin.video.seren
-[submodule "repo/context.seren"]
-	path = repo/context.seren
+[submodule "leia/context.seren"]
+	path = leia/context.seren
 	url = https://github.com/SerenKodi/context.seren
+[submodule "matrix/context.seren"]
+	path = matrix/context.seren
+	url = https://github.com/SerenKodi/context.seren
+[submodule "leia/plugin.video.seren"]
+	path = leia/plugin.video.seren
+	url = https://github.com/nixgates/plugin.video.seren
+[submodule "matrix/plugin.video.seren"]
+	path = matrix/plugin.video.seren
+	url = https://github.com/nixgates/plugin.video.seren
