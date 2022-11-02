@@ -92,7 +92,7 @@
 			Rework for Seren 2.0
 		</news>
 	</extension>
-</addon><addon id="plugin.video.seren" version="2.2.2" name="Seren" provider-name="Nixgates">
+</addon><addon id="plugin.video.seren" version="2.2.3" name="Seren" provider-name="Nixgates">
     <requires>
         <import addon="xbmc.addon" version="17.9.910" />
         <import addon="script.module.future" version="0.17.1" />
@@ -155,6 +155,10 @@
             <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
         </assets>
         <news>
+            Changelog 2.2.3
+            [BUG] Fix Trakt Scrobbling and Playing Next
+            [FEATURE] Update pytz to 2022.6
+
             Changelog 2.2.2
             [BUG] Trakt scrobbling hitting rate limiter
             [BUG] Improve onWake and sleeping service calls
