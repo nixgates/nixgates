@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="context.seren" version="3.0.0" name="Seren - Global Context Menu Items" provider-name="Nixgates">
+<addons><addon id="context.seren" version="3.0.1" name="Seren - Global Context Menu Items" provider-name="Nixgates">
 	<requires>
 		<import addon="xbmc.addon" version="17.9.910" />
 		<import addon="xbmc.python" version="3.0.0" />
@@ -67,6 +67,10 @@
 			<poster>resources/images/poster-seren-3.png</poster>
 		</assets>
 		<news>
+			Changelog 3.0.1
+			Fix Shuffle play copy pasta mix up		
+			Resolve settings not showing in Kodi
+
 			Changelog 3.0.0
 			Re-write of context menu addon, supporting py3 only (Matrix and above)
 			Update icons to match Seren 3.0.0 release
